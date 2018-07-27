@@ -1,0 +1,13 @@
+﻿@model List<TiendaComida.Models.ComidaImagen>
+<div class="row">
+    @foreach (var i in Model)
+    {
+        <div class="col-xs-6 col-md-3">
+            <a href="~/ImgProductos/@i.Imagen" class="thumbnail" target="_blank">
+                <img src="~/ImgProductos/@i.Imagen" alt="ejemplo" style="width:100px;height:100px">
+            </a>
+            <p class="text-center"><a href="#" class="btn btn-danger" role="button" onclick="EliminarImagen(@i.ComidaImagenId)">Eliminar</a></p>
+        </div>
+    }
+</div>
+

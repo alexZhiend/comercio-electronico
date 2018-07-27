@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="e3628887f5a440668811833eba4cbb28" Name="Diagram1">
+        <EntityTypeShape EntityType="ComidaDBModel.Beneficio" Width="1.5" PointX="7.625" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ComidaDBModel.Categoria" Width="1.5" PointX="2.375" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ComidaDBModel.Cliente" Width="1.5" PointX="11" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ComidaDBModel.Comida" Width="1.5" PointX="0.5" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ComidaDBModel.ComidaImagen" Width="1.5" PointX="6" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ComidaDBModel.Pedido" Width="1.5" PointX="9.375" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ComidaDBModel.PedidoDetalle" Width="1.5" PointX="4.375" PointY="2.5" IsExpanded="true" />
+        <AssociationConnector Association="ComidaDBModel.FK__Beneficio__Clien__3D5E1FD2" ManuallyRouted="false" />
+        <AssociationConnector Association="ComidaDBModel.FK__Categoria__Comid__3A81B327" ManuallyRouted="false" />
+        <AssociationConnector Association="ComidaDBModel.FK__Pedido__ClienteI__33D4B598" ManuallyRouted="false" />
+        <AssociationConnector Association="ComidaDBModel.FK__ComidaIma__Comid__2C3393D0" ManuallyRouted="false" />
+        <AssociationConnector Association="ComidaDBModel.FK__PedidoDet__Comid__37A5467C" ManuallyRouted="false" />
+        <AssociationConnector Association="ComidaDBModel.FK__PedidoDet__Pedid__36B12243" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ComidaDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Beneficio">
+    <Key>
+      <PropertyRef Name="BeneficioId" />
+    </Key>
+    <Property Name="BeneficioId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ClienteId" Type="Int32" Nullable="false" />
+    <Property Name="Fecha" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Cantidad" Type="Int32" Nullable="false" />
+    <Property Name="Descripcion" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Cliente" Relationship="Self.FK__Beneficio__Clien__3D5E1FD2" FromRole="Beneficio" ToRole="Cliente" />
+  </EntityType>
+  <EntityType Name="Categoria">
+    <Key>
+      <PropertyRef Name="CategoriaId" />
+    </Key>
+    <Property Name="CategoriaId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ComidaId" Type="Int32" Nullable="false" />
+    <Property Name="Nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Imagen" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Descripcion" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Comida" Relationship="Self.FK__Categoria__Comid__3A81B327" FromRole="Categoria" ToRole="Comida" />
+  </EntityType>
+  <EntityType Name="Cliente">
+    <Key>
+      <PropertyRef Name="ClienteId" />
+    </Key>
+    <Property Name="ClienteId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombres" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Apellidos" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Usuario" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Clave" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Correo" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Celular" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Direccion" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Beneficio" Relationship="Self.FK__Beneficio__Clien__3D5E1FD2" FromRole="Cliente" ToRole="Beneficio" />
+    <NavigationProperty Name="Pedido" Relationship="Self.FK__Pedido__ClienteI__33D4B598" FromRole="Cliente" ToRole="Pedido" />
+  </EntityType>
+  <EntityType Name="Comida">
+    <Key>
+      <PropertyRef Name="ComidaId" />
+    </Key>
+    <Property Name="ComidaId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Denominacion" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Descripcion" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Precio" Type="Decimal" Precision="16" Scale="2" Nullable="false" />
+    <Property Name="Existencias" Type="Int32" Nullable="false" />
+    <Property Name="ValorNutricional" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Activo" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="Categoria" Relationship="Self.FK__Categoria__Comid__3A81B327" FromRole="Comida" ToRole="Categoria" />
+    <NavigationProperty Name="ComidaImagen" Relationship="Self.FK__ComidaIma__Comid__2C3393D0" FromRole="Comida" ToRole="ComidaImagen" />
+    <NavigationProperty Name="PedidoDetalle" Relationship="Self.FK__PedidoDet__Comid__37A5467C" FromRole="Comida" ToRole="PedidoDetalle" />
+  </EntityType>
+  <EntityType Name="ComidaImagen">
+    <Key>
+      <PropertyRef Name="ComidaImagenId" />
+    </Key>
+    <Property Name="ComidaImagenId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ComidaId" Type="Int32" Nullable="false" />
+    <Property Name="Imagen" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Titulo" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Descripcion" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Comida" Relationship="Self.FK__ComidaIma__Comid__2C3393D0" FromRole="ComidaImagen" ToRole="Comida" />
+  </EntityType>
+  <EntityType Name="Pedido">
+    <Key>
+      <PropertyRef Name="PedidoId" />
+    </Key>
+    <Property Name="PedidoId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ClienteId" Type="Int32" Nullable="false" />
+    <Property Name="Fecha" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Estado" Type="String" MaxLength="3" FixedLength="true" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Cliente" Relationship="Self.FK__Pedido__ClienteI__33D4B598" FromRole="Pedido" ToRole="Cliente" />
+    <NavigationProperty Name="PedidoDetalle" Relationship="Self.FK__PedidoDet__Pedid__36B12243" FromRole="Pedido" ToRole="PedidoDetalle" />
+  </EntityType>
+  <EntityType Name="PedidoDetalle">
+    <Key>
+      <PropertyRef Name="PedidoDetalle1" />
+    </Key>
+    <Property Name="PedidoDetalle1" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="PedidoId" Type="Int32" Nullable="false" />
+    <Property Name="ComidaId" Type="Int32" Nullable="false" />
+    <Property Name="Cantidad" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Comida" Relationship="Self.FK__PedidoDet__Comid__37A5467C" FromRole="PedidoDetalle" ToRole="Comida" />
+    <NavigationProperty Name="Pedido" Relationship="Self.FK__PedidoDet__Pedid__36B12243" FromRole="PedidoDetalle" ToRole="Pedido" />
+  </EntityType>
+  <Association Name="FK__Beneficio__Clien__3D5E1FD2">
+    <End Role="Cliente" Type="Self.Cliente" Multiplicity="1" />
+    <End Role="Beneficio" Type="Self.Beneficio" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cliente">
+        <PropertyRef Name="ClienteId" />
+      </Principal>
+      <Dependent Role="Beneficio">
+        <PropertyRef Name="ClienteId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Categoria__Comid__3A81B327">
+    <End Role="Comida" Type="Self.Comida" Multiplicity="1" />
+    <End Role="Categoria" Type="Self.Categoria" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Comida">
+        <PropertyRef Name="ComidaId" />
+      </Principal>
+      <Dependent Role="Categoria">
+        <PropertyRef Name="ComidaId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Pedido__ClienteI__33D4B598">
+    <End Role="Cliente" Type="Self.Cliente" Multiplicity="1" />
+    <End Role="Pedido" Type="Self.Pedido" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cliente">
+        <PropertyRef Name="ClienteId" />
+      </Principal>
+      <Dependent Role="Pedido">
+        <PropertyRef Name="ClienteId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__ComidaIma__Comid__2C3393D0">
+    <End Role="Comida" Type="Self.Comida" Multiplicity="1" />
+    <End Role="ComidaImagen" Type="Self.ComidaImagen" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Comida">
+        <PropertyRef Name="ComidaId" />
+      </Principal>
+      <Dependent Role="ComidaImagen">
+        <PropertyRef Name="ComidaId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__PedidoDet__Comid__37A5467C">
+    <End Role="Comida" Type="Self.Comida" Multiplicity="1" />
+    <End Role="PedidoDetalle" Type="Self.PedidoDetalle" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Comida">
+        <PropertyRef Name="ComidaId" />
+      </Principal>
+      <Dependent Role="PedidoDetalle">
+        <PropertyRef Name="ComidaId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__PedidoDet__Pedid__36B12243">
+    <End Role="Pedido" Type="Self.Pedido" Multiplicity="1" />
+    <End Role="PedidoDetalle" Type="Self.PedidoDetalle" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Pedido">
+        <PropertyRef Name="PedidoId" />
+      </Principal>
+      <Dependent Role="PedidoDetalle">
+        <PropertyRef Name="PedidoId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="ComidaDBEntities3" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Beneficio" EntityType="Self.Beneficio" />
+    <EntitySet Name="Categoria" EntityType="Self.Categoria" />
+    <EntitySet Name="Cliente" EntityType="Self.Cliente" />
+    <EntitySet Name="Comida" EntityType="Self.Comida" />
+    <EntitySet Name="ComidaImagen" EntityType="Self.ComidaImagen" />
+    <EntitySet Name="Pedido" EntityType="Self.Pedido" />
+    <EntitySet Name="PedidoDetalle" EntityType="Self.PedidoDetalle" />
+    <AssociationSet Name="FK__Beneficio__Clien__3D5E1FD2" Association="Self.FK__Beneficio__Clien__3D5E1FD2">
+      <End Role="Cliente" EntitySet="Cliente" />
+      <End Role="Beneficio" EntitySet="Beneficio" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Categoria__Comid__3A81B327" Association="Self.FK__Categoria__Comid__3A81B327">
+      <End Role="Comida" EntitySet="Comida" />
+      <End Role="Categoria" EntitySet="Categoria" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Pedido__ClienteI__33D4B598" Association="Self.FK__Pedido__ClienteI__33D4B598">
+      <End Role="Cliente" EntitySet="Cliente" />
+      <End Role="Pedido" EntitySet="Pedido" />
+    </AssociationSet>
+    <AssociationSet Name="FK__ComidaIma__Comid__2C3393D0" Association="Self.FK__ComidaIma__Comid__2C3393D0">
+      <End Role="Comida" EntitySet="Comida" />
+      <End Role="ComidaImagen" EntitySet="ComidaImagen" />
+    </AssociationSet>
+    <AssociationSet Name="FK__PedidoDet__Comid__37A5467C" Association="Self.FK__PedidoDet__Comid__37A5467C">
+      <End Role="Comida" EntitySet="Comida" />
+      <End Role="PedidoDetalle" EntitySet="PedidoDetalle" />
+    </AssociationSet>
+    <AssociationSet Name="FK__PedidoDet__Pedid__36B12243" Association="Self.FK__PedidoDet__Pedid__36B12243">
+      <End Role="Pedido" EntitySet="Pedido" />
+      <End Role="PedidoDetalle" EntitySet="PedidoDetalle" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

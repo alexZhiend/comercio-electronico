@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en-US" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://getup.com.pe/collections/all.atom</id>
+  <link rel="alternate" type="text/html" href="https://getup.com.pe/collections/all"/>
+  <link rel="self" type="application/atom+xml" href="https://getup.com.pe/collections/boxes-de-piqueos.atom"/>
+  <title>GET UP! Delicious Life</title>
+  <updated>2018-06-15T20:03:53-05:00</updated>
+  <author>
+    <name>GET UP! Delicious Life</name>
+  </author>
+  <entry>
+    <id>https://getup.com.pe/products/1317333925950</id>
+    <published>2018-06-15T20:03:53-05:00</published>
+    <updated>2018-06-15T20:03:53-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://getup.com.pe/products/catering-desayuno-del-hincha"/>
+    <title>Catering Desayuno del Hincha</title>
+    <s:type>Delivery en 24hrs</s:type>
+    <s:vendor>Hecho en getUP!</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1534/3917/products/Catering-1.png?v=1529110735" /></td>
+    <td valign="bottom">
+      <p>
+        <strong>Vendor: </strong>Hecho en getUP!<br />
+        <strong>Type: </strong>Delivery en 24hrs<br />
+        <strong>Price: </strong>
+            220.00 - 660.00
+            <a href="https://getup.com.pe/products/catering-desayuno-del-hincha">(3 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><b><b><b6>CATERING DESAYUNO DEL HINCHA PERUANO</b6><br></b></b>
+<h6></h6>
+<meta charset="utf-8">
+<h6><b>Alienta con energía a nuestra selección Bicolor<br>Tenemos un el catering ideal para verlo en Oficina o en Casa<br></b></h6>
+<b><b><b>QUÉ INCLUYE</b></b></b>
+<h6>220ml Chicha morada<br>1 Mini sándwich de pan con pollo a la brasa y ají de la casa<br>1 Mini butifarras con salsa criolla<br>1 Makicrepe rojo con pollo y queso crema<br>1 Football cake pop<br>1 Parfait bicolor con chía, granola y fruta </h6>
+<b>COBERTURA GETUP</b><br>
+<h6>Llegamos GRATIS a 23 distritos de Lima<br>Reparto disponible solo el jueves 21/06 y el martes 26/06 entre 6:00am y 9:00am<br>Entrega realizada por Flota Motorizada getUP! sin garantía de hora exacta<br> Revisa nuestras zonas de reparto Gratuitas aquí <a href="https://drive.google.com/open?id=1DTrav_PulPDL3N4LyFFEw2amqmU&amp;usp=sharing" title="Mapa de cobertura getUP!" target="_blank" rel="noopener noreferrer"><b>MAPA COBERTURA GRATUITA GETUP!</b></a><br> ———<br> Llegamos CON RECARGO a todos los distritos de Lima de 9am a 1pm con Uber<br> Revisa las tarifas de reparto con Cargo Extra <a href="https://getup.com.pe/pages/cobertura" title="“Tarifas" cabify="" target="_blank" rel="noopener noreferrer"><b>TARIFAS DELIVERY UBER </b></a>
+</h6>
+<b><b><b>ES BUENO SABERLO</b><br></b></b>
+<h6>Nuestros Boxes son elaborados con productos frescos elaborados o seleccionados por getUP!<br>Es importante que mantengas los alimentos refrigerados hasta su consumo</h6>
+<b><b><b>ECOFRIENDLY</b></b></b>
+<h6>Los envases que usamos son de materiales 100% reusables y reciclables<br>Puedes darle un 2do uso luego del consumo<br>Nuestro servicio no incluye cubiertos</h6>
+<hr align="CENTER" size="“1”" width='“600"' color="“Black”" noshade>
+<h6>El contenido de este Catering no puede ser variado ni modificado<br><b>Cuando recibamos tu registro te llamaremos para confirmar la compra</b><br><b>Delivery disponible 24hrs después de realizado tu pedido</b>
+</h6></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Bajo en Sodio</s:tag>
+    <s:tag>Cartón</s:tag>
+    <s:tag>category_form_3</s:tag>
+    <s:tag>Mantenimiento</s:tag>
+    <s:tag>Menos de 500kcal</s:tag>
+    <s:tag>Más de S/130</s:tag>
+    <s:tag>Vidrio</s:tag>
+    <s:variant>
+      <id>https://getup.com.pe/products/1317333925950</id>
+      <title>10 personas</title>
+      <s:price currency="PEN">220.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>2000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://getup.com.pe/products/1317333925950</id>
+      <title>20 personas</title>
+      <s:price currency="PEN">440.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>2000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://getup.com.pe/products/1317333925950</id>
+      <title>30 personas</title>
+      <s:price currency="PEN">660.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>2000</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://getup.com.pe/products/1317325537342</id>
+    <published>2018-06-15T20:03:17-05:00</published>
+    <updated>2018-06-15T20:03:17-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://getup.com.pe/products/box-del-hincha-peruano"/>
+    <title>Box del Hincha Peruano</title>
+    <s:type>Delivery en 24hrs</s:type>
+    <s:vendor>Hecho en getUP!</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1534/3917/products/Fotografia-1.png?v=1529108175" /></td>
+    <td valign="bottom">
+      <p>
+        <strong>Vendor: </strong>Hecho en getUP!<br />
+        <strong>Type: </strong>Delivery en 24hrs<br />
+        <strong>Price: </strong>
+            120.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><b><b><b6>BOX DEL HINCHA PERUANO</b6><br></b></b>
+<h6></h6>
+<meta charset="utf-8">
+<h6><b>Alienta con energía a nuestra selección Bicolor<br>Tenemos un desayuno peruano ideal para compartir<br></b></h6>
+<b><b><b>QUÉ INCLUYE</b></b></b>
+<h6>1 Caja corrugado color natural <br>500ml Chicha morada<br>8 Mini sándwich de pan con pollo a la brasa y ají de la casa<br>8 Mini butifarras con salsa criolla<br>4 Makicrepe rojo con pollo y queso crema<br>4 Football cake pop<br>4 Parfait bicolor con chía, granola y fruta<br>1 Tarjeta de aliento a la selección <br>Tenemos 3 diseños de Boxes: Guerrero, Farfán y Flores</h6>
+<b>COBERTURA GETUP</b><br>
+<h6>Llegamos GRATIS a 23 distritos de Lima<br>Reparto disponible solo el jueves 21/06 y el martes 26/06 entre 6:00am y 9:00am<br>Entrega realizada por Flota Motorizada getUP! sin garantía de hora exacta<br> Revisa nuestras zonas de reparto Gratuitas aquí <a href="https://drive.google.com/open?id=1DTrav_PulPDL3N4LyFFEw2amqmU&amp;usp=sharing" title="Mapa de cobertura getUP!" target="_blank" rel="noopener noreferrer"><b>MAPA COBERTURA GRATUITA GETUP!</b></a><br> ———<br> Llegamos CON RECARGO a todos los distritos de Lima de 9am a 1pm con Uber<br> Revisa las tarifas de reparto con Cargo Extra <a href="https://getup.com.pe/pages/cobertura" title="“Tarifas" cabify="" target="_blank" rel="noopener noreferrer"><b>TARIFAS DELIVERY UBER </b></a>
+</h6>
+<b><b><b>ES BUENO SABERLO</b><br></b></b>
+<h6>Nuestros Boxes son elaborados con productos frescos elaborados o seleccionados por getUP!<br>Es importante que mantengas los alimentos refrigerados hasta su consumo</h6>
+<b><b><b>ECOFRIENDLY</b></b></b>
+<h6>Los envases que usamos son de materiales 100% reusables y reciclables<br>Puedes darle un 2do uso luego del consumo<br>Nuestro servicio no incluye cubiertos</h6>
+<hr align="CENTER" size="“1”" width='“600"' color="“Black”" noshade>
+<h6>El contenido de este Box no puede ser variado ni modificado<br><b>Cuando recibamos tu registro te llamaremos para confirmar la compra</b><br><b>Delivery disponible 24hrs después de realizado tu pedido</b>
+</h6></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Bajo en Sodio</s:tag>
+    <s:tag>Cartón</s:tag>
+    <s:tag>category_form_3</s:tag>
+    <s:tag>Mantenimiento</s:tag>
+    <s:tag>Menos de 500kcal</s:tag>
+    <s:tag>Más de S/130</s:tag>
+    <s:tag>Vidrio</s:tag>
+    <s:variant>
+      <id>https://getup.com.pe/products/1317325537342</id>
+      <title>Guerrero</title>
+      <s:price currency="PEN">120.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>2000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://getup.com.pe/products/1317325537342</id>
+      <title>Farfán</title>
+      <s:price currency="PEN">120.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>2000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://getup.com.pe/products/1317325537342</id>
+      <title>Flores</title>
+      <s:price currency="PEN">120.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>2000</s:grams>
+    </s:variant>
+  </entry>
+</feed>

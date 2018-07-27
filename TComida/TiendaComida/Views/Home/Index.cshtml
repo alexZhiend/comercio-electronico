@@ -1,0 +1,825 @@
+﻿
+<div class="quick-view"></div>
+
+<main class="main-content " role="main">
+
+    <section class="main-slideshow">
+        <div class="flexslider">
+            <ul class="slides">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <li class="slide">
+
+                    <img src="~/cdn.shopify.com/s/files/1/1534/3917/t/14/assets/slideshow_1163b.jpg?13797207298018700788" data-url="https://getup.com.pe/products/dietasgetup" class="slide-img" alt="" />
+                    <div class="slide-des"
+                         style="max-width: 100%;">
+
+
+
+
+                    </div>
+
+                </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </ul>
+        </div><!-- /.flexslider -->
+    </section> <!-- /#slideshow.row -->
+    <script>
+$(function() {
+	var slider, // Global slider value to force playing and pausing by direct access of the slider control
+		canSlide = true; // Global switch to monitor video state
+
+	// Load the YouTube API. For some reason it's required to load it like this
+	var tag = document.createElement('script');
+    tag.src = "http://www.youtube.com/iframe_api";
+    var firstScriptTag = document.getElementsByTagName('script')[0];
+    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+    // Setup a callback for the YouTube api to attach video event handlers
+	window.onYouTubeIframeAPIReady = function(){
+		// Iterate through all videos
+		$('.flexslider iframe').each(function(){
+			// Create a new player pointer; "this" is a DOMElement of the player's iframe
+			var player = new YT.Player(this, {
+				playerVars: {
+					autoplay: 0
+				}
+			});
+
+			// Watch for changes on the player
+			player.addEventListener("onStateChange", function(state){
+				switch(state.data)
+				{
+					// If the user is playing a video, stop the slider
+					case YT.PlayerState.PLAYING:
+						slider.flexslider("stop");
+						canSlide = false;
+						break;
+					// The video is no longer player, give the go-ahead to start the slider back up
+					case YT.PlayerState.ENDED:
+					case YT.PlayerState.PAUSED:
+						slider.flexslider("play");
+						canSlide = true;
+						break;
+				}
+			});
+
+			$(this).data('player', player);
+		});
+	}
+
+	// Setup the slider control
+	slider = $(".flexslider")
+		.flexslider({
+	    	animation: "fade",
+			easing: "swing",
+			slideshowSpeed: 3000,
+			animationSpeed: 900,
+			pauseOnHover: true,
+			pauseOnAction: true,
+			touch: true,
+			video: true,
+			controlNav: true,
+			directionNav: true,
+			keyboardNav: true,
+
+			slideshow: true,
+			useCSS: false,
+	    	// Before you go to change slides, make sure you can!
+	    	before: function(){
+	    		if(!canSlide)
+	    			slider.flexslider("stop");
+	    	}
+		});
+
+	/*slider.on("click", ".flex-prev, .flex-next", function(){
+		canSlide = true;
+		$('.flexslider iframe').each(function(){
+			$(this).data('player').pauseVideo();
+		});
+	});*/
+
+    jQuery('.flexslider li img').click(function(){
+      var url = jQuery(this).attr('data-url');
+      if (url.length > 0) {window.location.href = url;}
+    });
+});</script>
+
+
+    <section class="banner-home-top container">
+        <ul class="row">
+            <li class="col-xs-12 col-sm-4 wow fadeInUp" data-wow-delay="150ms">
+                <a href="~/pages/cobertura.html" title="">
+                    <img src="~/cdn.shopify.com/s/files/1/1534/3917/t/14/assets/top-banner-home-1163b.jpg?13797207298018700788" alt="" />
+
+                    <h4>
+                        <span style="
+
+                  font-size: 20px;
+
+
+                  color: #ffffff;
+              ">
+
+                        </span>
+                    </h4>
+
+                </a>
+            </li>
+            <li class="col-xs-12 col-sm-4 wow fadeInUp" data-wow-delay="300ms">
+                <a href="~/pages/programacion.html" title="">
+                    <img src="~/cdn.shopify.com/s/files/1/1534/3917/t/14/assets/top-banner-home-2163b.jpg?13797207298018700788" alt="" />
+
+                    <h4>
+                        <span style="
+
+                font-size: 20px;
+
+
+                color: #ffffff;
+            ">
+
+                        </span>
+                    </h4>
+
+                </a>
+            </li>
+            <li class="col-xs-12 col-sm-4 wow fadeInUp" data-wow-delay="450ms">
+                <a href="pages/garantia.html" title="">
+                    <img src="~/cdn.shopify.com/s/files/1/1534/3917/t/14/assets/top-banner-home-3163b.jpg?13797207298018700788" alt="" />
+
+                    <h4>
+                        <span style="
+
+                  font-size: 20px;
+
+
+                  color: #ffffff;
+              ">
+
+                        </span>
+                    </h4>
+
+                </a>
+            </li>
+        </ul>
+    </section>
+
+
+
+    <section class="widget-new-product container">
+        <div class="widget-title wow fadeIn">
+
+            <fieldset class="box-title lang1">
+                <legend align="center">FATHER'S DAY</legend>
+            </fieldset>
+            <fieldset class="box-title lang2">
+                <legend align="center">FATHER'S DAY</legend>
+            </fieldset>
+
+        </div>
+        <div class="widget-product">
+            <div class="products-grid row">
+
+
+
+
+
+
+                <div class=" no_crop_image grid-item col-xs-6 col-sm-4  col-lg-4">
+
+
+
+
+
+                    <div class="inner product-item  on-sale wow fadeIn" data-wow-delay="0ms" id="product-1325165150270">
+                        <div class="inner-top">
+                            <div class="product-top">
+                                <div class="product-image">
+                                    <a href="~/products/reto-12-dias-getup.html" class="product-grid-image">
+                                        <img src="~/cdn.shopify.com/s/files/1/1534/3917/products/1_8c7641bf-7e33-4aaa-aa07-6e18aa784eac_large2815.png?v=1530134610" alt="RETO 12 DÍAS GETUP!">
+                                        <div class="hover"></div>
+                                    </a>
+                                </div>
+
+                                <div class="product-label">
+
+                                    <strong class="label" data-translate="products.product.sale">Venta</strong>
+
+
+                                </div>
+
+                                <div class="product-des">
+
+
+                                    <a class="wishlist" href="~/account/login.html" title="Añadir a la lista de deseos" data-translate="wishlist.general.note" translate-item="title">
+                                        <span class="icon"></span>
+                                        <span data-translate="wishlist.general.add_to_wishlist">
+                                            Añadir a la lista de deseos
+                                        </span>
+                                    </a>
+
+
+                                    <div class="action">
+
+                                        <form action="https://getup.com.pe/cart/add" method="post" class="variants" id="product-actions-1325165150270" enctype="multipart/form-data" style="padding:0px;">
+
+
+                                            <input type="hidden" name="id" value="12184079925310" />
+                                            <input class="btn add-to-cart-btn" type="submit" value="Agregar al carrito" data-translate="products.product.add_to_cart" />
+
+
+                                        </form>
+                                    </div>
+
+                                    <div class="quickview-button">
+                                        <a href="javascript:void(0)" id="reto-12-dias-getup" title="Vista rápida" data-translate="products.product.quick_view" translate-item="title"><span data-translate="products.product.quick_view">Vista rápida</span></a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="product-bottom">
+                                <a class="product-title" href="~/products/reto-12-dias-getup.html">
+
+                                    <span class="lang1">RETO 12 DÍAS GETUP!</span>
+                                    <span class="lang2">RETO 12 DÍAS GETUP!</span>
+
+                                </a>
+
+                                <div class="price-box">
+
+                                    <p class="sale">
+                                        <span class="old-price"> S/. 800.00</span>
+                                        <span class="special-price">S/. 750.00</span>
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class=" no_crop_image grid-item col-xs-6 col-sm-4  col-lg-4">
+
+
+
+
+
+                    <div class="inner product-item  on-sale wow fadeIn" data-wow-delay="150ms" id="product-9500098320">
+                        <div class="inner-top">
+                            <div class="product-top">
+                                <div class="product-image">
+                                    <a href="~/products/almuerzos-corporativos.html" class="product-grid-image">
+                                        <img src="~/cdn.shopify.com/s/files/1/1534/3917/products/Almuerzo-solo-slim_d95e9629-2ee5-417e-8023-a91565e56717_large58c0.png?v=1497216574" alt="Almuerzos Corporativos getUP!">
+                                        <div class="hover"></div>
+                                    </a>
+                                </div>
+
+                                <div class="product-label">
+
+                                    <strong class="label" data-translate="products.product.sale">Venta</strong>
+
+
+                                </div>
+
+                                <div class="product-des">
+
+
+                                    <a class="wishlist" href="~/account/login.html" title="Añadir a la lista de deseos" data-translate="wishlist.general.note" translate-item="title">
+                                        <span class="icon"></span>
+                                        <span data-translate="wishlist.general.add_to_wishlist">
+                                            Añadir a la lista de deseos
+                                        </span>
+                                    </a>
+
+
+                                    <div class="action">
+
+                                        <form action="https://getup.com.pe/cart/add" method="post" class="variants" id="product-actions-9500098320" enctype="multipart/form-data" style="padding:0px;">
+
+
+                                            <input class="btn" type="button" onclick="window.location.href='products/almuerzos-corporativos.html'" value="Opciones" data-translate="products.product.select_options" />
+
+
+                                        </form>
+                                    </div>
+
+                                    <div class="quickview-button">
+                                        <a href="javascript:void(0)" id="almuerzos-corporativos" title="Vista rápida" data-translate="products.product.quick_view" translate-item="title"><span data-translate="products.product.quick_view">Vista rápida</span></a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="product-bottom">
+                                <a class="product-title" href="~/products/almuerzos-corporativos.html">
+
+                                    <span class="lang1">Almuerzos Corporativos getUP!</span>
+                                    <span class="lang2">Almuerzos Corporativos getUP!</span>
+
+                                </a>
+
+                                <div class="price-box">
+
+                                    <p class="sale">
+                                        <span class="old-price"> S/. 125.00</span>
+                                        <span class="special-price"><em>from </em>S/. 105.00</span>
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class=" no_crop_image grid-item col-xs-6 col-sm-4  col-lg-4">
+
+
+
+
+
+                    <div class="inner product-item  on-sale wow fadeIn" data-wow-delay="300ms" id="product-6420818309">
+                        <div class="inner-top">
+                            <div class="product-top">
+                                <div class="product-image">
+                                    <a href="~/products/fullpackslim.html" class="product-grid-image">
+                                        <img src="~/cdn.shopify.com/s/files/1/1534/3917/products/PLAN-SLIM-FULL-PACK---slim-dietas----web-get-up_large8440.png?v=1529106468" alt="Plan SLIM: FULL PACK">
+                                        <div class="hover"></div>
+                                    </a>
+                                </div>
+
+                                <div class="product-label">
+
+                                    <strong class="label" data-translate="products.product.sale">Venta</strong>
+
+
+                                </div>
+
+                                <div class="product-des">
+
+
+                                    <a class="wishlist" href="~/account/login.html" title="Añadir a la lista de deseos" data-translate="wishlist.general.note" translate-item="title">
+                                        <span class="icon"></span>
+                                        <span data-translate="wishlist.general.add_to_wishlist">
+                                            Añadir a la lista de deseos
+                                        </span>
+                                    </a>
+
+
+                                    <div class="action">
+
+                                        <form action="https://getup.com.pe/cart/add" method="post" class="variants" id="product-actions-6420818309" enctype="multipart/form-data" style="padding:0px;">
+
+
+                                            <input class="btn" type="button" onclick="window.location.href='products/fullpackslim.html'" value="Opciones" data-translate="products.product.select_options" />
+
+
+                                        </form>
+                                    </div>
+
+                                    <div class="quickview-button">
+                                        <a href="javascript:void(0)" id="fullpackslim" title="Vista rápida" data-translate="products.product.quick_view" translate-item="title"><span data-translate="products.product.quick_view">Vista rápida</span></a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="product-bottom">
+                                <a class="product-title" href="~/products/fullpackslim.html">
+
+                                    <span class="lang1">Plan SLIM: FULL PACK</span>
+                                    <span class="lang2">Plan SLIM: FULL PACK</span>
+
+                                </a>
+
+                                <div class="price-box">
+
+                                    <p class="sale">
+                                        <span class="old-price"> S/. 430.00</span>
+                                        <span class="special-price"><em>from </em>S/. 390.00</span>
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class=" no_crop_image grid-item col-xs-6 col-sm-4  col-lg-4">
+
+
+
+
+
+                    <div class="inner product-item  on-sale wow fadeIn" data-wow-delay="450ms" id="product-8017487824">
+                        <div class="inner-top">
+                            <div class="product-top">
+                                <div class="product-image">
+                                    <a href="~/products/almuerzosycenasslim.html" class="product-grid-image">
+                                        <img src="~/cdn.shopify.com/s/files/1/1534/3917/products/image_largeb2b5.jpg?v=1529111319" alt="Plan SLIM: Almuerzos + Cenas">
+                                        <div class="hover"></div>
+                                    </a>
+                                </div>
+
+                                <div class="product-label">
+
+                                    <strong class="label" data-translate="products.product.sale">Venta</strong>
+
+
+                                </div>
+
+                                <div class="product-des">
+
+
+                                    <a class="wishlist" href="~/account/login.html" title="Añadir a la lista de deseos" data-translate="wishlist.general.note" translate-item="title">
+                                        <span class="icon"></span>
+                                        <span data-translate="wishlist.general.add_to_wishlist">
+                                            Añadir a la lista de deseos
+                                        </span>
+                                    </a>
+
+
+                                    <div class="action">
+
+                                        <form action="https://getup.com.pe/cart/add" method="post" class="variants" id="product-actions-8017487824" enctype="multipart/form-data" style="padding:0px;">
+
+
+                                            <input class="btn" type="button" onclick="window.location.href='products/almuerzosycenasslim.html'" value="Opciones" data-translate="products.product.select_options" />
+
+
+                                        </form>
+                                    </div>
+
+                                    <div class="quickview-button">
+                                        <a href="javascript:void(0)" id="almuerzosycenasslim" title="Vista rápida" data-translate="products.product.quick_view" translate-item="title"><span data-translate="products.product.quick_view">Vista rápida</span></a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="product-bottom">
+                                <a class="product-title" href="~/products/almuerzosycenasslim.html">
+
+                                    <span class="lang1">Plan SLIM: Almuerzos + Cenas</span>
+                                    <span class="lang2">Plan SLIM: Almuerzos + Cenas</span>
+
+                                </a>
+
+                                <div class="price-box">
+
+                                    <p class="sale">
+                                        <span class="old-price"> S/. 278.00</span>
+                                        <span class="special-price"><em>from </em>S/. 228.00</span>
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <section class="banner-home-bottom container">
+
+        <div class="widget-title wow fadeIn">
+
+            <fieldset class="box-title lang1">
+                <legend align="center">Eventos Get up</legend>
+            </fieldset>
+            <fieldset class="box-title lang2">
+                <legend align="center">Get up events</legend>
+            </fieldset>
+
+        </div>
+
+        <ul class="row">
+            <li class="col-xs-12 col-sm-4 wow fadeInUp" data-wow-delay="150ms">
+                <a href="~/products/trekking-lucumo.html" title="Trekking en Lúcumo|Trekking in Lucumo"><img src="~/cdn.shopify.com/s/files/1/1534/3917/t/14/assets/banner-home-bottom-1163b.jpg?13797207298018700788" alt="" /></a>
+                <div class="des">
+
+
+                    <h4 style="
+                   color: #000000;
+
+
+                   font-size: 20px;
+                    ">
+
+                        <span class="lang1">Trekking en Lúcumo</span>
+                        <span class="lang2">Trekking in Lucumo</span>
+
+                    </h4>
+
+
+
+
+                    <p style="
+                  color: #2d2d2d;
+
+
+                  font-size: 12px;
+                   ">
+
+                        <span class="lang1">Pasa el domingo fuera de Lima. Participa de nuestras caminatas turísticas en las Lomas de Lúcumo. Salimos a las 8am y Retornamos a las 3pm. Incluye movilidad, guía, almuerzo y healthy coach.</span>
+                        <span class="lang2">Spend Sunday outside Lima. Participate in our tourist hikes in Lomas de Lúcumo. We left at 8am and returned at 3pm. Includes mobility, guide, lunch and healthy coach.</span>
+
+                    </p>
+
+
+
+
+                    <a href="~/products/trekking-lucumo.html" title="QUIERO PARTICIPAR" class="btn lang1">
+                        QUIERO PARTICIPAR
+                        <span class="arrow">arrow</span>
+                    </a>
+                    <a href="~/products/trekking-lucumo.html" title="I WANT TO PARTICIPATE" class="btn lang2">
+                        I WANT TO PARTICIPATE
+                        <span class="arrow">arrow</span>
+                    </a>
+
+
+                </div>
+            </li>
+            <li class="col-xs-12 col-sm-4 wow fadeInUp" data-wow-delay="300ms">
+                <a href="~/products/cycling-gastronomico.html" title="Cycling en el Malecón|Cycling on the Malecon"><img src="~/cdn.shopify.com/s/files/1/1534/3917/t/14/assets/banner-home-bottom-2163b.jpg?13797207298018700788" alt="" /></a>
+                <div class="des">
+
+
+                    <h4 style="
+                   color: #000000;
+
+
+                   font-size: 20px;
+                    ">
+
+                        <span class="lang1">Cycling en el Malecón</span>
+                        <span class="lang2">Cycling on the Malecon</span>
+
+                    </h4>
+
+
+
+
+                    <p style="
+                  color: #2d2d2d;
+
+
+                  font-size: 12px;
+                   ">
+
+                        <span class="lang1">Re enamórate de Lima. Recorreremos el malecón de Miraflores, Barranco y Chorrillos en bicicleta. Tour incluye paradas para comer ceviche, helado artesanal y jugo detox. Incluye bicicleta, comida y guía.</span>
+                        <span class="lang2">Re-fall in love with Lima. We will cross the malecon of Miraflores, Barranco and Chorrillos by bicycle. Tour includes stops to eat ceviche, homemade ice cream and detox juice. Includes bicycle, food and guide.</span>
+
+                    </p>
+
+
+
+
+                    <a href="~/products/cycling-gastronomico.html" title="QUIERO PARTICIPAR" class="btn lang1">
+                        QUIERO PARTICIPAR
+                        <span class="arrow">arrow</span>
+                    </a>
+                    <a href="~/products/cycling-gastronomico.html" title="I WANT TO PARTICIPATE" class="btn lang2">
+                        I WANT TO PARTICIPATE
+                        <span class="arrow">arrow</span>
+                    </a>
+
+
+                </div>
+            </li>
+            <li class="col-xs-12 col-sm-4 wow fadeInUp" data-wow-delay="450ms">
+                <a href="~/products/picnicsunset.html" title="Picnic en el Parque|Picnic in the Park"><img src="~/cdn.shopify.com/s/files/1/1534/3917/t/14/assets/banner-home-bottom-3163b.jpg?13797207298018700788" alt="" /></a>
+                <div class="des">
+
+
+                    <h4 style="
+                   color: #000000;
+
+
+                   font-size: 20px;
+                    ">
+
+                        <span class="lang1">Picnic en el Parque</span>
+                        <span class="lang2">Picnic in the Park</span>
+
+                    </h4>
+
+
+
+
+                    <p style="
+                  color: #2d2d2d;
+
+
+                  font-size: 12px;
+                   ">
+
+                        <span class="lang1">Vuelve a ser niño con nosotros. Empezamos jugando en el parque a las escondidas, chapadas y encantados. Terminamos en un delicioso picnic saludable. Duración de 5pm a 7pm Incluye juegos y picnic.</span>
+                        <span class="lang2">Come back to be a child with us. We started playing in the park on the sly, plated and enchanted. We ended up on a delicious healthy picnic. Duration from 5pm to 7pm Includes games and picnic.</span>
+
+                    </p>
+
+
+
+
+                    <a href="~/products/picnicsunset.html" title="QUIERO PARTICIPAR" class="btn lang1">
+                        QUIERO PARTICIPAR
+                        <span class="arrow">arrow</span>
+                    </a>
+                    <a href="~/products/picnicsunset.html" title="I WANT TO PARTICIPATE" class="btn lang2">
+                        I WANT TO PARTICIPATE
+                        <span class="arrow">arrow</span>
+                    </a>
+
+
+                </div>
+            </li>
+        </ul>
+    </section>
+
+
+    <script src="~/cdn.shopify.com/s/files/1/1534/3917/t/14/assets/instafeed.min163b.js?13797207298018700788" type="text/javascript"></script>
+
+</main>
+
+@section scripts {
+    <script>
+
+
+    </script>
+    
+    
+    }

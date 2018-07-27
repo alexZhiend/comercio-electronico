@@ -1,0 +1,1429 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props')" />
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.8\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.8\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.2.6.1\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.2.6.1\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AA350AD3-2F59-4526-8023-43A30D331705}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TiendaComida</RootNamespace>
+    <AssemblyName>TiendaComida</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TypeScriptToolsVersion>2.8</TypeScriptToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest">
+    </Reference>
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.4\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.2.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.4\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.4\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.4\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.4\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.4\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.11.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="WebGrease">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.6.0\lib\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <Private>True</Private>
+      <HintPath>..\packages\Antlr.3.5.0.2\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Diagnostics.DiagnosticSource">
+      <HintPath>..\packages\System.Diagnostics.DiagnosticSource.4.4.1\lib\net46\System.Diagnostics.DiagnosticSource.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.TelemetryCorrelation">
+      <HintPath>..\packages\Microsoft.AspNet.TelemetryCorrelation.1.0.0\lib\net45\Microsoft.AspNet.TelemetryCorrelation.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ApplicationInsights">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.2.5.1\lib\net46\Microsoft.ApplicationInsights.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.Agent.Intercept">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Agent.Intercept.2.4.0\lib\net45\Microsoft.AI.Agent.Intercept.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.DependencyCollector">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.DependencyCollector.2.5.1\lib\net45\Microsoft.AI.DependencyCollector.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.PerfCounterCollector">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.PerfCounterCollector.2.5.1\lib\net45\Microsoft.AI.PerfCounterCollector.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.ServerTelemetryChannel">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.2.5.1\lib\net45\Microsoft.AI.ServerTelemetryChannel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.WindowsServer">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.2.5.1\lib\net45\Microsoft.AI.WindowsServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.Web">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Web.2.5.1\lib\net45\Microsoft.AI.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.8\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Areas\Admin\AdminAreaRegistration.cs" />
+    <Compile Include="Areas\Admin\Controllers\ClienteController.cs" />
+    <Compile Include="Areas\Admin\Controllers\ComidaController.cs" />
+    <Compile Include="Controllers\ComidasController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Beneficio.cs">
+      <DependentUpon>ModelTiendaComida.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Categoria.cs">
+      <DependentUpon>ModelTiendaComida.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Cliente.cs">
+      <DependentUpon>ModelTiendaComida.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Comida.cs">
+      <DependentUpon>ModelTiendaComida.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ComidaImagen.cs">
+      <DependentUpon>ModelTiendaComida.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ModelTiendaComida.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ModelTiendaComida.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ModelTiendaComida.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ModelTiendaComida.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ModelTiendaComida.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ModelTiendaComida.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Pedido.cs">
+      <DependentUpon>ModelTiendaComida.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\PedidoDetalle.cs">
+      <DependentUpon>ModelTiendaComida.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ResponseModel.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+\index.html" />
+    <Content Include="account\login.html" />
+    <Content Include="account\login4789.html" />
+    <Content Include="account\register.html" />
+    <Content Include="ajax.aspnetcdn.com\ajax\jquery.templates\beta1\jquery.tmpl.min.js" />
+    <Content Include="ajax.googleapis.com\ajax\libs\jqueryui\1.9.2\jquery-ui.min.js" />
+    <Content Include="ajax.googleapis.com\ajax\libs\jquery\1.8.1\jquery.min.js" />
+    <Content Include="App_Data\ComidaDB.mdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="App_Data\ComidaDB_log.ldf">
+      <DependentUpon>ComidaDB.mdf</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="cdn.shopify.com\s\assets\checkout\checkbox-tick-9f17bee7b5e3ada22164b6e06ce6153e54484a9348bea333a9ff6ba1460cfe8d.png" />
+    <Content Include="cdn.shopify.com\s\assets\shop_events_listener-f2c5800305098f0ebebdfa7d980c9abf56514c46d5305e97a7c476f7c9116163.js" />
+    <Content Include="cdn.shopify.com\s\assets\storefront\express_buttons-aa117671f098345025d2e9af20ead4ec4322c9294436680a235d920db0da0d66.js" />
+    <Content Include="cdn.shopify.com\s\assets\storefront\features-35fa919124302b0d097cdba90a4cba671b688a3c3c61403c926ff7818bbb918f.js" />
+    <Content Include="cdn.shopify.com\s\assets\themes_support\api.jquery-0ea851da22ae87c0290f4eeb24bc8b513ca182f3eb721d147c009ae0f5ce14f9.js" />
+    <Content Include="cdn.shopify.com\s\assets\themes_support\customer_area-4beccea87758d91106a581ba89341d9b51842f6da79209258c8297239e950343.js" />
+    <Content Include="cdn.shopify.com\s\assets\themes_support\ga_urchin_forms-68ca1924c495cfc55dac65f4853e0c9a395387ffedc8fe58e0f2e677f95d7f23.js" />
+    <Content Include="cdn.shopify.com\s\assets\themes_support\option_selection-ea4f4a242e299f2227b2b8038152223f741e90780c0c766883939e8902542bda.js" />
+    <Content Include="cdn.shopify.com\s\assets\themes_support\shopify_common-040322ee69221c50a47032355f2f7e6cbae505567e2157d53dfb0a2e7701839c.js" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\files\Directorio_getUP_large65fa.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\files\Unicos_11_large91f5.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\files\Unicos_16_large67c5.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\files\Unicos_1_large41fa.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\files\Unicos_4_large8e8c.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\files\Unicos_5_large0999.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\files\Unicos_6_large32ba.gif" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\files\Unicos_8_large119b.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\files\Unicos_9_largef74f.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\files\Unico_14_largebd81.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\04-600x600-Tomatodo-delivery_1024x1024edec.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\04-600x600-Tomatodo-delivery_compactedec.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\04-600x600-Tomatodo-delivery_grandeedec.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\17901798_10158497110225287_697955345_o_1024x1024638d.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\17901798_10158497110225287_697955345_o_compact638d.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\17901798_10158497110225287_697955345_o_grande638d.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\17901798_10158497110225287_697955345_o_large638d.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\17901798_10158497110225287_697955345_o_medium638d.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\17902933_10158497038600287_1375553541_o_1_1024x1024d6a6.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\17902933_10158497038600287_1375553541_o_1_compactd6a6.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\17902933_10158497038600287_1375553541_o_1_granded6a6.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\17902933_10158497038600287_1375553541_o_1_larged6a6.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\17902933_10158497038600287_1375553541_o_1_mediumd6a6.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\17916437_10158496903950287_1471525721_o_1024x102475e7.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\17916437_10158496903950287_1471525721_o_compact75e7.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\17916437_10158496903950287_1471525721_o_grande75e7.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\17916437_10158496903950287_1471525721_o_large75e7.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\17916437_10158496903950287_1471525721_o_medium75e7.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\1_8c7641bf-7e33-4aaa-aa07-6e18aa784eac_1024x10242815.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\1_8c7641bf-7e33-4aaa-aa07-6e18aa784eac_compact2815.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\1_8c7641bf-7e33-4aaa-aa07-6e18aa784eac_grande2815.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\1_8c7641bf-7e33-4aaa-aa07-6e18aa784eac_large2815.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\1_8c7641bf-7e33-4aaa-aa07-6e18aa784eac_medium2815.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\2_a03bb105-0d3a-46f9-8440-067c04ded9eb_1024x10242815.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\2_a03bb105-0d3a-46f9-8440-067c04ded9eb_compact2815.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\2_a03bb105-0d3a-46f9-8440-067c04ded9eb_grande2815.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\3_bfea105b-f7e7-4374-93b1-5cb60182ddae_1024x10242815.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\3_bfea105b-f7e7-4374-93b1-5cb60182ddae_compact2815.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\3_bfea105b-f7e7-4374-93b1-5cb60182ddae_grande2815.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\4_dc3ff012-c194-4df2-9ae1-b98182bd22d3_1024x10242815.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\4_dc3ff012-c194-4df2-9ae1-b98182bd22d3_compact2815.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\5_1024x1024e846.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\5_compacte846.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\5_grandee846.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\5_largee846.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\5_mediume846.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\600-x600-arroz-arabe-milticolor_1024x1024_16c866f0-faeb-41d6-89af-fdd230e8944c_1024x1024e0f3.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\600-x600-arroz-arabe-milticolor_1024x1024_16c866f0-faeb-41d6-89af-fdd230e8944c_compacte0f3.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\600-x600-arroz-arabe-milticolor_1024x1024_16c866f0-faeb-41d6-89af-fdd230e8944c_grandee0f3.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\600-x600-arroz-arabe-milticolor_1024x1024_16c866f0-faeb-41d6-89af-fdd230e8944c_largee0f3.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\600-x600-arroz-arabe-milticolor_1024x1024_16c866f0-faeb-41d6-89af-fdd230e8944c_mediume0f3.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\600-x600-Arroz-con-aromas-nortenos_1024x1024_fc83d99d-d0f9-49a2-b0fe-6e72e2da3190_1024x1024cae5.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\600-x600-Arroz-con-aromas-nortenos_1024x1024_fc83d99d-d0f9-49a2-b0fe-6e72e2da3190_compactcae5.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\600-x600-Arroz-con-aromas-nortenos_1024x1024_fc83d99d-d0f9-49a2-b0fe-6e72e2da3190_grandecae5.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\600-x600-Arroz-con-aromas-nortenos_1024x1024_fc83d99d-d0f9-49a2-b0fe-6e72e2da3190_largecae5.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\600-x600-Arroz-con-aromas-nortenos_1024x1024_fc83d99d-d0f9-49a2-b0fe-6e72e2da3190_mediumcae5.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\600-x600-brunch-1_1024x1024_d9bba2a1-7474-4fc3-af5f-84d3f489b04a_1024x1024c46a.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\600-x600-brunch-1_1024x1024_d9bba2a1-7474-4fc3-af5f-84d3f489b04a_compactc46a.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\600-x600-brunch-1_1024x1024_d9bba2a1-7474-4fc3-af5f-84d3f489b04a_grandec46a.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\600-x600-brunch-2_grande_50986d06-4c76-4c9a-8234-3a728b08768b_1024x1024c46a.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\600-x600-brunch-2_grande_50986d06-4c76-4c9a-8234-3a728b08768b_compactc46a.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\600-x600-brunch-2_grande_50986d06-4c76-4c9a-8234-3a728b08768b_grandec46a.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\600-x600-ensalada-contemporanea_1024x1024_22ca187a-af6e-461a-801f-13e9f019cf52_1024x10240df0.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\600-x600-ensalada-contemporanea_1024x1024_22ca187a-af6e-461a-801f-13e9f019cf52_compact0df0.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\600-x600-ensalada-contemporanea_1024x1024_22ca187a-af6e-461a-801f-13e9f019cf52_grande0df0.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\600-x600-ensalada-contemporanea_1024x1024_22ca187a-af6e-461a-801f-13e9f019cf52_large0df0.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\600-x600-ensalada-contemporanea_1024x1024_22ca187a-af6e-461a-801f-13e9f019cf52_medium0df0.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\600-x600-ensalada-waldorf_1024x1024_cf81c41c-308d-469f-88b4-ebb63da55c2b_1024x10242408.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\600-x600-ensalada-waldorf_1024x1024_cf81c41c-308d-469f-88b4-ebb63da55c2b_compact2408.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\600-x600-ensalada-waldorf_1024x1024_cf81c41c-308d-469f-88b4-ebb63da55c2b_grande2408.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\600-x600-ensalada-waldorf_1024x1024_cf81c41c-308d-469f-88b4-ebb63da55c2b_large2408.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\600-x600-ensalada-waldorf_1024x1024_cf81c41c-308d-469f-88b4-ebb63da55c2b_medium2408.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\600-x600-humitas-de-queso_1024x1024_a8f71ea8-6ffa-4f88-bdaa-ef9560e4e3aa_1024x10241e17.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\600-x600-humitas-de-queso_1024x1024_a8f71ea8-6ffa-4f88-bdaa-ef9560e4e3aa_compact1e17.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\600-x600-humitas-de-queso_1024x1024_a8f71ea8-6ffa-4f88-bdaa-ef9560e4e3aa_grande1e17.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\600-x600-humitas-de-queso_1024x1024_a8f71ea8-6ffa-4f88-bdaa-ef9560e4e3aa_large1e17.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\600-x600-humitas-de-queso_1024x1024_a8f71ea8-6ffa-4f88-bdaa-ef9560e4e3aa_medium1e17.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\600-x600-Jugoso-pavo-a-la-cerveza_1024x1024_e4e13687-2777-4235-864b-2574f600d8ea_1024x1024bcd6.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\600-x600-Jugoso-pavo-a-la-cerveza_1024x1024_e4e13687-2777-4235-864b-2574f600d8ea_compactbcd6.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\600-x600-Jugoso-pavo-a-la-cerveza_1024x1024_e4e13687-2777-4235-864b-2574f600d8ea_grandebcd6.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\600-x600-Jugoso-pavo-a-la-cerveza_1024x1024_e4e13687-2777-4235-864b-2574f600d8ea_largebcd6.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\600-x600-Jugoso-pavo-a-la-cerveza_1024x1024_e4e13687-2777-4235-864b-2574f600d8ea_mediumbcd6.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\600-x600-Panceta-de-cerdo-a-la-lena_1024x1024_4922cb01-a006-4950-970a-e1be61850fe7_1024x10246f67.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\600-x600-Panceta-de-cerdo-a-la-lena_1024x1024_4922cb01-a006-4950-970a-e1be61850fe7_compact6f67.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\600-x600-Panceta-de-cerdo-a-la-lena_1024x1024_4922cb01-a006-4950-970a-e1be61850fe7_grande6f67.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\600-x600-Panceta-de-cerdo-a-la-lena_1024x1024_4922cb01-a006-4950-970a-e1be61850fe7_large6f67.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\600-x600-Panceta-de-cerdo-a-la-lena_1024x1024_4922cb01-a006-4950-970a-e1be61850fe7_medium6f67.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\600-x600-pure-camote_1024x1024_2e6623d4-4615-4a55-983f-6a9b0039ba2c_1024x102448cd.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\600-x600-pure-camote_1024x1024_2e6623d4-4615-4a55-983f-6a9b0039ba2c_compact48cd.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\600-x600-pure-camote_1024x1024_2e6623d4-4615-4a55-983f-6a9b0039ba2c_grande48cd.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\600-x600-pure-camote_1024x1024_2e6623d4-4615-4a55-983f-6a9b0039ba2c_large48cd.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\600-x600-pure-camote_1024x1024_2e6623d4-4615-4a55-983f-6a9b0039ba2c_medium48cd.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\600-x600-pure-manzana_1024x1024_5c2f6e30-be15-466c-8cf5-43900c83a396_1024x1024a481.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\600-x600-pure-manzana_1024x1024_5c2f6e30-be15-466c-8cf5-43900c83a396_compacta481.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\600-x600-pure-manzana_1024x1024_5c2f6e30-be15-466c-8cf5-43900c83a396_grandea481.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\600-x600-pure-manzana_1024x1024_5c2f6e30-be15-466c-8cf5-43900c83a396_largea481.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\600-x600-pure-manzana_1024x1024_5c2f6e30-be15-466c-8cf5-43900c83a396_mediuma481.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\6_1024x102479a6.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\6_compact79a6.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\6_grande79a6.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\6_large79a6.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\6_medium79a6.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\Almuerzo-solo-slim_d95e9629-2ee5-417e-8023-a91565e56717_1024x102458c0.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\Almuerzo-solo-slim_d95e9629-2ee5-417e-8023-a91565e56717_compact58c0.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\Almuerzo-solo-slim_d95e9629-2ee5-417e-8023-a91565e56717_grande58c0.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\Almuerzo-solo-slim_d95e9629-2ee5-417e-8023-a91565e56717_large58c0.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\Almuerzo-solo-slim_d95e9629-2ee5-417e-8023-a91565e56717_medium58c0.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\almuerzo_2-snacks_fdb1296b-96bb-4254-b2a9-366b9d1d064e_1024x10248440.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\almuerzo_2-snacks_fdb1296b-96bb-4254-b2a9-366b9d1d064e_compact8440.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\almuerzo_2-snacks_fdb1296b-96bb-4254-b2a9-366b9d1d064e_grande8440.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\Almuerzo_Cena_1024x10249363.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\Almuerzo_Cena_2_1024x1024b2b5.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\Almuerzo_Cena_2_compactb2b5.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\Almuerzo_Cena_2_grandeb2b5.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\Almuerzo_Cena_compact9363.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\Almuerzo_Cena_grande9363.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\Almuerzo_Cena_large9363.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\Almuerzo_Cena_medium9363.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\Arroces_Navidad_1_1024x10249521.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\Arroces_Navidad_1_32562897-c420-42a8-b05d-43043b6a6d43_1024x1024bdfd.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\Arroces_Navidad_1_32562897-c420-42a8-b05d-43043b6a6d43_compactbdfd.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\Arroces_Navidad_1_32562897-c420-42a8-b05d-43043b6a6d43_grandebdfd.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\Arroces_Navidad_1_32562897-c420-42a8-b05d-43043b6a6d43_largebdfd.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\Arroces_Navidad_1_32562897-c420-42a8-b05d-43043b6a6d43_mediumbdfd.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\Arroces_Navidad_1_compact9521.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\Arroces_Navidad_1_grande9521.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\Arroces_Navidad_1_large9521.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\Arroces_Navidad_1_medium9521.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\box-1b_1024x102479d8.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\box-1b_compact79d8.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\box-1b_grande79d8.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\box-2b_1024x10241136.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\box-2b_compact1136.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\box-2b_grande1136.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\box-2_1024x10241136.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\box-2_compact1136.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\box-2_grande1136.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\box-2_large1136.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\box-2_medium1136.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\box-6b_1024x102451ff.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\box-6b_compact51ff.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\box-6b_grande51ff.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\brunch-v2-fb_1024x1024c46a.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\brunch-v2-fb_compactc46a.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\brunch-v2-fb_grandec46a.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\brunch-v2-fb_largec46a.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\brunch-v2-fb_mediumc46a.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\Caja_mama_1024x102451ff.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\Caja_mama_b751d179-95b0-44bf-9fa5-63bd3909d447_1024x102479d8.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\Caja_mama_b751d179-95b0-44bf-9fa5-63bd3909d447_compact79d8.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\Caja_mama_b751d179-95b0-44bf-9fa5-63bd3909d447_grande79d8.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\Caja_mama_compact51ff.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\Caja_mama_grande51ff.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\Catering-1_1024x102410e4.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\Catering-1_compact10e4.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\Catering-1_grande10e4.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\Catering-1_large10e4.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\Catering-1_medium10e4.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\Catering-2_1024x1024a91d.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\Catering-2_compacta91d.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\Catering-2_grandea91d.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\Catering-3_1024x1024f9c3.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\Catering-3_compactf9c3.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\Catering-3_grandef9c3.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\Catering-4_1024x102465a0.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\Catering-4_compact65a0.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\Cena-solo-2_95082c39-9de6-40ff-a4fc-43d95fcd1605_1024x10248440.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\Cena-solo-2_95082c39-9de6-40ff-a4fc-43d95fcd1605_compact8440.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\compota-5b_1024x102407a3.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\compota-5b_compact07a3.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\compota-5b_grande07a3.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\compota-5_1024x1024c7dd.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\compota-5_compactc7dd.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\compota-5_grandec7dd.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\compota-5_largec7dd.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\compota-5_mediumc7dd.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\compota-6a_1024x10247ce4.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\compota-6a_compact7ce4.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\compota-6a_grande7ce4.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\compota-6a_large7ce4.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\compota-6a_medium7ce4.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\compota-6b_1024x102410f5.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\compota-6b_compact10f5.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\compota-6b_grande10f5.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\compota-7b_1024x10240cfa.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\compota-7b_compact0cfa.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\compota-7b_grande0cfa.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\compota-7_1024x1024bde1.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\compota-7_compactbde1.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\compota-7_grandebde1.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\compota-7_largebde1.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\compota-7_mediumbde1.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\compota-8b_1024x102480a8.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\compota-8b_compact80a8.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\compota-8b_grande80a8.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\compota-8_1024x1024ccd3.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\compota-8_compactccd3.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\compota-8_grandeccd3.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\compota-8_largeccd3.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\compota-8_mediumccd3.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\CONSULTA_DOMICILIO_1024x10249320.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\CONSULTA_DOMICILIO_compact9320.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\CONSULTA_DOMICILIO_grande9320.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\CONSULTA_DOMICILIO_large9320.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\CONSULTA_DOMICILIO_medium9320.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\desayuno-solo_2_c428e5aa-b854-47c0-b0d6-df83e2e268ff_1024x10248440.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\desayuno-solo_2_c428e5aa-b854-47c0-b0d6-df83e2e268ff_compact8440.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\desayuno-solo_2_c428e5aa-b854-47c0-b0d6-df83e2e268ff_grande8440.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\Desayuno_Almuerzo_1024x10249ca8.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\Desayuno_Almuerzo_compact9ca8.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\Desayuno_Almuerzo_grande9ca8.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\Desayuno_Almuerzo_large9ca8.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\Desayuno_Almuerzo_medium9ca8.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\Desayuno_Cena_1_1024x1024c432.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\Desayuno_Cena_1_compactc432.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\Desayuno_Cena_1_grandec432.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\Desayuno_Cena_1_largec432.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\Desayuno_Cena_1_mediumc432.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\ETIQUETA_1_1024x10242569.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\ETIQUETA_1_compact2569.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\ETIQUETA_1_grande2569.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\ETIQUETA_1_large2569.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\ETIQUETA_1_medium2569.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\Fotografia-1_1024x10247a73.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\Fotografia-1_compact7a73.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\Fotografia-1_grande7a73.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\Fotografia-1_large7a73.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\Fotografia-1_medium7a73.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\Fotografia-2_1024x1024003f.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\Fotografia-2_compact003f.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\Fotografia-2_grande003f.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\Fotografia-3_1024x1024167f.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\Fotografia-3_compact167f.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\Fotografia-3_grande167f.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\Fotografia-4_1024x102411f8.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\Fotografia-4_compact11f8.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\Fotografia-5_1024x10247865.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\Fotografia-5_compact7865.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\galleta-2_9b51b86c-beac-45cd-b76e-e2e7a1df7972_1024x1024b2b9.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\galleta-2_9b51b86c-beac-45cd-b76e-e2e7a1df7972_compactb2b9.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\galleta-2_9b51b86c-beac-45cd-b76e-e2e7a1df7972_grandeb2b9.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\galleta-2_9b51b86c-beac-45cd-b76e-e2e7a1df7972_largeb2b9.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\galleta-2_9b51b86c-beac-45cd-b76e-e2e7a1df7972_mediumb2b9.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\galleta_1024x1024b0e6.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\galleta_compactb0e6.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\galleta_grandeb0e6.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\image_049e0b1d-8066-48a8-a99c-6b8119adbb21_1024x1024e1c6.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\image_049e0b1d-8066-48a8-a99c-6b8119adbb21_compacte1c6.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\image_1024x1024b2b5.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\image_169e1ebf-1b3c-45ce-9245-b9eb7e37587a_1024x1024e1c6.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\image_169e1ebf-1b3c-45ce-9245-b9eb7e37587a_compacte1c6.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\image_26906eb8-8324-4044-9183-039be7570958_1024x1024e1c6.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\image_26906eb8-8324-4044-9183-039be7570958_compacte1c6.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\image_26906eb8-8324-4044-9183-039be7570958_grandee1c6.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\image_2ae7a24f-04cf-42e6-93e0-30236a096567_1024x102492a3.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\image_2ae7a24f-04cf-42e6-93e0-30236a096567_compact92a3.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\image_2ae7a24f-04cf-42e6-93e0-30236a096567_grande92a3.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\image_2c31be64-0917-4b7f-80b7-8246eca9659a_1024x102470ed.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\image_2c31be64-0917-4b7f-80b7-8246eca9659a_compact70ed.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\image_2c31be64-0917-4b7f-80b7-8246eca9659a_grande70ed.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\image_2c31be64-0917-4b7f-80b7-8246eca9659a_large70ed.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\image_2c31be64-0917-4b7f-80b7-8246eca9659a_medium70ed.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\image_6a8bb6a6-f336-44ad-bb9e-30cb5f2ce500_1024x1024e1c6.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\image_6a8bb6a6-f336-44ad-bb9e-30cb5f2ce500_compacte1c6.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\image_9589b3ce-654f-473e-8c56-112061f512fd_1024x102406ff.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\image_9589b3ce-654f-473e-8c56-112061f512fd_compact06ff.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\image_9589b3ce-654f-473e-8c56-112061f512fd_grande06ff.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\image_9589b3ce-654f-473e-8c56-112061f512fd_large06ff.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\image_9589b3ce-654f-473e-8c56-112061f512fd_medium06ff.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\image_addf45f5-313d-407f-9a7e-adf9f64d3169_1024x102406ff.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\image_addf45f5-313d-407f-9a7e-adf9f64d3169_compact06ff.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\image_addf45f5-313d-407f-9a7e-adf9f64d3169_grande06ff.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\image_c8bdabfd-1b46-4e6d-b7b6-546fd61663dd_1024x1024e1c6.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\image_c8bdabfd-1b46-4e6d-b7b6-546fd61663dd_compacte1c6.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\image_c8bdabfd-1b46-4e6d-b7b6-546fd61663dd_grandee1c6.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\image_cc515288-0f84-44a4-9f22-53bccf7b3aba_1024x1024e1c6.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\image_cc515288-0f84-44a4-9f22-53bccf7b3aba_compacte1c6.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\image_cd072b39-71b6-49e9-9a13-7667651fff5a_1024x1024e1c6.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\image_cd072b39-71b6-49e9-9a13-7667651fff5a_compacte1c6.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\image_compactb2b5.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\image_dc5c8e47-6d2d-410c-a73e-d96172657739_1024x1024e1c6.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\image_dc5c8e47-6d2d-410c-a73e-d96172657739_compacte1c6.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\image_grandeb2b5.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\image_largeb2b5.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\image_mediumb2b5.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\jarck-11-b_1024x102481e8.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\jarck-11-b_compact81e8.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\jarck-11-b_grande81e8.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\jarck-11-b_large81e8.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\jarck-11-b_medium81e8.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\jarck-12b_1024x10247d94.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\jarck-12b_compact7d94.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\jarck-12b_grande7d94.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\jarck-12b_large7d94.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\jarck-12b_medium7d94.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\jarck-13b_1024x10245372.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\jarck-13b_compact5372.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\jarck-13b_grande5372.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\jarck-13b_large5372.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\jarck-13b_medium5372.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\jarck-14b_1024x1024effc.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\jarck-14b_compacteffc.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\jarck-14b_grandeeffc.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\jarck-14b_largeeffc.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\jarck-14b_mediumeffc.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\jarck-17b_1024x1024b29c.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\jarck-17b_compactb29c.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\jarck-17b_grandeb29c.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\jarck-17b_largeb29c.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\jarck-17b_mediumb29c.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\jarck-18b_1024x10249719.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\jarck-18b_compact9719.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\jarck-18b_grande9719.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\jarck-18b_large9719.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\jarck-18b_medium9719.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\jarck-25-a_1024x1024e0e3.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\jarck-25-a_compacte0e3.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\jarck-25-a_grandee0e3.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\jarck-25-a_largee0e3.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\jarck-25-a_mediume0e3.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\jarck-25-b_1024x102412a8.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\jarck-25-b_compact12a8.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\jarck-25-b_grande12a8.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\KING-BREAKFAST-MAMA_1024x102479d8.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\KING-BREAKFAST-MAMA_compact79d8.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\KING-BREAKFAST-MAMA_grande79d8.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\KING-BREAKFAST-MAMA_large79d8.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\KING-BREAKFAST-MAMA_medium79d8.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\MASAJES_2_1024x1024d7ed.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\MASAJES_2_compactd7ed.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\MASAJES_2_granded7ed.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\MASAJES_2_larged7ed.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\MASAJES_2_mediumd7ed.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\PERSONAL_1_1024x1024e5ea.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\PERSONAL_1_compacte5ea.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\PERSONAL_1_grandee5ea.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\PERSONAL_2_1024x1024021a.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\PERSONAL_2_compact021a.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\PERSONAL_2_grande021a.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\PERSONAL_2_large021a.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\PERSONAL_2_medium021a.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\PICNIC_1024x1024b3a6.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\Picnic_5c554dd3-42f6-43eb-ac3d-66bde71d5143_1024x1024638d.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\Picnic_5c554dd3-42f6-43eb-ac3d-66bde71d5143_compact638d.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\Picnic_5c554dd3-42f6-43eb-ac3d-66bde71d5143_grande638d.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\PICNIC_compactb3a6.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\PICNIC_grandeb3a6.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\PICNIC_largeb3a6.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\PICNIC_mediumb3a6.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\piqueo-dulce-2a_1024x10243e6a.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\piqueo-dulce-2a_compact3e6a.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\piqueo-dulce-2a_grande3e6a.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\piqueo-dulce-2b_1024x10243e6a.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\piqueo-dulce-2b_compact3e6a.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\piqueo-dulce-2b_grande3e6a.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\piqueo-dulce-2b_large3e6a.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\piqueo-dulce-2b_medium3e6a.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\piqueo-dulce-5a_1024x10243475.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\piqueo-dulce-5a_compact3475.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\piqueo-dulce-5a_grande3475.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\piqueo-dulce-5b_1024x10243475.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\piqueo-dulce-5b_compact3475.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\piqueo-dulce-5b_grande3475.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\piqueo-dulce-5b_large3475.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\piqueo-dulce-5b_medium3475.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\piqueo-dulce-6a_1024x1024e360.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\piqueo-dulce-6a_compacte360.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\piqueo-dulce-6a_grandee360.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\piqueo-dulce-6a_largee360.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\piqueo-dulce-6a_mediume360.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\piqueo-dulce-6b_1024x1024428e.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\piqueo-dulce-6b_compact428e.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\piqueo-dulce-6b_grande428e.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\piqueo-salado-6a_1024x10242696.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\piqueo-salado-6a_compact2696.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\piqueo-salado-6a_grande2696.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\piqueo-salado-6a_large2696.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\piqueo-salado-6a_medium2696.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\piqueo-salado-6b_1024x10243434.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\piqueo-salado-6b_compact3434.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\piqueo-salado-6b_grande3434.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\Plam_Life_1b9d6576-6118-4e7a-a387-9d2861cff8ab_1024x10249363.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\Plam_Life_1b9d6576-6118-4e7a-a387-9d2861cff8ab_compact9363.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\Plam_Life_83043a35-946a-492b-9291-548f0c5620c8_1024x10249ca8.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\Plam_Life_83043a35-946a-492b-9291-548f0c5620c8_compact9ca8.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\Plam_Life_83043a35-946a-492b-9291-548f0c5620c8_grande9ca8.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\PLAN-LIFE--FULL-PACK_compact51d4.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\PLAN-LIFE--FULL-PACK_large51d4.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\PLAN-SLIM-FULL-PACK---slim-dietas----web-get-up_1024x10248440.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\PLAN-SLIM-FULL-PACK---slim-dietas----web-get-up_compact8440.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\PLAN-SLIM-FULL-PACK---slim-dietas----web-get-up_grande8440.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\PLAN-SLIM-FULL-PACK---slim-dietas----web-get-up_large8440.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\PLAN-SLIM-FULL-PACK---slim-dietas----web-get-up_medium8440.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\QUEEN-BREAKFAST-MAMA_1024x102451ff.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\QUEEN-BREAKFAST-MAMA_compact51ff.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\QUEEN-BREAKFAST-MAMA_grande51ff.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\QUEEN-BREAKFAST-MAMA_large51ff.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\QUEEN-BREAKFAST-MAMA_medium51ff.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\sanguche-2a_1024x10240936.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\sanguche-2a_compact0936.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\sanguche-2a_grande0936.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\sanguche-2b_1024x10240936.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\sanguche-2b_compact0936.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\sanguche-2b_grande0936.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\sanguche-2b_large0936.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\sanguche-2b_medium0936.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\sanguche-5a_1024x1024833d.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\sanguche-5a_compact833d.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\sanguche-5a_grande833d.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\sanguche-5b_1024x1024833d.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\sanguche-5b_compact833d.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\sanguche-5b_grande833d.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\sanguche-5b_large833d.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\sanguche-5b_medium833d.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\slim_ORIGINAL_7a1ffb87-57e5-41ac-9ff2-6f4e7a1f85ac_1024x10248440.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\slim_ORIGINAL_7a1ffb87-57e5-41ac-9ff2-6f4e7a1f85ac_compact8440.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\slim_ORIGINAL_a5eee5c4-f0e1-4304-a17b-debf4fe84f14_1024x1024c432.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\slim_ORIGINAL_a5eee5c4-f0e1-4304-a17b-debf4fe84f14_compactc432.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\slim_ORIGINAL_cdcda5b5-7eef-4184-845d-ec1ca033fd1e_1024x1024b2b5.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\slim_ORIGINAL_cdcda5b5-7eef-4184-845d-ec1ca033fd1e_compactb2b5.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\Tarjeta_mama_1024x102451ff.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\Tarjeta_mama_bd0a8e11-133d-4fad-ba5b-e43ac1f08a93_1024x102479d8.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\Tarjeta_mama_bd0a8e11-133d-4fad-ba5b-e43ac1f08a93_compact79d8.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\Tarjeta_mama_compact51ff.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\Tazas_800x800-01_1024x10241bb7.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\Tazas_800x800-01_compact1bb7.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\Tazas_800x800-01_grande1bb7.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\Tazas_800x800-02_1024x1024f9e0.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\Tazas_800x800-02_compactf9e0.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\Tazas_800x800-03_1024x1024dd17.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\Tazas_800x800-03_compactdd17.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\Tazas_800x800-04_1024x1024af1a.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\Tazas_800x800-04_compactaf1a.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\Tazas_800x800-05_1024x10248660.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\Tazas_800x800-05_compact8660.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\tomatodo-wsp_1024x1024edec.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\tomatodo-wsp_compactedec.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\tomatodo-wsp_grandeedec.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\tomatodo-wsp_largeedec.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\tomatodo-wsp_mediumedec.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\WhatsApp_Image_2017-12-08_at_6.02.26_PM_1024x1024e1c6.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\WhatsApp_Image_2017-12-08_at_6.02.26_PM_compacte1c6.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\WhatsApp_Image_2017-12-08_at_6.02.26_PM_grandee1c6.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\WhatsApp_Image_2017-12-08_at_6.02.26_PM_largee1c6.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\WhatsApp_Image_2017-12-08_at_6.02.26_PM_mediume1c6.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\zooom-1-slim_6ec7cb32-7845-4e62-ba74-339e1ffbdf40_1024x1024c432.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\zooom-1-slim_6ec7cb32-7845-4e62-ba74-339e1ffbdf40_compactc432.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\zooom-1-slim_6ec7cb32-7845-4e62-ba74-339e1ffbdf40_grandec432.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\zooom-2-mante_1024x10249363.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\zooom-2-mante_compact9363.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\zooom-2-mante_grande9363.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\zooom-2-slim_b164928b-b51c-4fa0-aa72-511f9aca1209_1024x1024c432.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\zooom-2-slim_b164928b-b51c-4fa0-aa72-511f9aca1209_compactc432.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\zooom-2-slim_b164928b-b51c-4fa0-aa72-511f9aca1209_grandec432.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\zooom-2-slim_fc942362-cab1-4004-8ebd-b58870c004fd_1024x1024b2b5.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\zooom-2-slim_fc942362-cab1-4004-8ebd-b58870c004fd_compactb2b5.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\zooom-3-mante_1024x10249363.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\zooom-3-mante_compact9363.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\zooom-3-mante_grande9363.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\zooom-3-slim_1024x1024b2b5.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\zooom-3-slim_compactb2b5.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\products\zooom-3-slim_grandeb2b5.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\AjaxLoader.html" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\animate163b.css" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\animate7674.css" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\banner-home-bottom-1163b.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\banner-home-bottom-2163b.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\banner-home-bottom-3163b.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\banner-sidebar163b.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\banner-sidebar7674.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\bg_newsletter163b.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\bg_newsletter7674.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\blank.gif" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\bootstrap.min163b.css" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\bootstrap.min163b.js" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\bootstrap.min7674.css" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\bootstrap.min7674.js" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\box-shadow-mobile7bbc.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\btn-cart01.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\btn-product.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\btn-remove01.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\btn-sidebar.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\cart-checkout-icon163b.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\cart-checkout-icon7674.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\check-box-checked.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\check-box.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\classie163b.js" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\classie7674.js" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\component163b.css" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\component7674.css" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\culqi_accept_1163b.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\culqi_logo163b.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\devit_scripts163b.js" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\devit_scripts7674.js" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\devit_styles.scss163b.css" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\devit_styles.scss7674.css" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\dropdown_2_menu_image_3163b.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\dropdown_2_menu_image_37674.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\dropdown_3_menu_image_3163b.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\dropdown_3_menu_image_37674.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\ella163b.js" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\ella7674.js" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\fancybox_loading.gif" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\fancybox_overlay.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\fancybox_sprite.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\favicon163b.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\favicon7674.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\grabbing.html" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\i-comment.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\i-lang-1163b.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\i-lang-17674.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\i-lang-2163b.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\i-lang-27674.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\ico-view.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\icon-cc-american-express163b.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\icon-cc-american-express7674.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\icon-cc-mastercard163b.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\icon-cc-mastercard7674.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\icon-cc-visa163b.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\icon-cc-visa7674.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\icon-clock-3.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\icon-customers.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\icon-megamenu7bbc.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\icon-menu-up.html" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\icon-share01.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\icons_new14.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\icons_new147bbc.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\img_cat163b.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\instafeed.min163b.js" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\jcarousel163b.css" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\jcarousel7674.css" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\jquery-cookie.min163b.js" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\jquery-cookie.min7674.js" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\jquery.countdown.min163b.js" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\jquery.countdown.min7674.js" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\jquery.elevateZoom-3.0.8.min163b.js" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\jquery.elevateZoom-3.0.8.min7674.js" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\jquery.fakecrop163b.js" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\jquery.fakecrop7674.js" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\jquery.fancybox.pack163b.js" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\jquery.fancybox.pack7674.js" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\jquery.fancybox163b.css" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\jquery.fancybox7674.css" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\jquery.flexslider-min163b.js" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\jquery.flexslider-min7674.js" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\jquery.history163b.js" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\jquery.history7674.js" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\jquery.jcarousel.latest.min163b.js" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\jquery.jcarousel.latest.min7674.js" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\jquery.products.min163b.js" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\jquery.products.min7674.js" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\lang2163b.js" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\lang27674.js" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\loading.gif" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\loading163b.gif" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\loading7674.gif" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\logo163b.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\logo7674.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\logo_fix163b.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\logo_fix7674.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\modernizr.custom163b.js" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\modernizr.custom7674.js" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\owl.carousel.min163b.js" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\owl.carousel.min7674.js" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\owl.carousel163b.css" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\owl.carousel7674.css" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\owl.theme163b.css" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\owl.theme7674.css" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\prev-horizontal.html" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\selectize.bootstrap3163b.css" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\selectize.bootstrap37674.css" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\selectize.min163b.js" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\selectize.min7674.js" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\slideshow_1163b.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\social.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\social_icon_1163b.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\social_icon_17674.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\social_icon_2163b.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\social_icon_27674.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\social_icon_3163b.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\social_icon_37674.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\social_icon_5163b.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\social_icon_57674.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\text-title163b.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\text-title7674.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\theme-styles-responsive163b.css" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\theme-styles-responsive7674.css" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\theme-styles-setting163b.css" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\theme-styles-setting7674.css" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\theme-styles163b.css" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\theme-styles7674.css" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\top-banner-home-1163b.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\top-banner-home-2163b.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\top-banner-home-3163b.jpg" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\wizard.png" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\wow.min163b.js" />
+    <Content Include="cdn.shopify.com\s\files\1\1534\3917\t\14\assets\wow.min7674.js" />
+    <Content Include="cdn.shopify.com\s\javascripts\tricorder\trekkie.storefront.min97e4.js" />
+    <Content Include="cdnjs.cloudflare.com\ajax\libs\bootstrap-datepicker\1.6.4\css\bootstrap-datepicker.css" />
+    <Content Include="cdnjs.cloudflare.com\ajax\libs\bootstrap-datepicker\1.6.4\js\bootstrap-datepicker.js" />
+    <Content Include="cdnjs.cloudflare.com\ajax\libs\bootstrap-datepicker\1.6.4\locales\bootstrap-datepicker.es.min.js" />
+    <Content Include="code.jquery.com\ui\1.9.2\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="code.jquery.com\ui\1.9.2\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="code.jquery.com\ui\1.9.2\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="code.jquery.com\ui\1.9.2\themes\base\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="code.jquery.com\ui\1.9.2\themes\base\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="code.jquery.com\ui\1.9.2\themes\base\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="code.jquery.com\ui\1.9.2\themes\base\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="code.jquery.com\ui\1.9.2\themes\base\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="code.jquery.com\ui\1.9.2\themes\base\images\ui-icons_222222_256x240.png" />
+    <Content Include="code.jquery.com\ui\1.9.2\themes\base\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="code.jquery.com\ui\1.9.2\themes\base\images\ui-icons_454545_256x240.png" />
+    <Content Include="code.jquery.com\ui\1.9.2\themes\base\images\ui-icons_888888_256x240.png" />
+    <Content Include="code.jquery.com\ui\1.9.2\themes\base\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="code.jquery.com\ui\1.9.2\themes\base\jquery-ui.css" />
+    <Content Include="code.jquery.com\ui\1.9.2\themes\base\jquery.form.min.js" />
+    <Content Include="collections\12.html" />
+    <Content Include="collections\16.html" />
+    <Content Include="collections\32.html" />
+    <Content Include="collections\all.html" />
+    <Content Include="collections\all2679.html" />
+    <Content Include="collections\all4658.html" />
+    <Content Include="collections\all9ba9.html" />
+    <Content Include="collections\allaf4d.html" />
+    <Content Include="collections\allfdb0.html" />
+    <Content Include="collections\all\12.html" />
+    <Content Include="collections\all\16.html" />
+    <Content Include="collections\all\32.html" />
+    <Content Include="collections\all\adelgazamiento.html" />
+    <Content Include="collections\all\adelgazamiento4658.html" />
+    <Content Include="collections\all\all.html" />
+    <Content Include="collections\all\alto-en-fibra-2.html" />
+    <Content Include="collections\all\alto-en-fibra.html" />
+    <Content Include="collections\all\alto-en-fibra2679.html" />
+    <Content Include="collections\all\alto-en-fibra4658.html" />
+    <Content Include="collections\all\alto-en-fibra9ba9.html" />
+    <Content Include="collections\all\alto-en-proteina-2.html" />
+    <Content Include="collections\all\alto-en-proteina.html" />
+    <Content Include="collections\all\alto-en-proteina4658.html" />
+    <Content Include="collections\all\bajo-en-azucar.html" />
+    <Content Include="collections\all\bajo-en-azucar2679.html" />
+    <Content Include="collections\all\bajo-en-azucar4658.html" />
+    <Content Include="collections\all\bajo-en-azucar9ba9.html" />
+    <Content Include="collections\all\bajo-en-grasa.html" />
+    <Content Include="collections\all\bajo-en-grasa2679.html" />
+    <Content Include="collections\all\bajo-en-grasa4658.html" />
+    <Content Include="collections\all\bajo-en-grasa9ba9.html" />
+    <Content Include="collections\all\bajo-en-sodio.html" />
+    <Content Include="collections\all\bajo-en-sodio2679.html" />
+    <Content Include="collections\all\bajo-en-sodio4658.html" />
+    <Content Include="collections\all\bajo-en-sodio9ba9.html" />
+    <Content Include="collections\all\bajo-en-sodiofdb0.html" />
+    <Content Include="collections\all\best-selling.html" />
+    <Content Include="collections\all\carton.html" />
+    <Content Include="collections\all\carton2679.html" />
+    <Content Include="collections\all\carton4658.html" />
+    <Content Include="collections\all\created-ascending.html" />
+    <Content Include="collections\all\created-descending.html" />
+    <Content Include="collections\all\deportistas.html" />
+    <Content Include="collections\all\deportistas2679.html" />
+    <Content Include="collections\all\deportistas4658.html" />
+    <Content Include="collections\all\deportistas9ba9.html" />
+    <Content Include="collections\all\diabeticos.html" />
+    <Content Include="collections\all\diabeticos2679.html" />
+    <Content Include="collections\all\diabeticos4658.html" />
+    <Content Include="collections\all\grid.html" />
+    <Content Include="collections\all\libre-gluten.html" />
+    <Content Include="collections\all\libre-lactosa.html" />
+    <Content Include="collections\all\libre-lactosa2679.html" />
+    <Content Include="collections\all\libre-lactosa4658.html" />
+    <Content Include="collections\all\libre-soya.html" />
+    <Content Include="collections\all\list.html" />
+    <Content Include="collections\all\mantenimiento.html" />
+    <Content Include="collections\all\mantenimiento2679.html" />
+    <Content Include="collections\all\mantenimiento4658.html" />
+    <Content Include="collections\all\mantenimiento9ba9.html" />
+    <Content Include="collections\all\mantenimientofdb0.html" />
+    <Content Include="collections\all\manual.html" />
+    <Content Include="collections\all\mas-de-s-130.html" />
+    <Content Include="collections\all\mas-de-s-1302679.html" />
+    <Content Include="collections\all\mas-de-s-1304658.html" />
+    <Content Include="collections\all\menos-200kcal.html" />
+    <Content Include="collections\all\menos-200kcal4658.html" />
+    <Content Include="collections\all\menos-de-500kcal.html" />
+    <Content Include="collections\all\menos-de-s-20.html" />
+    <Content Include="collections\all\papel.html" />
+    <Content Include="collections\all\plastico.html" />
+    <Content Include="collections\all\plastico2679.html" />
+    <Content Include="collections\all\plastico4658.html" />
+    <Content Include="collections\all\price-ascending.html" />
+    <Content Include="collections\all\price-descending.html" />
+    <Content Include="collections\all\s-21-s-50.html" />
+    <Content Include="collections\all\s-51-s-80.html" />
+    <Content Include="collections\all\s-51-s-802679.html" />
+    <Content Include="collections\all\s-51-s-804658.html" />
+    <Content Include="collections\all\s-81-s-130.html" />
+    <Content Include="collections\all\title-ascending.html" />
+    <Content Include="collections\all\title-descending.html" />
+    <Content Include="collections\all\vegano.html" />
+    <Content Include="collections\all\vidrio.html" />
+    <Content Include="collections\all\vidrio2679.html" />
+    <Content Include="collections\all\vidrio4658.html" />
+    <Content Include="collections\barras-y-granolas.html" />
+    <Content Include="collections\bebidas.html" />
+    <Content Include="collections\best-selling.html" />
+    <Content Include="collections\Boxes-2.html" />
+    <Content Include="collections\boxes-de-desayunos.html" />
+    <Content Include="collections\boxes-de-desayunos\products\almuerzos-corporativos.html" />
+    <Content Include="collections\boxes-de-desayunos\products\arroz-arabe-multicolor.html" />
+    <Content Include="collections\boxes-de-desayunos\products\arroz-con-aromas-nortenos.html" />
+    <Content Include="collections\boxes-de-desayunos\products\arroz-salvaje.html" />
+    <Content Include="collections\boxes-de-desayunos\products\arroz-selvatico.html" />
+    <Content Include="collections\boxes-de-desayunos\products\kingbreakfast.html" />
+    <Content Include="collections\boxes-de-desayunos\products\life5comidas.html" />
+    <Content Include="collections\boxes-de-desayunos\products\minikingbreakfast.html" />
+    <Content Include="collections\boxes-de-desayunos\products\miniqueenbreakfast.html" />
+    <Content Include="collections\boxes-de-desayunos\products\queenbreakfast.html" />
+    <Content Include="collections\boxes-de-desayunos\products\royalbreakfast.html" />
+    <Content Include="collections\boxes-de-piqueos.html" />
+    <Content Include="collections\boxes-de-piqueos\products\almuerzos-corporativos.html" />
+    <Content Include="collections\boxes-de-piqueos\products\arroz-arabe-multicolor.html" />
+    <Content Include="collections\boxes-de-piqueos\products\arroz-con-aromas-nortenos.html" />
+    <Content Include="collections\boxes-de-piqueos\products\arroz-salvaje.html" />
+    <Content Include="collections\boxes-de-piqueos\products\arroz-selvatico.html" />
+    <Content Include="collections\boxes-de-piqueos\products\box-del-hincha-peruano.html" />
+    <Content Include="collections\boxes-de-piqueos\products\catering-desayuno-del-hincha.html" />
+    <Content Include="collections\boxes-de-piqueos\products\desayunosyalmuerzoslife.html" />
+    <Content Include="collections\boxes-de-piqueos\products\queenbreakfast.html" />
+    <Content Include="collections\boxes.html" />
+    <Content Include="collections\boxes\products\almuerzos-corporativos.html" />
+    <Content Include="collections\boxes\products\arroz-arabe-multicolor.html" />
+    <Content Include="collections\boxes\products\arroz-con-aromas-nortenos.html" />
+    <Content Include="collections\boxes\products\arroz-salvaje.html" />
+    <Content Include="collections\boxes\products\arroz-selvatico.html" />
+    <Content Include="collections\boxes\products\box-del-hincha-peruano.html" />
+    <Content Include="collections\boxes\products\catering-desayuno-del-hincha.html" />
+    <Content Include="collections\boxes\products\desayunosyalmuerzoslife.html" />
+    <Content Include="collections\boxes\products\kingbreakfast.html" />
+    <Content Include="collections\boxes\products\minikingbreakfast.html" />
+    <Content Include="collections\boxes\products\miniqueenbreakfast.html" />
+    <Content Include="collections\boxes\products\nutricionista-a-domicilio.html" />
+    <Content Include="collections\boxes\products\queenbreakfast.html" />
+    <Content Include="collections\boxes\products\royalbreakfast.html" />
+    <Content Include="collections\chips-y-hojuelas.html" />
+    <Content Include="collections\chocolates.html" />
+    <Content Include="collections\complementos-boxes.html" />
+    <Content Include="collections\complementos-boxes\products\macetas.html" />
+    <Content Include="collections\complementos-boxes\products\tazas.html" />
+    <Content Include="collections\created-ascending.html" />
+    <Content Include="collections\created-descending.html" />
+    <Content Include="collections\crissinos.html" />
+    <Content Include="collections\dietas-2.html" />
+    <Content Include="collections\Dietas.html" />
+    <Content Include="collections\dietas\products\almuerzosycenaslife.html" />
+    <Content Include="collections\dietas\products\almuerzosycenasslim.html" />
+    <Content Include="collections\dietas\products\desayunosyalmuerzoslife.html" />
+    <Content Include="collections\dietas\products\desayunosyalmuerzosslim.html" />
+    <Content Include="collections\dietas\products\fullpackslim.html" />
+    <Content Include="collections\dietas\products\kingbreakfast.html" />
+    <Content Include="collections\dietas\products\life5comidas.html" />
+    <Content Include="collections\dietas\products\masajes-reducores-a-domicilio.html" />
+    <Content Include="collections\dietas\products\miniqueenbreakfast.html" />
+    <Content Include="collections\dietas\products\nutricionista-a-domicilio.html" />
+    <Content Include="collections\dietas\products\personal-trainer-a-domicilio.html" />
+    <Content Include="collections\dietas\products\reto-12-dias-getup.html" />
+    <Content Include="collections\empresas.html" />
+    <Content Include="collections\energeticos.html" />
+    <Content Include="collections\frescos.html" />
+    <Content Include="collections\frutas-secas-y-deshidratadas.html" />
+    <Content Include="collections\frutas-y-verduras.html" />
+    <Content Include="collections\frutas-y-verduras\products\royalbreakfast.html" />
+    <Content Include="collections\galletas.html" />
+    <Content Include="collections\grid.html" />
+    <Content Include="collections\hoy-servimos.html" />
+    <Content Include="collections\list.html" />
+    <Content Include="collections\manual.html" />
+    <Content Include="collections\masas.html" />
+    <Content Include="collections\muesli.html" />
+    <Content Include="collections\muffins.html" />
+    <Content Include="collections\party-food.html" />
+    <Content Include="collections\party-food2679.html" />
+    <Content Include="collections\party-food4658.html" />
+    <Content Include="collections\party-food\products\almuerzos-corporativos.html" />
+    <Content Include="collections\party-food\products\arroz-arabe-multicolor.html" />
+    <Content Include="collections\party-food\products\arroz-con-aromas-nortenos.html" />
+    <Content Include="collections\party-food\products\arroz-salvaje.html" />
+    <Content Include="collections\party-food\products\arroz-selvatico.html" />
+    <Content Include="collections\party-food\products\banquete-getup.html" />
+    <Content Include="collections\party-food\products\brunch-celebrationtime.html" />
+    <Content Include="collections\party-food\products\desayunosyalmuerzoslife.html" />
+    <Content Include="collections\party-food\products\ensalada-contemporanea-getup.html" />
+    <Content Include="collections\party-food\products\ensalada-waldorf-getup.html" />
+    <Content Include="collections\party-food\products\galleta-de-harina-de-almendras.html" />
+    <Content Include="collections\party-food\products\hojarascas-con-frutos-del-bosque.html" />
+    <Content Include="collections\party-food\products\humitas-de-queso.html" />
+    <Content Include="collections\party-food\products\kingbreakfast.html" />
+    <Content Include="collections\party-food\products\mini-ensalada-de-frutas.html" />
+    <Content Include="collections\party-food\products\minipizzetaartesanal.html" />
+    <Content Include="collections\party-food\products\panacotta-de-limon.html" />
+    <Content Include="collections\party-food\products\panceta-de-cerdo-a-la-lena.html" />
+    <Content Include="collections\party-food\products\panna-cotta-de-cafe.html" />
+    <Content Include="collections\party-food\products\panna-cotta-de-chocolate.html" />
+    <Content Include="collections\party-food\products\pavo-a-la-cerveza.html" />
+    <Content Include="collections\party-food\products\pure-de-camote-getup.html" />
+    <Content Include="collections\party-food\products\pure-de-pera-y-ciruelas.html" />
+    <Content Include="collections\party-food\products\queenbreakfast.html" />
+    <Content Include="collections\party-food\products\quequecacaobitter.html" />
+    <Content Include="collections\party-food\products\quequedeplatano.html" />
+    <Content Include="collections\party-food\products\triplepolloalcurry.html" />
+    <Content Include="collections\party-food\products\triplepolloyvegetales.html" />
+    <Content Include="collections\pudding.html" />
+    <Content Include="collections\salsas-y-dips.html" />
+    <Content Include="collections\snacks.html" />
+    <Content Include="collections\snacks\products\arroz-selvatico.html" />
+    <Content Include="collections\snacks\products\box-del-hincha-peruano.html" />
+    <Content Include="collections\snacks\products\granola-dela-casa.html" />
+    <Content Include="collections\snacks\products\hummusconpimentos.html" />
+    <Content Include="collections\snacks\products\hummusdegarbanzos.html" />
+    <Content Include="collections\snacks\products\nutricionista-a-domicilio.html" />
+    <Content Include="collections\snacks\products\salsabluecheese.html" />
+    <Content Include="collections\snacks\products\salsaguacamole.html" />
+    <Content Include="collections\snacks\products\tapenadeaceitunas.html" />
+    <Content Include="collections\title-ascending.html" />
+    <Content Include="collections\title-descending.html" />
+    <Content Include="connect.facebook.net\en_US\sdk.js" />
+    <Content Include="Content\bootstrap-grid.css" />
+    <Content Include="Content\bootstrap-grid.min.css" />
+    <Content Include="Content\bootstrap-reboot.css" />
+    <Content Include="Content\bootstrap-reboot.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\jquery.form.min.js" />
+    <Content Include="Content\Site.css" />
+    <Content Include="favicon.ico" />
+    <Content Include="Global.asax" />
+    <Content Include="ApplicationInsights.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="hts-cache\new.lst" />
+    <Content Include="hts-cache\new.txt" />
+    <Content Include="hts-cache\readme.txt" />
+    <Content Include="Models\ModelTiendaComida.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>ModelTiendaComida.edmx</DependentUpon>
+      <LastGenOutput>ModelTiendaComida.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Models\ModelTiendaComida.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>ModelTiendaComida.edmx</DependentUpon>
+      <LastGenOutput>ModelTiendaComida.cs</LastGenOutput>
+    </Content>
+    <Content Include="pages\about-us.html" />
+    <Content Include="pages\check-out-form.html" />
+    <Content Include="pages\cobertura.html" />
+    <Content Include="pages\garantia.html" />
+    <Content Include="pages\postula.html" />
+    <Content Include="pages\preguntas-frecuentes.html" />
+    <Content Include="pages\programacion.html" />
+    <Content Include="pages\reclamaciones.html" />
+    <Content Include="pages\wish-list.html" />
+    <Content Include="products\almuerzos-corporativos.html" />
+    <Content Include="products\almuerzosycenaslife.html" />
+    <Content Include="products\almuerzosycenasslim.html" />
+    <Content Include="products\arroz-arabe-multicolor.html" />
+    <Content Include="products\arroz-con-aromas-nortenos.html" />
+    <Content Include="products\arroz-salvaje.html" />
+    <Content Include="products\arroz-selvatico.html" />
+    <Content Include="products\banquete-getup.html" />
+    <Content Include="products\box-del-hincha-peruano.html" />
+    <Content Include="products\brunch-celebrationtime.html" />
+    <Content Include="products\catering-desayuno-del-hincha.html" />
+    <Content Include="products\celebrationbox-1.html" />
+    <Content Include="products\chillbox.html" />
+    <Content Include="products\classic-box.html" />
+    <Content Include="products\cycling-gastronomico.html" />
+    <Content Include="products\desayunosyalmuerzoslife.html" />
+    <Content Include="products\desayunosyalmuerzosslim.html" />
+    <Content Include="products\detoxdaybox.html" />
+    <Content Include="products\ensalada-contemporanea-getup.html" />
+    <Content Include="products\ensalada-waldorf-getup.html" />
+    <Content Include="products\fancybox.html" />
+    <Content Include="products\femmebox.html" />
+    <Content Include="products\finde-en-el-parque.html" />
+    <Content Include="products\fullpackslim.html" />
+    <Content Include="products\funnybox.html" />
+    <Content Include="products\galleta-de-harina-de-almendras.html" />
+    <Content Include="products\granola-dela-casa.html" />
+    <Content Include="products\hojarascas-con-frutos-del-bosque.html" />
+    <Content Include="products\humitas-de-queso.html" />
+    <Content Include="products\hummusconpimentos.html" />
+    <Content Include="products\hummusdegarbanzos.html" />
+    <Content Include="products\kingbreakfast.html" />
+    <Content Include="products\lectura-de-etiquetas.html" />
+    <Content Include="products\life5comidas.html" />
+    <Content Include="products\luxurybreakfast.html" />
+    <Content Include="products\macetas.html" />
+    <Content Include="products\masajes-reducores-a-domicilio.html" />
+    <Content Include="products\mini-ensalada-de-frutas.html" />
+    <Content Include="products\minipizzetaartesanal.html" />
+    <Content Include="products\miniqueenbreakfast.html" />
+    <Content Include="products\miniroyalbreakfast.html" />
+    <Content Include="products\nutricionista-a-domicilio-2.html" />
+    <Content Include="products\nutricionista-a-domicilio.html" />
+    <Content Include="products\panacotta-de-limon.html" />
+    <Content Include="products\panceta-de-cerdo-a-la-lena.html" />
+    <Content Include="products\panna-cotta-de-cafe.html" />
+    <Content Include="products\panna-cotta-de-chocolate.html" />
+    <Content Include="products\pavo-a-la-cerveza.html" />
+    <Content Include="products\personal-trainer-a-domicilio.html" />
+    <Content Include="products\picnicsunset.html" />
+    <Content Include="products\picodegallo.html" />
+    <Content Include="products\pure-de-camote-getup.html" />
+    <Content Include="products\pure-de-pera-y-ciruelas.html" />
+    <Content Include="products\queenbreakfast.html" />
+    <Content Include="products\quequecacaobitter.html" />
+    <Content Include="products\quequedeplatano.html" />
+    <Content Include="products\reto-12-dias-getup.html" />
+    <Content Include="products\royalbreakfast.html" />
+    <Content Include="products\salsabluecheese-2.html" />
+    <Content Include="products\salsabluecheese.html" />
+    <Content Include="products\salsaguacamole.html" />
+    <Content Include="products\slimbox.html" />
+    <Content Include="products\tapenadeaceitunas.html" />
+    <Content Include="products\tazas.html" />
+    <Content Include="products\tomatodoslim-2.html" />
+    <Content Include="products\tomatodoslim.html" />
+    <Content Include="products\trekking-lucumo.html" />
+    <Content Include="products\triplepolloalcurry.html" />
+    <Content Include="products\triplepolloyvegetales.html" />
+    <Content Include="Scripts\bootstrap.bundle.js" />
+    <Content Include="Scripts\bootstrap.bundle.min.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\esm\popper-utils.js" />
+    <Content Include="Scripts\esm\popper-utils.min.js" />
+    <Content Include="Scripts\esm\popper.js" />
+    <Content Include="Scripts\esm\popper.min.js" />
+    <Content Include="Scripts\jquery-3.3.1.min.js" />
+    <Content Include="Scripts\popper-utils.js" />
+    <Content Include="Scripts\popper-utils.min.js" />
+    <Content Include="Scripts\popper.js" />
+    <Content Include="Scripts\popper.min.js" />
+    <Content Include="Scripts\umd\jquery.form.min.js" />
+    <Content Include="Scripts\umd\popper-utils.js" />
+    <Content Include="Scripts\umd\popper-utils.min.js" />
+    <Content Include="Scripts\umd\popper.js" />
+    <Content Include="Scripts\umd\popper.min.js" />
+    <Content Include="sdk.beeketing.com\js\beeketing.js" />
+    <Content Include="static.wixstatic.com\media\1f0e39_901faff9c8894d928e8b81776ae9ca74.jpg" />
+    <Content Include="static.wixstatic.com\media\50e24f_066c5266dc394c7b99153cf41f013125_mv2.png\v1\fill\w_205,h_85,al_c,usm_0.66_1.00_0.01\50e24f_066c5266dc394c7b99153cf41f013125_mv2.png" />
+    <Content Include="static.wixstatic.com\media\50e24f_1a91eef04d8042ad8a9987e3085ba717.jpg\v1\fill\w_110,h_131,al_c,q_80,usm_0.66_1.00_0.01\50e24f_1a91eef04d8042ad8a9987e3085ba717.jpg" />
+    <Content Include="static.wixstatic.com\media\50e24f_1f604859d1bd4af7ba730d5e149ca2ef.jpg\v1\fill\w_109,h_135,al_c,q_80,usm_0.66_1.00_0.01\50e24f_1f604859d1bd4af7ba730d5e149ca2ef.jpg" />
+    <Content Include="static.wixstatic.com\media\50e24f_1f89872cbd0c4b6399c5235b0ad3003e_mv2.png\v1\fill\w_113,h_138,al_c,usm_0.66_1.00_0.01\50e24f_1f89872cbd0c4b6399c5235b0ad3003e_mv2.png" />
+    <Content Include="static.wixstatic.com\media\50e24f_37bd8f7691634d658fd5438341b362e7_mv2_d_1\v1\fill\w_110,h_131,al_c,q_80,usm_0.66_1.00_0.01\50e24f_37bd8f7691634d658fd5438341b362e7_mv2_d_1352_1444_s_2.jpg" />
+    <Content Include="static.wixstatic.com\media\50e24f_3cf4ee4219314ccfa0158ca99963d322_mv2_d_1\v1\fill\w_109,h_135,al_c,q_80,usm_0.66_1.00_0.01\50e24f_3cf4ee4219314ccfa0158ca99963d322_mv2_d_1821_1876_s_2.jpg" />
+    <Content Include="static.wixstatic.com\media\50e24f_41cbfab8171d40e3944675f45d93fd5a_mv2.jpg\v1\fill\w_109,h_135,al_c,q_80,usm_0.66_1.00_0.01\50e24f_41cbfab8171d40e3944675f45d93fd5a_mv2.jpg" />
+    <Content Include="static.wixstatic.com\media\50e24f_659bd0673deb452c832efc3c7ba761f8.jpg\v1\fill\w_109,h_134,al_c,q_80,usm_0.66_1.00_0.01\50e24f_659bd0673deb452c832efc3c7ba761f8.jpg" />
+    <Content Include="static.wixstatic.com\media\50e24f_8b94b00ad2e4491eb922e099d2fffd33.png\v1\fill\w_553,h_276,al_c,usm_0.66_1.00_0.01\50e24f_8b94b00ad2e4491eb922e099d2fffd33.png" />
+    <Content Include="static.wixstatic.com\media\50e24f_b4939d10a4b44213a8a9268ff95ca481_mv2.png\v1\fill\w_109,h_135,al_c,usm_0.66_1.00_0.01\50e24f_b4939d10a4b44213a8a9268ff95ca481_mv2.png" />
+    <Content Include="static.wixstatic.com\media\50e24f_b678b7e21d7e43168b7abade84a3f462.jpg\v1\fill\w_108,h_134,al_c,q_80,usm_0.66_1.00_0.01\50e24f_b678b7e21d7e43168b7abade84a3f462.jpg" />
+    <Content Include="static.wixstatic.com\media\50e24f_e14c2b31d71c48f8b08f4b3eb3fe8528.jpg\v1\fill\w_109,h_135,al_c,q_80,usm_0.66_1.00_0.01\50e24f_e14c2b31d71c48f8b08f4b3eb3fe8528.jpg" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Views\Web.config" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\Error.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Home\About.cshtml" />
+    <Content Include="Views\Home\Contact.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="www.123contactform.com\embed\1203595.js" />
+    <Content Include="^%28[^_\indexd41d.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Areas\Admin\Models\" />
+    <Folder Include="collections\empresas\products\" />
+    <Folder Include="collections\frescos\products\" />
+    <Folder Include="ImgProductos\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="collections\all.atom" />
+    <Content Include="collections\all\16.atom" />
+    <Content Include="collections\all\32.atom" />
+    <Content Include="collections\all\adelgazamiento.atom" />
+    <Content Include="collections\all\bajo-en-azucar.atom" />
+    <Content Include="collections\all\bajo-en-grasa.atom" />
+    <Content Include="collections\all\bajo-en-sodio.atom" />
+    <Content Include="collections\all\best-selling.atom" />
+    <Content Include="collections\all\carton.atom" />
+    <Content Include="collections\all\created-descending.atom" />
+    <Content Include="collections\all\deportistas.atom" />
+    <Content Include="collections\all\diabeticos.atom" />
+    <Content Include="collections\all\grid.atom" />
+    <Content Include="collections\all\libre-gluten.atom" />
+    <Content Include="collections\all\libre-lactosa.atom" />
+    <Content Include="collections\all\libre-soya.atom" />
+    <Content Include="collections\all\mantenimiento.atom" />
+    <Content Include="collections\all\manual.atom" />
+    <Content Include="collections\all\mas-de-s-130.atom" />
+    <Content Include="collections\all\menos-200kcal.atom" />
+    <Content Include="collections\all\menos-de-500kcal.atom" />
+    <Content Include="collections\all\menos-de-s-20.atom" />
+    <Content Include="collections\all\papel.atom" />
+    <Content Include="collections\all\plastico.atom" />
+    <Content Include="collections\all\price-descending.atom" />
+    <Content Include="collections\all\s-21-s-50.atom" />
+    <Content Include="collections\all\s-51-s-80.atom" />
+    <Content Include="collections\all\s-81-s-130.atom" />
+    <Content Include="collections\all\title-descending.atom" />
+    <Content Include="collections\all\vegano.atom" />
+    <Content Include="collections\all\vidrio.atom" />
+    <Content Include="collections\boxes-de-desayunos.atom" />
+    <Content Include="collections\boxes-de-desayunos.oembed" />
+    <Content Include="collections\boxes-de-piqueos.atom" />
+    <Content Include="collections\boxes-de-piqueos.oembed" />
+    <Content Include="collections\boxes.atom" />
+    <Content Include="collections\boxes.oembed" />
+    <Content Include="collections\complementos-boxes.atom" />
+    <Content Include="collections\complementos-boxes.oembed" />
+    <Content Include="collections\dietas.atom" />
+    <Content Include="collections\dietas.oembed" />
+    <Content Include="collections\empresas.atom" />
+    <Content Include="collections\empresas.oembed" />
+    <Content Include="collections\frescos.atom" />
+    <Content Include="collections\frescos.oembed" />
+    <Content Include="collections\frutas-y-verduras.atom" />
+    <Content Include="collections\frutas-y-verduras.oembed" />
+    <Content Include="collections\hoy-servimos.atom" />
+    <Content Include="collections\hoy-servimos.oembed" />
+    <Content Include="collections\hoy-servimos\products\fullpackslim" />
+    <Content Include="collections\party-food.atom" />
+    <Content Include="collections\party-food.oembed" />
+    <Content Include="collections\party-food4658.oembed" />
+    <Content Include="collections\price-ascending" />
+    <Content Include="collections\price-descending" />
+    <Content Include="collections\snacks.atom" />
+    <Content Include="collections\snacks.oembed" />
+    <Content Include="collections\snacks\products\picodegallo" />
+    <Content Include="hts-cache\doit.log" />
+    <Content Include="hts-cache\new.zip" />
+    <Content Include="hts-cache\winprofile.ini" />
+    <EntityDeploy Include="Models\ModelTiendaComida.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>ModelTiendaComida.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="Models\ModelTiendaComida.edmx.diagram">
+      <DependentUpon>ModelTiendaComida.edmx</DependentUpon>
+    </Content>
+    <Content Include="Areas\Admin\Views\web.config" />
+    <Content Include="Areas\Admin\Views\_ViewStart.cshtml" />
+    <Content Include="Areas\Admin\Views\Shared\_Layout.cshtml" />
+    <Content Include="Areas\Admin\Views\Comida\Create.cshtml" />
+    <Content Include="Areas\Admin\Views\Comida\Delete.cshtml" />
+    <Content Include="Areas\Admin\Views\Comida\Details.cshtml" />
+    <Content Include="Areas\Admin\Views\Comida\Edit.cshtml" />
+    <Content Include="Areas\Admin\Views\Comida\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\Cliente\Create.cshtml" />
+    <Content Include="Areas\Admin\Views\Cliente\Delete.cshtml" />
+    <Content Include="Areas\Admin\Views\Cliente\Details.cshtml" />
+    <Content Include="Areas\Admin\Views\Cliente\Edit.cshtml" />
+    <Content Include="Areas\Admin\Views\Cliente\Index.cshtml" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap-reboot.min.css.map" />
+    <Content Include="Content\bootstrap-reboot.css.map" />
+    <Content Include="Content\bootstrap-grid.min.css.map" />
+    <Content Include="Content\bootstrap-grid.css.map" />
+    <Content Include="Areas\Admin\Views\Comida\Adjuntos.cshtml" />
+    <None Include="packages.config" />
+    <Content Include="products\almuerzos-corporativos.oembed" />
+    <Content Include="products\almuerzosycenaslife.oembed" />
+    <Content Include="products\almuerzosycenasslim.oembed" />
+    <Content Include="products\arroz-arabe-multicolor.oembed" />
+    <Content Include="products\arroz-con-aromas-nortenos.oembed" />
+    <Content Include="products\arroz-salvaje.oembed" />
+    <Content Include="products\arroz-selvatico.oembed" />
+    <Content Include="products\banquete-getup.oembed" />
+    <Content Include="products\box-del-hincha-peruano.oembed" />
+    <Content Include="products\brunch-celebrationtime.oembed" />
+    <Content Include="products\catering-desayuno-del-hincha.oembed" />
+    <Content Include="products\cycling-gastronomico.oembed" />
+    <Content Include="products\desayunosyalmuerzoslife.oembed" />
+    <Content Include="products\desayunosyalmuerzosslim.oembed" />
+    <Content Include="products\ensalada-contemporanea-getup.oembed" />
+    <Content Include="products\ensalada-waldorf-getup.oembed" />
+    <Content Include="products\finde-en-el-parque.oembed" />
+    <Content Include="products\fullpackslim.oembed" />
+    <Content Include="products\galleta-de-harina-de-almendras.oembed" />
+    <Content Include="products\granola-dela-casa.oembed" />
+    <Content Include="products\hojarascas-con-frutos-del-bosque.oembed" />
+    <Content Include="products\humitas-de-queso.oembed" />
+    <Content Include="products\hummusconpimentos.oembed" />
+    <Content Include="products\hummusdegarbanzos.oembed" />
+    <Content Include="products\kingbreakfast.oembed" />
+    <Content Include="products\lectura-de-etiquetas.oembed" />
+    <Content Include="products\macetas.oembed" />
+    <Content Include="products\masajes-reducores-a-domicilio.oembed" />
+    <Content Include="products\mini-ensalada-de-frutas.oembed" />
+    <Content Include="products\minikingbreakfast" />
+    <Content Include="products\minikingbreakfast.oembed" />
+    <Content Include="products\minipizzetaartesanal.oembed" />
+    <Content Include="products\miniqueenbreakfast.oembed" />
+    <Content Include="products\panacotta-de-limon.oembed" />
+    <Content Include="products\panceta-de-cerdo-a-la-lena.oembed" />
+    <Content Include="products\panna-cotta-de-cafe.oembed" />
+    <Content Include="products\panna-cotta-de-chocolate.oembed" />
+    <Content Include="products\pavo-a-la-cerveza.oembed" />
+    <Content Include="products\personal-trainer-a-domicilio.oembed" />
+    <Content Include="products\picnicsunset.oembed" />
+    <Content Include="products\picodegallo.oembed" />
+    <Content Include="products\pure-de-camote-getup.oembed" />
+    <Content Include="products\pure-de-pera-y-ciruelas.oembed" />
+    <Content Include="products\queenbreakfast.oembed" />
+    <Content Include="products\quequecacaobitter.oembed" />
+    <Content Include="products\quequedeplatano.oembed" />
+    <Content Include="products\reto-12-dias-getup.oembed" />
+    <Content Include="products\royalbreakfast.oembed" />
+    <Content Include="products\salsaguacamole.oembed" />
+    <Content Include="products\tapenadeaceitunas.oembed" />
+    <Content Include="products\tazas.oembed" />
+    <Content Include="products\trekking-lucumo.oembed" />
+    <Content Include="products\triplepolloalcurry.oembed" />
+    <Content Include="products\triplepolloyvegetales.oembed" />
+    <Content Include="Views\Home\BuscarComida.cshtml" />
+    <Content Include="Views\Comidas\Buscar.cshtml" />
+    <Content Include="Scripts\umd\popper.min.js.map" />
+    <Content Include="Scripts\umd\popper.js.map" />
+    <Content Include="Scripts\umd\popper-utils.min.js.map" />
+    <Content Include="Scripts\umd\popper-utils.js.map" />
+    <Content Include="Scripts\README.md" />
+    <Content Include="Scripts\popper.min.js.map" />
+    <Content Include="Scripts\popper.js.map" />
+    <Content Include="Scripts\popper-utils.min.js.map" />
+    <Content Include="Scripts\popper-utils.js.map" />
+    <Content Include="Scripts\esm\popper.min.js.map" />
+    <Content Include="Scripts\esm\popper.js.map" />
+    <Content Include="Scripts\esm\popper-utils.min.js.map" />
+    <Content Include="Scripts\esm\popper-utils.js.map" />
+    <Content Include="Scripts\bootstrap.min.js.map" />
+    <Content Include="Scripts\bootstrap.js.map" />
+    <Content Include="Scripts\bootstrap.bundle.min.js.map" />
+    <Content Include="Scripts\bootstrap.bundle.js.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="Scripts\index.d.ts" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets')" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>65028</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:65028/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Este proyecto hace referencia a los paquetes NuGet que faltan en este equipo. Use la restauración de paquetes NuGet para descargarlos. Para obtener más información, consulte http://go.microsoft.com/fwlink/?LinkID=322105. El archivo que falta es {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.2.6.1\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.2.6.1\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.8\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.8\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
+</Project>

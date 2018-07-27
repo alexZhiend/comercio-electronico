@@ -1,0 +1,757 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en-US" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://getup.com.pe/collections/all.atom</id>
+  <link rel="alternate" type="text/html" href="https://getup.com.pe/collections/all"/>
+  <link rel="self" type="application/atom+xml" href="https://getup.com.pe/collections/dietas.atom"/>
+  <title>GET UP! Delicious Life</title>
+  <updated>2017-05-06T05:28:47-05:00</updated>
+  <author>
+    <name>GET UP! Delicious Life</name>
+  </author>
+  <entry>
+    <id>https://getup.com.pe/products/9129228496</id>
+    <published>2017-05-06T05:28:47-05:00</published>
+    <updated>2017-05-06T05:28:47-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://getup.com.pe/products/nutricionista-a-domicilio"/>
+    <title>Nutricionista a domicilio</title>
+    <s:type>Inicio a Pedido del Cliente</s:type>
+    <s:vendor>Organizado por getUP!</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1534/3917/products/CONSULTA_DOMICILIO.jpg?v=1504816492" /></td>
+    <td valign="bottom">
+      <p>
+        <strong>Vendor: </strong>Organizado por getUP!<br />
+        <strong>Type: </strong>Inicio a Pedido del Cliente<br />
+        <strong>Price: </strong>
+            150.00 - 650.00
+            <a href="https://getup.com.pe/products/nutricionista-a-domicilio">(3 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">Horarios</td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Adelgazamiento</s:tag>
+    <s:tag>category_form_2</s:tag>
+    <s:tag>Deportistas</s:tag>
+    <s:tag>Mantenimiento</s:tag>
+    <s:variant>
+      <id>https://getup.com.pe/products/9129228496</id>
+      <title>Una Consulta</title>
+      <s:price currency="PEN">150.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://getup.com.pe/products/9129228496</id>
+      <title>Tres Consultas</title>
+      <s:price currency="PEN">400.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://getup.com.pe/products/9129228496</id>
+      <title>Cinco Consultas</title>
+      <s:price currency="PEN">650.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://getup.com.pe/products/9129230160</id>
+    <published>2017-05-06T05:28:47-05:00</published>
+    <updated>2017-05-06T05:28:47-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://getup.com.pe/products/personal-trainer-a-domicilio"/>
+    <title>Personal Trainer a domicilio</title>
+    <s:type>Inicio a Pedido del Cliente</s:type>
+    <s:vendor>Organizado por getUP!</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1534/3917/products/PERSONAL_2.png?v=1504621547" /></td>
+    <td valign="bottom">
+      <p>
+        <strong>Vendor: </strong>Organizado por getUP!<br />
+        <strong>Type: </strong>Inicio a Pedido del Cliente<br />
+        <strong>Price: </strong>
+            360.00 - 600.00
+            <a href="https://getup.com.pe/products/personal-trainer-a-domicilio">(3 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">Horarios</td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Adelgazamiento</s:tag>
+    <s:tag>category_form_2</s:tag>
+    <s:tag>Deportistas</s:tag>
+    <s:tag>Mantenimiento</s:tag>
+    <s:variant>
+      <id>https://getup.com.pe/products/9129230160</id>
+      <title>6 sesiones</title>
+      <s:price currency="PEN">360.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://getup.com.pe/products/9129230160</id>
+      <title>9 sesiones</title>
+      <s:price currency="PEN">495.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://getup.com.pe/products/9129230160</id>
+      <title>12 sesiones</title>
+      <s:price currency="PEN">600.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://getup.com.pe/products/9129235920</id>
+    <published>2017-05-06T05:28:47-05:00</published>
+    <updated>2017-05-06T05:28:47-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://getup.com.pe/products/masajes-reducores-a-domicilio"/>
+    <title>Masajes Reductores a domicilio</title>
+    <s:type>Inicio a Pedido del Cliente</s:type>
+    <s:vendor>Organizado por getUP!</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1534/3917/products/MASAJES_2.png?v=1504621317" /></td>
+    <td valign="bottom">
+      <p>
+        <strong>Vendor: </strong>Organizado por getUP!<br />
+        <strong>Type: </strong>Inicio a Pedido del Cliente<br />
+        <strong>Price: </strong>
+            420.00 - 1035.00
+            <a href="https://getup.com.pe/products/masajes-reducores-a-domicilio">(3 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">Horarios</td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Adelgazamiento</s:tag>
+    <s:tag>category_form_2</s:tag>
+    <s:tag>Deportistas</s:tag>
+    <s:tag>Mantenimiento</s:tag>
+    <s:variant>
+      <id>https://getup.com.pe/products/9129235920</id>
+      <title>3 sesiones</title>
+      <s:price currency="PEN">420.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://getup.com.pe/products/9129235920</id>
+      <title>5 sesiones</title>
+      <s:price currency="PEN">780.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://getup.com.pe/products/9129235920</id>
+      <title>9 sesiones</title>
+      <s:price currency="PEN">1035.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://getup.com.pe/products/8273516176</id>
+    <published>2016-10-11T11:15:00-05:00</published>
+    <updated>2016-10-11T11:15:00-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://getup.com.pe/products/almuerzosycenaslife"/>
+    <title>Plan LIFE: Almuerzos y Cenas</title>
+    <s:type>Inicio a Pedido del Cliente</s:type>
+    <s:vendor>Hecho en getUP!</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1534/3917/products/Almuerzo_Cena.png?v=1509636771" /></td>
+    <td valign="bottom">
+      <p>
+        <strong>Vendor: </strong>Hecho en getUP!<br />
+        <strong>Type: </strong>Inicio a Pedido del Cliente<br />
+        <strong>Price: </strong>
+            228.00 - 912.00
+            <a href="https://getup.com.pe/products/almuerzosycenaslife">(4 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><b6>EL PLAN MÁS PRÁCTICO PARA COMER SALUDABLE</b6>
+<h6></h6>
+<h6><b>La opción de alimentación saludable que estabas buscando<br> <b> Recibe comida saludable cada mañana y Asesoría Nutricional</b><br> Contrátalo por semanas o meses </b></h6>
+<b><b><b><b>A QUIÉN ESTÁ DIRIGIDO</b></b></b></b>
+<h6>Hombres y mujeres que están en su peso ideal y desean comer más sano<br> Personas que buscan reducir su % de grasa<br> Adultos con problemas de salud vinculados a una alimentación inadecuada, como:<br> * Colesterol alto<br> * Triglicéridos<br> * Diabetes<br> * Hipertensión<br> * Gastritis<br> * Hígado graso<br> Personas que viven solas y/o no disponen de tiempo para prepararse sus alimentos</h6>
+<b><b><b><b>BENEFICIOS</b></b></b></b>
+<h6>Olvídate de comprar, cocinar, lavar y contar calorías<br> Obtén consultas nutricionales y seguimiento en nuestro grupo de WhatsApp<br> Recibe la comida preparada lista antes de las 8:30am en tu casa u oficina<br> Mantén tu peso ideal y siéntete siempre ágil y activo<br> Comer sano podría reducir tus niveles de estrés y ayudarte a descansar mejor<br> Puedes hacer freezing de tus comidas por email o Whatsapp hasta la 1pm del día anterior <span>(excepto domingos)</span><br>Acceso exclusivo a los beneficios de nuestro Site <span style="color: #ff00ff;"><a href="http://www.migetup.com" target="_blank" title="Intranet getUP!" style="color: #ff00ff;" rel="noopener noreferrer">www.migetup.com</a></span>
+</h6>
+<b><b></b>QUÉ INCLUYE</b>
+<h6>2 comidas al día: Almuerzo + Cena<br> Delivery de lunes a sábado de 6:00 a 8:300am<br> Consultas nutricionales en nuestro local de Surquillo<br> Freezing por email o whatsapp hasta la 1pm del día anterior<br> Cambios de direcciones para los días sábados</h6>
+<b><b><b><b>CARTA Y COBERTURA GETUP</b></b></b></b><br>
+<h6>Llegamos GRATIS a 16 distritos de Lima de 6:00 a 8:30am con nuestra Flota Motorizada getUP!<br> Revisa nuestras zonas de reparto Gratuitas aquí <a href="https://drive.google.com/a/getup.com.pe/open?id=1id5qIl0QHR6dqe9id5ECURdzdkQ&amp;usp=sharing" title="Mapa de cobertura getUP!" target="_blank" rel="noopener noreferrer"><b>MAPA COBERTURA GRATUITA GETUP!</b></a><br> Puedes revisar la carta de esta semana aquí <a href="https://docs.google.com/document/d/1cYSzfnwHwBdsBbPh3rz51tIiXytZrle3JA0XoaafO0g/edit" target="_blank" title="Carta Semanal getUP!" rel="noopener noreferrer"><b>CARTA SEMANAL GETUP! </b></a>
+</h6>
+<b><b>ES BUENO SABERLO<b><br></b></b></b>
+<h6>Nuestro plan LIFE posee carbohidratos complejos, proteínas magras y abundantes vegetales <br>Los carbohidratos complejos te aportarán la energía exacta que tu cuerpo necesita para funcionar<br>Las proteínas que usamos son bajas en grasas, lo que te ayudará a tonificar tu figura <br>Estas 2 comidas aportan el 60% de las calorías requeridas por un adulto activo que busca mantener su peso<br> El plan de alimentación de alimentación se ajusta según las calorías que tu cuerpo necesita<br> Antes de iniciar el servicio registraremos los insumos a los que eres alérgico o intolerante para reemplazarlos<br> Como es nuestro deber enseñarte a comer saludable no realizamos cambios de insumos por preferencias o gustos<br> Es importante que mantengas los alimentos refrigerados o en un ambiente fresco hasta su consumo</h6>
+<b><b><b><b>ECOFRIENDLY</b></b></b></b>
+<h6>Ayúdanos a reducir el uso de plástico<br> Elige no recibir cubiertos descartables y únete a nuestro programa de recolección de envases<br> Cada sábado recogemos los envases plásticos de la semana y los enviamos a una fábrica que los convierte en frazadas</h6>
+<hr align="CENTER" size="“1”" width='“600"' color="“Black”" noshade>
+<h6>
+<b>Para observar resultados recomendamos tomarlo por 24 días (4 semanas de L-S)<br></b>Complementa nuestra alimentación con actividad física para alcanzar mejores resultados<br><b>Una vez comprado el plan coordinaremos por teléfono la fecha de inicio</b>
+</h6></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Alto en Fibra</s:tag>
+    <s:tag>Alto en Proteína</s:tag>
+    <s:tag>Bajo en Azúcar</s:tag>
+    <s:tag>Bajo en Grasa</s:tag>
+    <s:tag>Bajo en Sodio</s:tag>
+    <s:tag>category_form_2</s:tag>
+    <s:tag>Mantenimiento</s:tag>
+    <s:tag>Más de S/130</s:tag>
+    <s:tag>Plástico</s:tag>
+    <s:variant>
+      <id>https://getup.com.pe/products/8273516176</id>
+      <title>6 días</title>
+      <s:price currency="PEN">228.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>800</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://getup.com.pe/products/8273516176</id>
+      <title>12 días</title>
+      <s:price currency="PEN">456.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>800</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://getup.com.pe/products/8273516176</id>
+      <title>18 días</title>
+      <s:price currency="PEN">684.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>800</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://getup.com.pe/products/8273516176</id>
+      <title>24 días</title>
+      <s:price currency="PEN">912.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>800</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://getup.com.pe/products/8163991248</id>
+    <published>2016-10-11T11:15:00-05:00</published>
+    <updated>2016-10-11T11:15:00-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://getup.com.pe/products/desayunosyalmuerzoslife"/>
+    <title>Plan LIFE: Desayunos y Almuerzos</title>
+    <s:type>Inicio a Pedido del Cliente</s:type>
+    <s:vendor>Hecho en getUP!</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1534/3917/products/Desayuno_Almuerzo.png?v=1488583287" /></td>
+    <td valign="bottom">
+      <p>
+        <strong>Vendor: </strong>Hecho en getUP!<br />
+        <strong>Type: </strong>Inicio a Pedido del Cliente<br />
+        <strong>Price: </strong>
+            228.00 - 912.00
+            <a href="https://getup.com.pe/products/desayunosyalmuerzoslife">(4 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><b6>EL PLAN MÁS PRÁCTICO PARA COMER SALUDABLE</b6>
+<h6></h6>
+<h6><b>La opción de alimentación saludable que estabas buscando<br> <b> Recibe comida saludable cada mañana y Asesoría Nutricional</b><br> Contrátalo por semanas o meses </b></h6>
+<b><b><b><b>A QUIÉN ESTÁ DIRIGIDO</b></b></b></b>
+<h6>Hombres y mujeres que están en su peso ideal y desean comer más sano<br> Personas que buscan reducir su % de grasa<br> Adultos con problemas de salud vinculados a una alimentación inadecuada, como:<br> * Colesterol alto<br> * Triglicéridos<br> * Diabetes<br> * Hipertensión<br> * Gastritis<br> * Hígado graso<br> Personas que viven solas y/o no disponen de tiempo para prepararse sus alimentos</h6>
+<b><b><b><b>BENEFICIOS</b></b></b></b>
+<h6>Olvídate de comprar, cocinar, lavar y contar calorías<br> Obtén consultas nutricionales y seguimiento en nuestro grupo de WhatsApp<br> Recibe la comida preparada lista antes de las 8:30am en tu casa u oficina<br> Mantén tu peso ideal y siéntete siempre ágil y activo<br> Comer sano podría reducir tus niveles de estrés y ayudarte a descansar mejor<br> Puedes hacer freezing de tus comidas por email o Whatsapp hasta la 1pm del día anterior <span>(excepto domingos)</span><br>Acceso exclusivo a los beneficios de nuestro Site <span style="color: #ff00ff;"><a href="http://www.migetup.com" target="_blank" title="Intranet getUP!" style="color: #ff00ff;" rel="noopener noreferrer">www.migetup.com</a></span>
+</h6>
+<b><b></b>QUÉ INCLUYE</b>
+<h6>2 comidas al día: Desayuno + Almuerzo<br> Delivery de lunes a sábado de 6:00 a 8:300am<br> Consultas nutricionales en nuestro local de Surquillo<br> Freezing por email o whatsapp hasta la 1pm del día anterior<br> Cambios de direcciones para los días sábados</h6>
+<b><b><b><b>CARTA Y COBERTURA GETUP</b></b></b></b><br>
+<h6>Llegamos GRATIS a 16 distritos de Lima de 6:00 a 8:30am con nuestra Flota Motorizada getUP!<br> Revisa nuestras zonas de reparto Gratuitas aquí <a href="https://drive.google.com/a/getup.com.pe/open?id=1id5qIl0QHR6dqe9id5ECURdzdkQ&amp;usp=sharing" title="Mapa de cobertura getUP!" target="_blank" rel="noopener noreferrer"><b>MAPA COBERTURA GRATUITA GETUP!</b></a><br> Puedes revisar la carta de esta semana aquí <a href="https://docs.google.com/document/d/1cYSzfnwHwBdsBbPh3rz51tIiXytZrle3JA0XoaafO0g/edit" target="_blank" title="Carta Semanal getUP!" rel="noopener noreferrer"><b>CARTA SEMANAL GETUP! </b></a>
+</h6>
+<b><b>ES BUENO SABERLO<b><br></b></b></b>
+<h6>Nuestro plan LIFE posee carbohidratos complejos, proteínas magras y abundantes vegetales <br>Los carbohidratos complejos te aportarán la energía exacta que tu cuerpo necesita para funcionar<br>Las proteínas que usamos son bajas en grasas, lo que te ayudará a tonificar tu figura <br>Estas 2 comidas aportan el 60% de las calorías requeridas por un adulto activo que busca mantener su peso<br> El plan de alimentación de alimentación se ajusta según las calorías que tu cuerpo necesita<br> Antes de iniciar el servicio registraremos los insumos a los que eres alérgico o intolerante para reemplazarlos<br> Como es nuestro deber enseñarte a comer saludable no realizamos cambios de insumos por preferencias o gustos<br> Es importante que mantengas los alimentos refrigerados o en un ambiente fresco hasta su consumo</h6>
+<b><b><b><b>ECOFRIENDLY</b></b></b></b>
+<h6>Ayúdanos a reducir el uso de plástico<br> Elige no recibir cubiertos descartables y únete a nuestro programa de recolección de envases<br> Cada sábado recogemos los envases plásticos de la semana y los enviamos a una fábrica que los convierte en frazadas</h6>
+<hr align="CENTER" size="“1”" width='“600"' color="“Black”" noshade>
+<h6>
+<b>Para observar resultados recomendamos tomarlo por 24 días (4 semanas de L-S)<br></b>Complementa nuestra alimentación con actividad física para alcanzar mejores resultados<br><b>Una vez comprado el plan coordinaremos por teléfono la fecha de inicio</b>
+</h6></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Alto en Fibra</s:tag>
+    <s:tag>Alto en Proteína</s:tag>
+    <s:tag>Bajo en Azúcar</s:tag>
+    <s:tag>Bajo en Grasa</s:tag>
+    <s:tag>Bajo en Sodio</s:tag>
+    <s:tag>category_form_2</s:tag>
+    <s:tag>Mantenimiento</s:tag>
+    <s:tag>Más de S/130</s:tag>
+    <s:tag>Plástico</s:tag>
+    <s:variant>
+      <id>https://getup.com.pe/products/8163991248</id>
+      <title>6 días</title>
+      <s:price currency="PEN">228.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>800</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://getup.com.pe/products/8163991248</id>
+      <title>12 días</title>
+      <s:price currency="PEN">456.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>800</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://getup.com.pe/products/8163991248</id>
+      <title>18 días</title>
+      <s:price currency="PEN">684.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>800</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://getup.com.pe/products/8163991248</id>
+      <title>24 días</title>
+      <s:price currency="PEN">912.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>800</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://getup.com.pe/products/8163984464</id>
+    <published>2016-10-11T11:15:00-05:00</published>
+    <updated>2016-10-11T11:15:00-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://getup.com.pe/products/life5comidas"/>
+    <title>Plan LIFE: FULL PACK</title>
+    <s:type>Inicio a Pedido del Cliente</s:type>
+    <s:vendor>Hecho en getUP!</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1534/3917/products/PLAN-LIFE--FULL-PACK.png?v=1488583449" /></td>
+    <td valign="bottom">
+      <p>
+        <strong>Vendor: </strong>Hecho en getUP!<br />
+        <strong>Type: </strong>Inicio a Pedido del Cliente<br />
+        <strong>Price: </strong>
+            390.00 - 1560.00
+            <a href="https://getup.com.pe/products/life5comidas">(4 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><b6>MANTÉN TU PESO COMIENDO BUENAZO</b6>
+<h6></h6>
+<h6><b>El plan de mantenimiento diseñado para ti, que estás en tu peso ideal<br> <b> Recibe comida saludable cada mañana y Asesoría Nutricional</b><br> Contrátalo por semanas o meses </b></h6>
+<b><b><b><b>A QUIÉN ESTÁ DIRIGIDO</b></b></b></b>
+<h6>Hombres y mujeres que están en su peso ideal y desean comer más sano<br> Personas que buscan reducir su % de grasa<br> Adultos con problemas de salud vinculados a una alimentación inadecuada, como:<br> * Colesterol alto<br> * Triglicéridos<br> * Diabetes<br> * Hipertensión<br> * Gastritis<br> * Hígado graso<br> Personas que viven solas y/o no disponen de tiempo para prepararse sus alimentos</h6>
+<b><b><b><b>BENEFICIOS</b></b></b></b>
+<h6>Olvídate de comprar, cocinar, lavar y contar calorías<br> Obtén consultas nutricionales y seguimiento en nuestro grupo de WhatsApp<br> Recibe la comida preparada lista antes de las 8:30am en tu casa u oficina<br> Mantén tu peso ideal y siéntete siempre ágil y activo<br> Comer sano podría reducir tus niveles de estrés y ayudarte a descansar mejor<br> Puedes hacer freezing de tus comidas por email o Whatsapp hasta la 1pm del día anterior <span>(excepto domingos)</span><br>Acceso exclusivo a los beneficios de nuestro Site <span style="color: #ff00ff;"><a href="http://www.migetup.com" target="_blank" title="Intranet getUP!" style="color: #ff00ff;" rel="noopener noreferrer">www.migetup.com</a></span>
+</h6>
+<b><b></b>QUÉ INCLUYE</b>
+<h6>5 comidas al día: Desayuno + Almuerzo + Cena + 2 Snacks<br> Delivery de lunes a sábado de 6:00 a 8:300am<br> Consultas nutricionales en nuestro local de Surquillo<br> Freezing por email o whatsapp hasta la 1pm del día anterior<br> Cambios de direcciones para los días sábados</h6>
+<b><b><b><b>CARTA Y COBERTURA GETUP</b></b></b></b><br>
+<h6>Llegamos GRATIS a 16 distritos de Lima de 6:00 a 8:30am con nuestra Flota Motorizada getUP!<br> Revisa nuestras zonas de reparto Gratuitas aquí <a href="https://drive.google.com/a/getup.com.pe/open?id=1id5qIl0QHR6dqe9id5ECURdzdkQ&amp;usp=sharing" title="Mapa de cobertura getUP!" target="_blank" rel="noopener noreferrer"><b>MAPA COBERTURA GRATUITA GETUP!</b></a><br> Puedes revisar la carta de esta semana aquí <a href="https://docs.google.com/document/d/1cYSzfnwHwBdsBbPh3rz51tIiXytZrle3JA0XoaafO0g/edit" target="_blank" title="Carta Semanal getUP!" rel="noopener noreferrer"><b>CARTA SEMANAL GETUP! </b></a>
+</h6>
+<b><b>ES BUENO SABERLO<b><br></b></b></b>
+<h6>Nuestro plan LIFE posee carbohidratos complejos, proteínas magras y abundantes vegetales <br>Los carbohidratos complejos te aportarán la energía exacta que tu cuerpo necesita para funcionar<br>Las proteínas que usamos son bajas en grasas, lo que te ayudará a tonificar tu figura <br> Nuestras 5 comidas aportan el 100% de las calorías requeridas por un adulto activo que busca mantener su peso<br> El plan de alimentación de alimentación se ajusta según las calorías que tu cuerpo necesita<br> Antes de iniciar el servicio registraremos los insumos a los que eres alérgico o intolerante para reemplazarlos<br> Como es nuestro deber enseñarte a comer saludable no realizamos cambios de insumos por preferencias o gustos<br> Es importante que mantengas los alimentos refrigerados o en un ambiente fresco hasta su consumo</h6>
+<b><b><b><b>ECOFRIENDLY</b></b></b></b>
+<h6>Ayúdanos a reducir el uso de plástico<br> Elige no recibir cubiertos descartables y únete a nuestro programa de recolección de envases<br> Cada sábado recogemos los envases plásticos de la semana y los enviamos a una fábrica que los convierte en frazadas</h6>
+<hr align="CENTER" size="“1”" width='“600"' color="“Black”" noshade>
+<h6>
+<b>Para observar resultados recomendamos tomarlo por 24 días (4 semanas de L-S)<br></b>Complementa nuestra alimentación con actividad física para alcanzar mejores resultados<br><b>Una vez comprado el plan coordinaremos por teléfono la fecha de inicio</b>
+</h6></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Alto en Fibra</s:tag>
+    <s:tag>Alto en Proteína</s:tag>
+    <s:tag>Bajo en Azúcar</s:tag>
+    <s:tag>Bajo en Grasa</s:tag>
+    <s:tag>Bajo en Sodio</s:tag>
+    <s:tag>category_form_2</s:tag>
+    <s:tag>Mantenimiento</s:tag>
+    <s:tag>Más de S/130</s:tag>
+    <s:tag>Plástico</s:tag>
+    <s:variant>
+      <id>https://getup.com.pe/products/8163984464</id>
+      <title>6 días</title>
+      <s:price currency="PEN">390.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>1200</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://getup.com.pe/products/8163984464</id>
+      <title>12 días</title>
+      <s:price currency="PEN">780.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>1200</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://getup.com.pe/products/8163984464</id>
+      <title>18 días</title>
+      <s:price currency="PEN">1170.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>1200</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://getup.com.pe/products/8163984464</id>
+      <title>24 días</title>
+      <s:price currency="PEN">1560.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>1200</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://getup.com.pe/products/8017487824</id>
+    <published>2016-10-11T11:15:00-05:00</published>
+    <updated>2016-10-11T11:15:00-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://getup.com.pe/products/almuerzosycenasslim"/>
+    <title>Plan SLIM: Almuerzos + Cenas</title>
+    <s:type>Inicio a Pedido del Cliente</s:type>
+    <s:vendor>Hecho en getUP!</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1534/3917/products/image.jpg?v=1529111319" /></td>
+    <td valign="bottom">
+      <p>
+        <strong>Vendor: </strong>Hecho en getUP!<br />
+        <strong>Type: </strong>Inicio a Pedido del Cliente<br />
+        <strong>Price: </strong>
+            228.00 - 912.00
+            <a href="https://getup.com.pe/products/almuerzosycenasslim">(4 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><b6>EL PLAN MÁS PRÁCTICO PARA COMER SALUDABLE</b6>
+<h6></h6>
+<h6><b>La opción de alimentación saludable que estabas buscando<br> <b> Recibe comida saludable cada mañana y Asesoría Nutricional</b><br> Contrátalo por semanas o meses </b></h6>
+<b><b><b><b>A QUIÉN ESTÁ DIRIGIDO</b></b></b></b>
+<h6>Hombres y mujeres en sobrepeso u obesidad<br> Personas que han intentado perder peso con otros métodos sin éxito<br> Adultos con problemas de salud vinculados a una alimentación inadecuada, como:<br> * Colesterol alto<br> * Triglicéridos<br> * Diabetes<br> * Hipertensión<br> * Gastritis<br> * Hígado graso<br> Personas que viven solas y/o no disponen de tiempo para prepararse sus alimentos</h6>
+<b><b><b><b>BENEFICIOS</b></b></b></b>
+<h6>Olvídate de comprar, cocinar, lavar y contar calorías<br> Obtén consultas nutricionales y seguimiento en nuestro grupo de WhatsApp<br> Recibe la comida preparada lista antes de las 8:30am en tu casa u oficina<br>Los alimentos que enviamos poseen las porciones y calorías que tu cuerpo necesita<br> Comer saludablemente todos los días ayudará a mejorar tu salud<br> Puedes hacer freezing de tus comidas por email o Whatsapp hasta la 1pm del día anterior <span>(excepto domingos)</span><br>Acceso exclusivo a los beneficios de nuestro Site <span style="color: #ff00ff;"><a href="http://www.migetup.com" target="_blank" title="Intranet getUP!" style="color: #ff00ff;" rel="noopener noreferrer">www.migetup.com</a></span>
+</h6>
+<b><b></b>QUÉ INCLUYE</b>
+<h6>2 comidas al día: Almuerzo + Cena <br> Delivery de lunes a sábado de 6:00 a 8:300am<br> Consultas nutricionales en nuestro local de Surquillo<br> Freezing por email o whatsapp hasta la 1pm del día anterior<br> Cambios de direcciones para los días sábados</h6>
+<b><b><b><b>CARTA Y COBERTURA GETUP</b></b></b></b><br>
+<h6>Llegamos GRATIS a 23 distritos de Lima de 6am a 1pm con nuestra Flota Motorizada getUP!<br> Revisa nuestras zonas de reparto Gratuitas aquí <a href="https://drive.google.com/open?id=1DTrav_PulPDL3N4LyFFEw2amqmU&amp;usp=sharing" title="Mapa de cobertura getUP!" target="_blank" rel="noopener noreferrer"><b>MAPA COBERTURA GRATUITA GETUP!</b></a><br> Puedes revisar la carta de esta semana aquí <a href="https://docs.google.com/document/d/1cYSzfnwHwBdsBbPh3rz51tIiXytZrle3JA0XoaafO0g/edit?usp=sharing" target="_blank" title="Carta Semanal getUP!" rel="noopener noreferrer"><b>CARTA SEMANAL GETUP! </b></a>
+</h6>
+<b><b>ES BUENO SABERLO<b><br></b></b></b>
+<h6>Nuestro plan SLIM posee una pequeña porción de carbohidrato, abundantes vegetales y carnes magras<br> Cada comida es enriquecida con semillas, algas, frutas con piel y vegetales para incrementar tu consumo de fibra<br> La fibra te ayudará a depurar las grasas de forma natural<br>Estas 2 comidas aportan el 60% de las calorías requeridas por un adulto sedentario que busca perder peso<br> El plan de alimentación de alimentación se ajusta según las calorías que tu cuerpo necesita<br> Antes de iniciar el servicio registraremos los insumos a los que eres alérgico o intolerante para reemplazarlos<br> Como es nuestro deber enseñarte a comer saludable no realizamos cambios de insumos por preferencias o gustos<br> Es importante que mantengas los alimentos refrigerados o en un ambiente fresco hasta su consumo</h6>
+<b><b><b><b>ECOFRIENDLY</b></b></b></b>
+<h6>Ayúdanos a reducir el uso de plástico<br> Elige no recibir cubiertos descartables y únete a nuestro programa de recolección de envases<br> Cada sábado recogemos los envases plásticos de la semana y los enviamos a una fábrica que los convierte en frazadas</h6>
+<hr align="CENTER" size="“1”" width='“600"' color="“Black”" noshade>
+<h6>
+<b>Para observar resultados recomendamos tomarlo por 24 días (4 semanas de L-S)<br></b>Complementa nuestra alimentación con actividad física para alcanzar mejores resultados<br><b>Una vez comprado el plan coordinaremos por teléfono la fecha de inicio</b>
+</h6></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Adelgazamiento</s:tag>
+    <s:tag>Alto en Fibra</s:tag>
+    <s:tag>Alto en Proteína</s:tag>
+    <s:tag>Bajo en Azúcar</s:tag>
+    <s:tag>Bajo en Grasa</s:tag>
+    <s:tag>Bajo en Sodio</s:tag>
+    <s:tag>category_form_2</s:tag>
+    <s:tag>Diabéticos</s:tag>
+    <s:tag>Más de S/130</s:tag>
+    <s:tag>Plástico</s:tag>
+    <s:variant>
+      <id>https://getup.com.pe/products/8017487824</id>
+      <title>6 días</title>
+      <s:price currency="PEN">228.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>700</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://getup.com.pe/products/8017487824</id>
+      <title>12 días</title>
+      <s:price currency="PEN">456.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>700</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://getup.com.pe/products/8017487824</id>
+      <title>18 días</title>
+      <s:price currency="PEN">684.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>700</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://getup.com.pe/products/8017487824</id>
+      <title>24 días</title>
+      <s:price currency="PEN">912.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>700</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://getup.com.pe/products/8272710800</id>
+    <published>2016-10-11T11:15:00-05:00</published>
+    <updated>2016-10-11T11:15:00-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://getup.com.pe/products/desayunosyalmuerzosslim"/>
+    <title>Plan SLIM: Desayunos + Almuerzos</title>
+    <s:type>Inicio a Pedido del Cliente</s:type>
+    <s:vendor>Hecho en getUP!</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1534/3917/products/Desayuno_Cena_1.png?v=1488585920" /></td>
+    <td valign="bottom">
+      <p>
+        <strong>Vendor: </strong>Hecho en getUP!<br />
+        <strong>Type: </strong>Inicio a Pedido del Cliente<br />
+        <strong>Price: </strong>
+            228.00 - 912.00
+            <a href="https://getup.com.pe/products/desayunosyalmuerzosslim">(4 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><b><b><b6>EL PLAN MÁS PRÁCTICO PARA COMER SALUDABLE</b6><br></b></b>
+<h6></h6>
+<h6><b>La opción de alimentación saludable que estabas buscando<br> <b> Recibe comida saludable cada mañana y Asesoría Nutricional</b><br> Contrátalo por semanas o meses </b></h6>
+<b><b><b><b><b><b>A QUIÉN ESTÁ DIRIGIDO</b></b></b></b></b></b>
+<h6>Hombres y mujeres en sobrepeso u obesidad<br> Personas que han intentado perder peso con otros métodos sin éxito<br> Adultos con problemas de salud vinculados a una alimentación inadecuada, como:<br> * Colesterol alto<br> * Triglicéridos<br> * Diabetes<br> * Hipertensión<br> * Gastritis<br> * Hígado graso<br> Personas que viven solas y/o no disponen de tiempo para prepararse sus alimentos</h6>
+<b><b><b><b><b><b>BENEFICIOS</b></b></b></b></b></b>
+<h6>Olvídate de comprar, cocinar, lavar y contar calorías<br> Obtén consultas nutricionales y seguimiento en nuestro grupo de WhatsApp<br> Recibe la comida preparada lista antes de las 8:30am en tu casa u oficina<br>Los alimentos que enviamos poseen las porciones y calorías que tu cuerpo necesita<br> Comer saludablemente todos los días ayudará a mejorar tu salud<br> Puedes hacer freezing de tus comidas por email o Whatsapp hasta la 1pm del día anterior <span>(excepto domingos)</span><br>Acceso exclusivo a los beneficios de nuestro Site <span style="color: #ff00ff;"><a href="http://www.migetup.com" target="_blank" title="Intranet getUP!" style="color: #ff00ff;" rel="noopener noreferrer">www.migetup.com</a></span>
+</h6>
+<b><b><b><b></b>QUÉ INCLUYE</b></b></b>
+<h6>2 comidas al día: Desayuno + Almuerzo<br> Delivery de lunes a sábado de 6:00 a 8:300am<br> Consultas nutricionales en nuestro local de Surquillo<br> Freezing por email o whatsapp hasta la 1pm del día anterior<br> Cambios de direcciones para los días sábados</h6>
+<b><b><b><b>CARTA Y COBERTURA GETUP</b></b></b></b><br>
+<h6>Llegamos GRATIS a 23 distritos de Lima de 6am a 1pm con nuestra Flota Motorizada getUP!<br> Revisa nuestras zonas de reparto Gratuitas aquí <a href="https://drive.google.com/open?id=1DTrav_PulPDL3N4LyFFEw2amqmU&amp;usp=sharing" title="Mapa de cobertura getUP!" target="_blank" rel="noopener noreferrer"><b>MAPA COBERTURA GRATUITA GETUP!</b></a><br> Puedes revisar la carta de esta semana aquí <a href="https://docs.google.com/document/d/1cYSzfnwHwBdsBbPh3rz51tIiXytZrle3JA0XoaafO0g/edit?usp=sharing" target="_blank" title="Carta Semanal getUP!" rel="noopener noreferrer"><b>CARTA SEMANAL GETUP! </b></a>
+</h6>
+<b><b><b><b>ES BUENO SABERLO<b><br></b></b></b></b></b>
+<h6>Nuestro plan SLIM posee una pequeña porción de carbohidrato, abundantes vegetales y carnes magras<br> Cada comida es enriquecida con semillas, algas, frutas con piel y vegetales para incrementar tu consumo de fibra<br> La fibra te ayudará a depurar las grasas de forma natural<br>Estas 2 comidas aportan el 60% de las calorías requeridas por un adulto sedentario que busca perder peso<br> El plan de alimentación de alimentación se ajusta según las calorías que tu cuerpo necesita<br> Antes de iniciar el servicio registraremos los insumos a los que eres alérgico o intolerante para reemplazarlos<br> Como es nuestro deber enseñarte a comer saludable no realizamos cambios de insumos por preferencias o gustos<br> Es importante que mantengas los alimentos refrigerados o en un ambiente fresco hasta su consumo</h6>
+<b><b><b><b><b><b>ECOFRIENDLY</b></b></b></b></b></b>
+<h6>Ayúdanos a reducir el uso de plástico<br> Elige no recibir cubiertos descartables y únete a nuestro programa de recolección de envases<br> Cada sábado recogemos los envases plásticos de la semana y los enviamos a una fábrica que los convierte en frazadas</h6>
+<hr align="CENTER" size="“1”" width='“600"' color="“Black”" noshade>
+<h6>
+<b>Para observar resultados recomendamos tomarlo por 24 días (4 semanas de L-S)<br></b>Complementa nuestra alimentación con actividad física para alcanzar mejores resultados<br><b>Una vez comprado el plan coordinaremos por teléfono la fecha de inicio</b>
+</h6></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Adelgazamiento</s:tag>
+    <s:tag>Alto en Fibra</s:tag>
+    <s:tag>Alto en Proteína</s:tag>
+    <s:tag>Bajo en Azúcar</s:tag>
+    <s:tag>Bajo en Grasa</s:tag>
+    <s:tag>Bajo en Sodio</s:tag>
+    <s:tag>category_form_2</s:tag>
+    <s:tag>Diabéticos</s:tag>
+    <s:tag>Más de S/130</s:tag>
+    <s:tag>Plástico</s:tag>
+    <s:variant>
+      <id>https://getup.com.pe/products/8272710800</id>
+      <title>6 días</title>
+      <s:price currency="PEN">228.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>600</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://getup.com.pe/products/8272710800</id>
+      <title>12 días</title>
+      <s:price currency="PEN">456.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>600</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://getup.com.pe/products/8272710800</id>
+      <title>18 días</title>
+      <s:price currency="PEN">684.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>600</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://getup.com.pe/products/8272710800</id>
+      <title>24 días</title>
+      <s:price currency="PEN">912.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>600</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://getup.com.pe/products/6420818309</id>
+    <published>2016-10-11T11:15:00-05:00</published>
+    <updated>2016-10-11T11:15:00-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://getup.com.pe/products/fullpackslim"/>
+    <title>Plan SLIM: FULL PACK</title>
+    <s:type>Inicio a Pedido del Cliente</s:type>
+    <s:vendor>Hecho en getUP!</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1534/3917/products/PLAN-SLIM-FULL-PACK---slim-dietas----web-get-up.png?v=1529106468" /></td>
+    <td valign="bottom">
+      <p>
+        <strong>Vendor: </strong>Hecho en getUP!<br />
+        <strong>Type: </strong>Inicio a Pedido del Cliente<br />
+        <strong>Price: </strong>
+            390.00 - 1320.00
+            <a href="https://getup.com.pe/products/fullpackslim">(4 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><b6>EL PLAN DE ALIMENTACIÓN COMPLETA MÁS VENDIDO DE GETUP!</b6>
+<h6></h6>
+<h6><b>El plan de adelgazamiento preferido por los clientes de getUP!<br> <b> Recibe comida saludable cada mañana y Asesoría Nutricional</b><br> Contrátalo por semanas o meses </b></h6>
+<b><b><b><b>A QUIÉN ESTÁ DIRIGIDO</b></b></b></b>
+<h6>Hombres y mujeres en sobrepeso u obesidad<br> Personas que han intentado perder peso con otros métodos sin éxito<br> Adultos con problemas de salud vinculados a una alimentación inadecuada, como:<br> * Colesterol alto<br> * Triglicéridos<br> * Diabetes<br> * Hipertensión<br> * Gastritis<br> * Hígado graso<br> Personas que viven solas y/o no disponen de tiempo para prepararse sus alimentos</h6>
+<b><b><b><b>BENEFICIOS</b></b></b></b>
+<h6>Olvídate de comprar, cocinar, lavar y contar calorías<br> Obtén consultas nutricionales y seguimiento en nuestro grupo de WhatsApp<br> Recibe la comida preparada lista antes de las 8:30am en tu casa u oficina<br>Los alimentos que enviamos poseen las porciones y calorías que tu cuerpo necesita<br> Comer saludablemente todos los días ayudará a mejorar tu salud<br> Puedes hacer freezing de tus comidas por email o Whatsapp hasta la 1pm del día anterior <span>(excepto domingos)</span><br>Acceso exclusivo a los beneficios de nuestro Site <span style="color: #ff00ff;"><a href="http://www.migetup.com" target="_blank" title="Intranet getUP!" style="color: #ff00ff;" rel="noopener noreferrer">www.migetup.com</a></span>
+</h6>
+<b><b></b>QUÉ INCLUYE</b>
+<h6>3 comidas al día: Desayuno + Almuerzo + 2 Snacks + Cena <br> Delivery de lunes a sábado de 6:00 a 8:300am<br> Consultas nutricionales en nuestro local de San Isidro<br> Freezing por email o whatsapp hasta la 1pm del día anterior<br> Cambios de direcciones para los días sábados</h6>
+<b><b><b><b>CARTA Y COBERTURA GETUP</b></b></b></b><br>
+<h6>Llegamos GRATIS a 23 distritos de Lima de 6am a 1pm con nuestra Flota Motorizada getUP!<br> Revisa nuestras zonas de reparto Gratuitas aquí <a href="https://drive.google.com/open?id=1DTrav_PulPDL3N4LyFFEw2amqmU&amp;usp=sharing" title="Mapa de cobertura getUP!" target="_blank" rel="noopener noreferrer"><b>MAPA COBERTURA GRATUITA GETUP!</b></a><br> Puedes revisar la carta de esta semana aquí <a href="https://docs.google.com/document/d/1cYSzfnwHwBdsBbPh3rz51tIiXytZrle3JA0XoaafO0g/edit?usp=sharing" target="_blank" title="Carta Semanal getUP!" rel="noopener noreferrer"><b>CARTA SEMANAL GETUP! </b></a>
+</h6>
+<b><b>ES BUENO SABERLO<b><br></b></b></b>
+<h6>Nuestro plan SLIM posee una pequeña porción de carbohidrato, abundantes vegetales y carnes magras<br> Cada comida es enriquecida con semillas, algas, frutas con piel y vegetales para incrementar tu consumo de fibra<br> La fibra te ayudará a depurar las grasas de forma natural<br> Nuestras 5 comidas aportan el 100% de las calorías requeridas por un adulto sedentario que busca perder peso<br> El plan de alimentación de alimentación se ajusta según las calorías que tu cuerpo necesita<br> Antes de iniciar el servicio registraremos los insumos a los que eres alérgico o intolerante para reemplazarlos<br> Como es nuestro deber enseñarte a comer saludable no realizamos cambios de insumos por preferencias o gustos<br> Es importante que mantengas los alimentos refrigerados o en un ambiente fresco hasta su consumo</h6>
+<b><b><b><b>ECOFRIENDLY</b></b></b></b>
+<h6>Ayúdanos a reducir el uso de plástico<br> Elige no recibir cubiertos descartables y únete a nuestro programa de recolección de envases<br> Cada sábado recogemos los envases plásticos de la semana y los enviamos a una fábrica que los convierte en frazadas</h6>
+<hr align="CENTER" size="“1”" width='“600"' color="“Black”" noshade>
+<h6>
+<b>Para observar resultados recomendamos tomarlo por 24 días (4 semanas de L-S)<br></b>Complementa nuestra alimentación con actividad física para alcanzar mejores resultados<br><b>Una vez comprado el plan coordinaremos por teléfono la fecha de inicio</b>
+</h6></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Adelgazamiento</s:tag>
+    <s:tag>Alto en Fibra</s:tag>
+    <s:tag>Alto en Proteína</s:tag>
+    <s:tag>Bajo en Azúcar</s:tag>
+    <s:tag>Bajo en Grasa</s:tag>
+    <s:tag>Bajo en Sodio</s:tag>
+    <s:tag>category_form_2</s:tag>
+    <s:tag>Diabéticos</s:tag>
+    <s:tag>Más de S/130</s:tag>
+    <s:tag>Plástico</s:tag>
+    <s:variant>
+      <id>https://getup.com.pe/products/6420818309</id>
+      <title>6 días</title>
+      <s:price currency="PEN">390.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>800</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://getup.com.pe/products/6420818309</id>
+      <title>12 días</title>
+      <s:price currency="PEN">780.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>800</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://getup.com.pe/products/6420818309</id>
+      <title>18 días</title>
+      <s:price currency="PEN">1170.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>800</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://getup.com.pe/products/6420818309</id>
+      <title>24 días</title>
+      <s:price currency="PEN">1320.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>800</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://getup.com.pe/products/1325165150270</id>
+    <published>2016-10-11T11:15:00-05:00</published>
+    <updated>2016-10-11T11:15:00-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://getup.com.pe/products/reto-12-dias-getup"/>
+    <title>RETO 12 DÍAS GETUP!</title>
+    <s:type>Inicio a Pedido del Cliente</s:type>
+    <s:vendor>Hecho en getUP!</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1534/3917/products/1_8c7641bf-7e33-4aaa-aa07-6e18aa784eac.png?v=1530134610" /></td>
+    <td valign="bottom">
+      <p>
+        <strong>Vendor: </strong>Hecho en getUP!<br />
+        <strong>Type: </strong>Inicio a Pedido del Cliente<br />
+        <strong>Price: </strong>
+            750.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><b6>VOLVIÓ: EL RETO 12 DÍAS GETUP!</b6>
+<h6></h6>
+<h6><b>Regresa a tu peso Ideal comiendo buenazo<br><b>Pierde hasta 5kg en 2 semanas con alimentos saludables</b><br>Ideal para personas que se estancaron en su peso</b></h6>
+<b><b><b><b>A QUIÉN ESTÁ DIRIGIDO</b></b></b></b>
+<h6>Hombres y mujeres en sobrepeso u obesidad<br> Personas que han intentado perder peso con otros métodos sin éxito<br> Adultos con problemas de salud vinculados a una alimentación inadecuada, como:<br> * Colesterol alto<br> * Triglicéridos<br> * Diabetes<br> * Hipertensión<br> * Gastritis<br> * Hígado graso<br> Personas que viven solas y/o no disponen de tiempo para prepararse sus alimentos</h6>
+<b><b><b><b>BENEFICIOS</b></b></b></b>
+<h6>Olvídate de comprar, cocinar, lavar y contar calorías<br> Obtén consultas nutricionales y seguimiento en nuestro grupo de WhatsApp<br> Recibe la comida preparada lista antes de las 8:30am en tu casa u oficina<br>Los alimentos que enviamos poseen las porciones y calorías que tu cuerpo necesita<br> Comer saludablemente todos los días ayudará a mejorar tu salud<br> Puedes hacer freezing de tus comidas por email o Whatsapp hasta la 1pm del día anterior <span>(excepto domingos)</span><br>Acceso exclusivo a los beneficios de nuestro Site <span style="color: #ff00ff;"><a href="http://www.migetup.com" target="_blank" title="Intranet getUP!" style="color: #ff00ff;" rel="noopener noreferrer">www.migetup.com</a></span>
+</h6>
+<b><b></b>QUÉ INCLUYE</b>
+<h6>1 día de 6 Jugos Detox MODO ORGÁNICO <br>11 días de Almuerzos + Cenas Saludables <br>1 Consulta de Nutrición a Domicilio* (sujeto a horario y cobertura)<br>Delivery de lunes a sábado de 6am a 11:30am<br> Cambios de direcciones para los días sábados</h6>
+<b><b><b><b>CARTA Y COBERTURA GETUP</b></b></b></b><br>
+<h6>Llegamos GRATIS a 23 distritos de Lima de 6am a 1pm con nuestra Flota Motorizada getUP!<br> Revisa nuestras zonas de reparto Gratuitas aquí <a href="https://drive.google.com/open?id=1DTrav_PulPDL3N4LyFFEw2amqmU&amp;usp=sharing" title="Mapa de cobertura getUP!" target="_blank" rel="noopener noreferrer"><b>MAPA COBERTURA GRATUITA GETUP!</b></a><br> Puedes revisar la carta de esta semana aquí <a href="https://docs.google.com/document/d/1cYSzfnwHwBdsBbPh3rz51tIiXytZrle3JA0XoaafO0g/edit?usp=sharing" target="_blank" title="Carta Semanal getUP!" rel="noopener noreferrer"><b>CARTA SEMANAL GETUP! </b></a>
+</h6>
+<b><b>ES BUENO SABERLO<b><br></b></b></b>
+<h6>Nuestro RETO 12 DÍAS GETUP! posee una pequeña porción de carbohidratos, abundantes vegetales y carnes magras<br> Cada comida es enriquecida con semillas, algas, frutas con piel y vegetales para incrementar tu consumo de fibra<br> La fibra te ayudará a depurar las grasas de forma natural<br>Estas 2 comidas aportan el 60% de las calorías requeridas por un adulto sedentario que busca perder peso<br> El plan de alimentación de alimentación se ajusta según las calorías que tu cuerpo necesita<br> Antes de iniciar el servicio registraremos los insumos a los que eres alérgico o intolerante para reemplazarlos<br> Como es nuestro deber enseñarte a comer saludable no realizamos cambios de insumos por preferencias o gustos<br> Es importante que mantengas los alimentos refrigerados o en un ambiente fresco hasta su consumo</h6>
+<b><b><b><b>ECOFRIENDLY</b></b></b></b>
+<h6>Ayúdanos a reducir el uso de plástico<br> Elige no recibir cubiertos descartables y únete a nuestro programa de recolección de envases<br> Cada sábado recogemos los envases plásticos de la semana y los enviamos a una fábrica que los convierte en frazadas</h6>
+<hr align="CENTER" size="“1”" width='“600"' color="“Black”" noshade>
+<h6>
+<b>Para observar resultados recomendamos tomarlo por 24 días (4 semanas de L-S)<br></b>Complementa nuestra alimentación con actividad física para alcanzar mejores resultados<br><b>Una vez comprado el plan coordinaremos por teléfono la fecha de inicio</b>
+</h6></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Adelgazamiento</s:tag>
+    <s:tag>Alto en Fibra</s:tag>
+    <s:tag>Alto en Proteína</s:tag>
+    <s:tag>Bajo en Azúcar</s:tag>
+    <s:tag>Bajo en Grasa</s:tag>
+    <s:tag>Bajo en Sodio</s:tag>
+    <s:tag>category_form_2</s:tag>
+    <s:tag>Diabéticos</s:tag>
+    <s:tag>Más de S/130</s:tag>
+    <s:tag>Plástico</s:tag>
+    <s:variant>
+      <id>https://getup.com.pe/products/1325165150270</id>
+      <title>Default Title</title>
+      <s:price currency="PEN">750.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>700</s:grams>
+    </s:variant>
+  </entry>
+</feed>

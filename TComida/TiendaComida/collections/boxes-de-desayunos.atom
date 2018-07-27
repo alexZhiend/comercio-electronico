@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en-US" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://getup.com.pe/collections/all.atom</id>
+  <link rel="alternate" type="text/html" href="https://getup.com.pe/collections/all"/>
+  <link rel="self" type="application/atom+xml" href="https://getup.com.pe/collections/boxes-de-desayunos.atom"/>
+  <title>GET UP! Delicious Life</title>
+  <updated>2018-06-16T12:17:20-05:00</updated>
+  <author>
+    <name>GET UP! Delicious Life</name>
+  </author>
+  <entry>
+    <id>https://getup.com.pe/products/8448161488</id>
+    <published>2018-06-16T12:17:20-05:00</published>
+    <updated>2018-06-16T12:17:20-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://getup.com.pe/products/minikingbreakfast"/>
+    <title>Mini King Breakfast</title>
+    <s:type>Delivery en 48 horas</s:type>
+    <s:vendor>Hecho en getUP!</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1534/3917/products/5.png?v=1489665409" /></td>
+    <td valign="bottom">
+      <p>
+        <strong>Vendor: </strong>Hecho en getUP!<br />
+        <strong>Type: </strong>Delivery en 48 horas<br />
+        <strong>Price: </strong>
+            80.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><b><b6>MINI KING BREAKFAST BOX GETUP!</b6></b>
+<h6></h6>
+<meta charset="utf-8">
+<h6><b>Sorprende a tu persona especial con este desayuno de reyes<br> Una cajita con un delicioso desayuno que amará<br></b></h6>
+<b>QUÉ INCLUYE</b>
+<h6>1 Caja corrugado color natural<br> 500ml Detox de naranja, zanahoria y mandarina <br> 80g Yogurt griego con chía y trozos de mango <br> 80g Triple de queso, tomate y pollo con vegetales (foto referencial)<br> 50g Granola de la casa con coco, almendras y semillas de goyi <br>1 Tarjeta con mensaje personalizado y diseño de caja a escoger<br>Agrégale a tu Box uno de nuestros Accesorios de regalo</h6>
+<b>COBERTURA GETUP</b><br>
+<h6>Llegamos GRATIS a 16 distritos de Lima de 6:00 a 8:30am con nuestra Flota Motorizada getUP!<br> Revisa nuestras zonas de reparto Gratuitas aquí <a href="https://drive.google.com/a/getup.com.pe/open?id=1id5qIl0QHR6dqe9id5ECURdzdkQ&amp;usp=sharing" title="Mapa de cobertura getUP!" target="_blank" rel="noopener noreferrer"><b>MAPA COBERTURA GRATUITA GETUP!</b></a><br> ———<br> Llegamos CON RECARGO a todos los distritos de Lima de 7am a 7pm con Cabify Express<br> Revisa las tarifas de reparto con Cargo Extra <a href="https://getup.com.pe/pages/cobertura" title="“Tarifas" cabify="" target="_blank" rel="noopener noreferrer"><b>TARIFAS DELIVERY CABIFY EXPRESS </b></a>
+</h6>
+<b>ES BUENO SABERLO</b><br>
+<h6>Nuestros Boxes son elaborados con productos frescos elaborados o seleccionados por getUP!<br>Es importante que mantengas los alimentos refrigerados hasta su consumo</h6>
+<b>ECOFRIENDLY</b>
+<h6>Los envases que usamos son de materiales 100% reusables y reciclables<br>Puedes darle un 2do uso luego del consumo<br>Nuestro servicio no incluye cubiertos</h6>
+<hr align="CENTER" size="“1”" width='“600"' color="“Black”" noshade>
+<h6>El contenido de este Box no puede ser variado ni modificado<br><b>Cuando recibamos tu registro te llamaremos para confirmar la compra</b><br><b>Delivery disponible 48hrs después de realizado tu pedido</b>
+</h6></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Adelgazamiento</s:tag>
+    <s:tag>Alto en Fibra</s:tag>
+    <s:tag>Bajo en Azúcar</s:tag>
+    <s:tag>Bajo en Grasa</s:tag>
+    <s:tag>Bajo en Sodio</s:tag>
+    <s:tag>Cartón</s:tag>
+    <s:tag>category_form_3</s:tag>
+    <s:tag>Libre Soya</s:tag>
+    <s:tag>S/51 - S/80</s:tag>
+    <s:variant>
+      <id>https://getup.com.pe/products/8448161488</id>
+      <title>Default Title</title>
+      <s:price currency="PEN">80.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>700</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://getup.com.pe/products/8479456784</id>
+    <published>2018-06-16T12:16:31-05:00</published>
+    <updated>2018-06-16T12:16:31-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://getup.com.pe/products/royalbreakfast"/>
+    <title>Royal Breakfast</title>
+    <s:type>Delivery en 48 horas</s:type>
+    <s:vendor>Hecho en getUP!</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1534/3917/products/box-2.png?v=1496831433" /></td>
+    <td valign="bottom">
+      <p>
+        <strong>Vendor: </strong>Hecho en getUP!<br />
+        <strong>Type: </strong>Delivery en 48 horas<br />
+        <strong>Price: </strong>
+            140.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><b><b><b6>ROYAL BREAKFAST BOX GETUP!</b6><br></b></b>
+<h6></h6>
+<meta charset="utf-8">
+<h6><b>Sorprende a esa persona especial con un desayuno digno de la realeza<br> Un Box con una comidas que le fascinarán <br></b></h6>
+<b><b><b>QUÉ INCLUYE</b></b></b>
+<h6>1 Caja corrugado color natural <br> 500ml Iced Tea con manzanilla, aguaymanto y uvas negras <br> 80g Omelette con espárragos, champiñones, queso y tomate <br> 660g Mini pancitos tostados con oliva y orégano (foto referencial)<br> 60g Muesli de avena, yogurt, manzana, pasas y semillas de quinua <br> 50g Pudín de vainilla con chía y arándanos <br> 40g Enerby bites de vainilla con frutos secos <br> 40g Frutos secos premium <br> 30g Chips de yuca con sabor a pimiento, oliva y albahaca <br>1 Tarjeta con mensaje personalizado y diseño de caja a escoger<br>Agrégale a tu Box uno de nuestros Accesorios de regalo</h6>
+<b><b><b>COBERTURA GETUP</b><br></b></b>
+<h6>Llegamos GRATIS a 16 distritos de Lima de 6:00 a 8:30am con nuestra Flota Motorizada getUP!<br> Revisa nuestras zonas de reparto Gratuitas aquí <a href="https://drive.google.com/a/getup.com.pe/open?id=1id5qIl0QHR6dqe9id5ECURdzdkQ&amp;usp=sharing" title="Mapa de cobertura getUP!" target="_blank" rel="noopener noreferrer"><b>MAPA COBERTURA GRATUITA GETUP!</b></a><br> ———<br> Llegamos CON RECARGO a todos los distritos de Lima de 7am a 7pm con Cabify Express<br> Revisa las tarifas de reparto con Cargo Extra <a href="https://getup.com.pe/pages/cobertura" title="“Tarifas" cabify="" target="_blank" rel="noopener noreferrer"><b>TARIFAS DELIVERY CABIFY EXPRESS </b></a>
+</h6>
+<b><b><b>ES BUENO SABERLO</b><br></b></b>
+<h6>Nuestros Boxes son elaborados con productos frescos elaborados o seleccionados por getUP!<br>Es importante que mantengas los alimentos refrigerados hasta su consumo</h6>
+<b><b><b>ECOFRIENDLY</b></b></b>
+<h6>Los envases que usamos son de materiales 100% reusables y reciclables<br>Puedes darle un 2do uso luego del consumo<br>Nuestro servicio no incluye cubiertos</h6>
+<hr align="CENTER" size="“1”" width='“600"' color="“Black”" noshade>
+<h6><b>El contenido de este Box no puede ser variado ni modificado<br><b> Cuando recibamos tu registro te llamaremos para confirmar la compra</b><br><b> Delivery disponible 48hrs después de realizado tu pedido</b></b></h6></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Adelgazamiento</s:tag>
+    <s:tag>Alto en Fibra</s:tag>
+    <s:tag>Bajo en Azúcar</s:tag>
+    <s:tag>Bajo en Grasa</s:tag>
+    <s:tag>Bajo en Sodio</s:tag>
+    <s:tag>category_form_3</s:tag>
+    <s:tag>Diabéticos</s:tag>
+    <s:tag>Libre Soya</s:tag>
+    <s:tag>Mantenimiento</s:tag>
+    <s:tag>Menos de 500kcal</s:tag>
+    <s:tag>S/81 - S/130</s:tag>
+    <s:tag>Vidrio</s:tag>
+    <s:variant>
+      <id>https://getup.com.pe/products/8479456784</id>
+      <title>Default Title</title>
+      <s:price currency="PEN">140.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>1200</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://getup.com.pe/products/8479520016</id>
+    <published>2018-05-05T23:57:51-05:00</published>
+    <updated>2018-05-05T23:57:51-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://getup.com.pe/products/kingbreakfast"/>
+    <title>King Breakfast</title>
+    <s:type>Delivery en 48 horas</s:type>
+    <s:vendor>Hecho en getUP!</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1534/3917/products/KING-BREAKFAST-MAMA.png?v=1525620427" /></td>
+    <td valign="bottom">
+      <p>
+        <strong>Vendor: </strong>Hecho en getUP!<br />
+        <strong>Type: </strong>Delivery en 48 horas<br />
+        <strong>Price: </strong>
+            150.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><b6>KING BREAKFAST - MOM BOX</b6>
+<h6></h6>
+<meta charset="utf-8">
+<h6><b>Sorprende a la mami de tu vida con un delicioso desayuno de Reina <br> Un Box para iniciar muy bien el día (PRE VENTA SOLO HASTA MIERCOLES 9/5) <br></b></h6>
+<b>QUÉ INCLUYE</b>
+<h6>1 Caja corrugado color natural <br>500ml Detox Naranja, maracuyá, aguaymanto, piña, pimiento y limón<br> 80g Sándwich de pollo al curry con frutos secos<br> 30g Frutas deshidratadas<br> 30g Pita chips al orégano<br> 50g Mermelada de marcuyá<br> 40g Granola de la casa con coco, frutos secos y semillas de goyi<br> 80g Ensalada de frutas por capas<br> 60g Láminas de chocolate bitter con pasas, almendras, pistachos y goyi<br>1 Infusión Coconut Tropical Nature's Heart (foto referencial)<br>1 Infusión Chai Spice Tea Nature's Heart (foto referencial)<br>1 Tarjeta con mensaje personalizado y diseño de caja "Buenos días Princesa"</h6>
+<b>COBERTURA GETUP</b><br> <meta charset="utf-8">
+<h6>
+<span>Llegamos GRATIS a 23 distritos de Lima</span><br><span>Reparto Exclusivo el mismo domingo de 6:00am a 9:00am</span><br><span>Reparto realizado por Flota Motorizada getUP! sin garantía de hora exacta</span><br><span>Revisa nuestras zonas de reparto Gratuitas aquí </span><a href="https://drive.google.com/open?id=1DTrav_PulPDL3N4LyFFEw2amqmU&amp;usp=sharing" title="Mapa de cobertura getUP!" target="_blank" rel="noopener noreferrer"><b>MAPA COBERTURA GRATUITA GETUP!</b></a>
+</h6>
+<b>ES BUENO SABERLO</b><br>
+<h6>Nuestros Boxes son elaborados con productos frescos elaborados o seleccionados por getUP!<br>Es importante que mantengas los alimentos refrigerados hasta su consumo</h6>
+<b>ECOFRIENDLY</b>
+<h6>Los envases que usamos son de materiales 100% reusables y reciclables<br>Puedes darle un 2do uso luego del consumo<br>Nuestro servicio no incluye cubiertos</h6>
+<hr align="CENTER" size="“1”" width='“600"' color="“Black”" noshade>
+<h6>El contenido de este Box no puede ser variado ni modificado<br><b>Cuando recibamos tu registro te llamaremos para confirmar la compra</b><br><b>Delivery disponible 48hrs después de realizado tu pedido</b>
+</h6></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Adelgazamiento</s:tag>
+    <s:tag>Alto en Fibra</s:tag>
+    <s:tag>Bajo en Grasa</s:tag>
+    <s:tag>Bajo en Sodio</s:tag>
+    <s:tag>Cartón</s:tag>
+    <s:tag>category_form_3</s:tag>
+    <s:tag>Libre Lactosa</s:tag>
+    <s:tag>Libre Soya</s:tag>
+    <s:tag>Mantenimiento</s:tag>
+    <s:tag>Más de S/130</s:tag>
+    <s:tag>Papel</s:tag>
+    <s:tag>Vidrio</s:tag>
+    <s:variant>
+      <id>https://getup.com.pe/products/8479520016</id>
+      <title>Default Title</title>
+      <s:price currency="PEN">150.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>1800</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://getup.com.pe/products/8242476944</id>
+    <published>2017-02-07T15:00:00-05:00</published>
+    <updated>2017-02-07T15:00:00-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://getup.com.pe/products/queenbreakfast"/>
+    <title>Queen Breakfast</title>
+    <s:type>Delivery en 24hrs</s:type>
+    <s:vendor>Hecho en getUP!</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1534/3917/products/QUEEN-BREAKFAST-MAMA.png?v=1525619852" /></td>
+    <td valign="bottom">
+      <p>
+        <strong>Vendor: </strong>Hecho en getUP!<br />
+        <strong>Type: </strong>Delivery en 24hrs<br />
+        <strong>Price: </strong>
+            150.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><b><b6>QUEEN BREAKFAST - MOM BOX</b6></b>
+<h6></h6>
+<meta charset="utf-8">
+<h6><b>Sorprende a la mami de tu vida con un desayuno de Reinas<br> Diseñado con exquisitas comidas que le fascinarán (PRE VENTA SOLO HASTA MIERCOLES 9/5)<br></b></h6>
+<b>QUÉ INCLUYE</b>
+<h6>1 Caja corrugado color natural <br> 500ml Milkshake de arándanos y fresas con leche sin lactosa <br> 80g Triple de pollo, espinaca y tomate (foto referencial)<br> 50g Panqueques de cacao con arándanos, frambuesas, moras, polen y menta<br> 40g Mandarinas cubiertas de cacao y kiwicha pop<br>90g Ensaladita de frutas por capas en frasco de vidrio<br> 50g Yogurt artesanal con trocitos de mango<br> 40g Granola de la casa con frutos secos<br>1 Tarjeta con mensaje personalizado y diseño de caja de "Buenos días Princesa"</h6>
+<b>COBERTURA GETUP</b><br> <meta charset="utf-8">
+<h6>
+<span>Llegamos GRATIS a 23 distritos de Lima</span><br><span>Reparto Exclusivo el mismo domingo de 6:00am a 9:00am</span><br><span>Reparto realizado por Flota Motorizada getUP! sin garantía de hora exacta</span><br><span>Revisa nuestras zonas de reparto Gratuitas aquí </span><a href="https://drive.google.com/open?id=1DTrav_PulPDL3N4LyFFEw2amqmU&amp;usp=sharing" title="Mapa de cobertura getUP!" target="_blank" rel="noopener noreferrer"><b>MAPA COBERTURA GRATUITA GETUP!</b></a>
+</h6>
+<b>ES BUENO SABERLO</b><br>
+<h6>Nuestros Boxes son elaborados con productos frescos elaborados o seleccionados por getUP!<br>Es importante que mantengas los alimentos refrigerados hasta su consumo</h6>
+<b>ECOFRIENDLY</b>
+<h6>Los envases que usamos son de materiales 100% reusables y reciclables<br>Puedes darle un 2do uso luego del consumo<br>Nuestro servicio no incluye cubiertos</h6>
+<hr align="CENTER" size="“1”" width='“600"' color="“Black”" noshade>
+<h6><b>El contenido de este Box no puede ser variado ni modificado<br><b> Cuando recibamos tu registro te llamaremos para confirmar la compra</b><br><b> Delivery disponible 48hrs después de realizado tu pedido</b></b></h6></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Adelgazamiento</s:tag>
+    <s:tag>Alto en Fibra</s:tag>
+    <s:tag>Alto en Proteína</s:tag>
+    <s:tag>Bajo en Azúcar</s:tag>
+    <s:tag>Bajo en Grasa</s:tag>
+    <s:tag>Bajo en Sodio</s:tag>
+    <s:tag>Cartón</s:tag>
+    <s:tag>category_form_3</s:tag>
+    <s:tag>Deportistas</s:tag>
+    <s:tag>Diabéticos</s:tag>
+    <s:tag>Libre Soya</s:tag>
+    <s:tag>Mantenimiento</s:tag>
+    <s:tag>Menos de 500kcal</s:tag>
+    <s:tag>Papel</s:tag>
+    <s:tag>Vidrio</s:tag>
+    <s:variant>
+      <id>https://getup.com.pe/products/8242476944</id>
+      <title>Default Title</title>
+      <s:price currency="PEN">150.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>1800</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://getup.com.pe/products/8448125456</id>
+    <published>2017-01-31T08:31:00-05:00</published>
+    <updated>2017-01-31T08:31:00-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://getup.com.pe/products/miniqueenbreakfast"/>
+    <title>Mini Queen Breakfast</title>
+    <s:type>Delivery en 48 horas</s:type>
+    <s:vendor>Hecho en getUP!</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1534/3917/products/6.png?v=1489665368" /></td>
+    <td valign="bottom">
+      <p>
+        <strong>Vendor: </strong>Hecho en getUP!<br />
+        <strong>Type: </strong>Delivery en 48 horas<br />
+        <strong>Price: </strong>
+            80.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><b><b6>MINI QUEEN BREAKFAST BOX GETUP!</b6></b>
+<h6></h6>
+<meta charset="utf-8">
+<h6><b>Sorprende a la reina de tu vida con un exquisito desayuno<br></b></h6>
+<b>QUÉ INCLUYE</b>
+<h6>1 Caja corrugado color natural<br> 500ml Milkshake de arándanos y fresas <br> 60g Brownies de cacao orgánico <br> 50g Parfait de yogurt griego con chía, granola, mango y fresas <br> 50g Triple de pollo al curry, espinaca y tomate (foto referencial)<br>1 Tarjeta con mensaje personalizado y diseño de caja a escoger<br>Agrégale a tu Box uno de nuestros Accesorios de regalo</h6>
+<b>COBERTURA GETUP</b><br>
+<h6>Llegamos GRATIS a 16 distritos de Lima de 6:00 a 8:30am con nuestra Flota Motorizada getUP!<br> Revisa nuestras zonas de reparto Gratuitas aquí <a href="https://drive.google.com/a/getup.com.pe/open?id=1id5qIl0QHR6dqe9id5ECURdzdkQ&amp;usp=sharing" title="Mapa de cobertura getUP!" target="_blank" rel="noopener noreferrer"><b>MAPA COBERTURA GRATUITA GETUP!</b></a><br> ———<br> Llegamos CON RECARGO a todos los distritos de Lima de 7am a 7pm con Cabify Express<br> Revisa las tarifas de reparto con Cargo Extra <a href="https://getup.com.pe/pages/cobertura" title="“Tarifas" cabify="" target="_blank" rel="noopener noreferrer"><b>TARIFAS DELIVERY CABIFY EXPRESS </b></a>
+</h6>
+<b>ES BUENO SABERLO</b><br>
+<h6>Nuestros Boxes son elaborados con productos frescos elaborados o seleccionados por getUP!<br>Es importante que mantengas los alimentos refrigerados hasta su consumo</h6>
+<b>ECOFRIENDLY</b>
+<h6>Los envases que usamos son de materiales 100% reusables y reciclables<br>Puedes darle un 2do uso luego del consumo<br>Nuestro servicio no incluye cubiertos</h6>
+<hr align="CENTER" size="“1”" width='“600"' color="“Black”" noshade>
+<h6>El contenido de este Box no puede ser variado ni modificado<br><b>Cuando recibamos tu registro te llamaremos para confirmar la compra</b><br><b>Delivery disponible 48hrs después de realizado tu pedido</b>
+</h6></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Adelgazamiento</s:tag>
+    <s:tag>Alto en Fibra</s:tag>
+    <s:tag>Alto en Proteína</s:tag>
+    <s:tag>Bajo en Azúcar</s:tag>
+    <s:tag>Bajo en Grasa</s:tag>
+    <s:tag>Bajo en Sodio</s:tag>
+    <s:tag>Cartón</s:tag>
+    <s:tag>category_form_3</s:tag>
+    <s:tag>Diabéticos</s:tag>
+    <s:tag>Libre Soya</s:tag>
+    <s:tag>Mantenimiento</s:tag>
+    <s:tag>Papel</s:tag>
+    <s:tag>S/51 - S/80</s:tag>
+    <s:tag>Vidrio</s:tag>
+    <s:variant>
+      <id>https://getup.com.pe/products/8448125456</id>
+      <title>Default Title</title>
+      <s:price currency="PEN">80.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>700</s:grams>
+    </s:variant>
+  </entry>
+</feed>

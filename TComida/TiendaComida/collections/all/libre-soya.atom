@@ -1,0 +1,1881 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en-US" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://getup.com.pe/collections/all.atom</id>
+  <link rel="alternate" type="text/html" href="https://getup.com.pe/collections/all"/>
+  <link rel="self" type="application/atom+xml" href="https://getup.com.pe/collections/all/libre-soya.atom"/>
+  <title>GET UP! Delicious Life</title>
+  <updated>2018-06-16T12:17:20-05:00</updated>
+  <author>
+    <name>GET UP! Delicious Life</name>
+  </author>
+  <entry>
+    <id>https://getup.com.pe/products/8448161488</id>
+    <published>2018-06-16T12:17:20-05:00</published>
+    <updated>2018-06-16T12:17:20-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://getup.com.pe/products/minikingbreakfast"/>
+    <title>Mini King Breakfast</title>
+    <s:type>Delivery en 48 horas</s:type>
+    <s:vendor>Hecho en getUP!</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1534/3917/products/5.png?v=1489665409" /></td>
+    <td valign="bottom">
+      <p>
+        <strong>Vendor: </strong>Hecho en getUP!<br />
+        <strong>Type: </strong>Delivery en 48 horas<br />
+        <strong>Price: </strong>
+            80.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><b><b6>MINI KING BREAKFAST BOX GETUP!</b6></b>
+<h6></h6>
+<meta charset="utf-8">
+<h6><b>Sorprende a tu persona especial con este desayuno de reyes<br> Una cajita con un delicioso desayuno que amará<br></b></h6>
+<b>QUÉ INCLUYE</b>
+<h6>1 Caja corrugado color natural<br> 500ml Detox de naranja, zanahoria y mandarina <br> 80g Yogurt griego con chía y trozos de mango <br> 80g Triple de queso, tomate y pollo con vegetales (foto referencial)<br> 50g Granola de la casa con coco, almendras y semillas de goyi <br>1 Tarjeta con mensaje personalizado y diseño de caja a escoger<br>Agrégale a tu Box uno de nuestros Accesorios de regalo</h6>
+<b>COBERTURA GETUP</b><br>
+<h6>Llegamos GRATIS a 16 distritos de Lima de 6:00 a 8:30am con nuestra Flota Motorizada getUP!<br> Revisa nuestras zonas de reparto Gratuitas aquí <a href="https://drive.google.com/a/getup.com.pe/open?id=1id5qIl0QHR6dqe9id5ECURdzdkQ&amp;usp=sharing" title="Mapa de cobertura getUP!" target="_blank" rel="noopener noreferrer"><b>MAPA COBERTURA GRATUITA GETUP!</b></a><br> ———<br> Llegamos CON RECARGO a todos los distritos de Lima de 7am a 7pm con Cabify Express<br> Revisa las tarifas de reparto con Cargo Extra <a href="https://getup.com.pe/pages/cobertura" title="“Tarifas" cabify="" target="_blank" rel="noopener noreferrer"><b>TARIFAS DELIVERY CABIFY EXPRESS </b></a>
+</h6>
+<b>ES BUENO SABERLO</b><br>
+<h6>Nuestros Boxes son elaborados con productos frescos elaborados o seleccionados por getUP!<br>Es importante que mantengas los alimentos refrigerados hasta su consumo</h6>
+<b>ECOFRIENDLY</b>
+<h6>Los envases que usamos son de materiales 100% reusables y reciclables<br>Puedes darle un 2do uso luego del consumo<br>Nuestro servicio no incluye cubiertos</h6>
+<hr align="CENTER" size="“1”" width='“600"' color="“Black”" noshade>
+<h6>El contenido de este Box no puede ser variado ni modificado<br><b>Cuando recibamos tu registro te llamaremos para confirmar la compra</b><br><b>Delivery disponible 48hrs después de realizado tu pedido</b>
+</h6></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Adelgazamiento</s:tag>
+    <s:tag>Alto en Fibra</s:tag>
+    <s:tag>Bajo en Azúcar</s:tag>
+    <s:tag>Bajo en Grasa</s:tag>
+    <s:tag>Bajo en Sodio</s:tag>
+    <s:tag>Cartón</s:tag>
+    <s:tag>category_form_3</s:tag>
+    <s:tag>Libre Soya</s:tag>
+    <s:tag>S/51 - S/80</s:tag>
+    <s:variant>
+      <id>https://getup.com.pe/products/8448161488</id>
+      <title>Default Title</title>
+      <s:price currency="PEN">80.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>700</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://getup.com.pe/products/8479456784</id>
+    <published>2018-06-16T12:16:31-05:00</published>
+    <updated>2018-06-16T12:16:31-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://getup.com.pe/products/royalbreakfast"/>
+    <title>Royal Breakfast</title>
+    <s:type>Delivery en 48 horas</s:type>
+    <s:vendor>Hecho en getUP!</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1534/3917/products/box-2.png?v=1496831433" /></td>
+    <td valign="bottom">
+      <p>
+        <strong>Vendor: </strong>Hecho en getUP!<br />
+        <strong>Type: </strong>Delivery en 48 horas<br />
+        <strong>Price: </strong>
+            140.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><b><b><b6>ROYAL BREAKFAST BOX GETUP!</b6><br></b></b>
+<h6></h6>
+<meta charset="utf-8">
+<h6><b>Sorprende a esa persona especial con un desayuno digno de la realeza<br> Un Box con una comidas que le fascinarán <br></b></h6>
+<b><b><b>QUÉ INCLUYE</b></b></b>
+<h6>1 Caja corrugado color natural <br> 500ml Iced Tea con manzanilla, aguaymanto y uvas negras <br> 80g Omelette con espárragos, champiñones, queso y tomate <br> 660g Mini pancitos tostados con oliva y orégano (foto referencial)<br> 60g Muesli de avena, yogurt, manzana, pasas y semillas de quinua <br> 50g Pudín de vainilla con chía y arándanos <br> 40g Enerby bites de vainilla con frutos secos <br> 40g Frutos secos premium <br> 30g Chips de yuca con sabor a pimiento, oliva y albahaca <br>1 Tarjeta con mensaje personalizado y diseño de caja a escoger<br>Agrégale a tu Box uno de nuestros Accesorios de regalo</h6>
+<b><b><b>COBERTURA GETUP</b><br></b></b>
+<h6>Llegamos GRATIS a 16 distritos de Lima de 6:00 a 8:30am con nuestra Flota Motorizada getUP!<br> Revisa nuestras zonas de reparto Gratuitas aquí <a href="https://drive.google.com/a/getup.com.pe/open?id=1id5qIl0QHR6dqe9id5ECURdzdkQ&amp;usp=sharing" title="Mapa de cobertura getUP!" target="_blank" rel="noopener noreferrer"><b>MAPA COBERTURA GRATUITA GETUP!</b></a><br> ———<br> Llegamos CON RECARGO a todos los distritos de Lima de 7am a 7pm con Cabify Express<br> Revisa las tarifas de reparto con Cargo Extra <a href="https://getup.com.pe/pages/cobertura" title="“Tarifas" cabify="" target="_blank" rel="noopener noreferrer"><b>TARIFAS DELIVERY CABIFY EXPRESS </b></a>
+</h6>
+<b><b><b>ES BUENO SABERLO</b><br></b></b>
+<h6>Nuestros Boxes son elaborados con productos frescos elaborados o seleccionados por getUP!<br>Es importante que mantengas los alimentos refrigerados hasta su consumo</h6>
+<b><b><b>ECOFRIENDLY</b></b></b>
+<h6>Los envases que usamos son de materiales 100% reusables y reciclables<br>Puedes darle un 2do uso luego del consumo<br>Nuestro servicio no incluye cubiertos</h6>
+<hr align="CENTER" size="“1”" width='“600"' color="“Black”" noshade>
+<h6><b>El contenido de este Box no puede ser variado ni modificado<br><b> Cuando recibamos tu registro te llamaremos para confirmar la compra</b><br><b> Delivery disponible 48hrs después de realizado tu pedido</b></b></h6></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Adelgazamiento</s:tag>
+    <s:tag>Alto en Fibra</s:tag>
+    <s:tag>Bajo en Azúcar</s:tag>
+    <s:tag>Bajo en Grasa</s:tag>
+    <s:tag>Bajo en Sodio</s:tag>
+    <s:tag>category_form_3</s:tag>
+    <s:tag>Diabéticos</s:tag>
+    <s:tag>Libre Soya</s:tag>
+    <s:tag>Mantenimiento</s:tag>
+    <s:tag>Menos de 500kcal</s:tag>
+    <s:tag>S/81 - S/130</s:tag>
+    <s:tag>Vidrio</s:tag>
+    <s:variant>
+      <id>https://getup.com.pe/products/8479456784</id>
+      <title>Default Title</title>
+      <s:price currency="PEN">140.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>1200</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://getup.com.pe/products/1317333925950</id>
+    <published>2018-06-15T20:03:53-05:00</published>
+    <updated>2018-06-15T20:03:53-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://getup.com.pe/products/catering-desayuno-del-hincha"/>
+    <title>Catering Desayuno del Hincha</title>
+    <s:type>Delivery en 24hrs</s:type>
+    <s:vendor>Hecho en getUP!</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1534/3917/products/Catering-1.png?v=1529110735" /></td>
+    <td valign="bottom">
+      <p>
+        <strong>Vendor: </strong>Hecho en getUP!<br />
+        <strong>Type: </strong>Delivery en 24hrs<br />
+        <strong>Price: </strong>
+            220.00 - 660.00
+            <a href="https://getup.com.pe/products/catering-desayuno-del-hincha">(3 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><b><b><b6>CATERING DESAYUNO DEL HINCHA PERUANO</b6><br></b></b>
+<h6></h6>
+<meta charset="utf-8">
+<h6><b>Alienta con energía a nuestra selección Bicolor<br>Tenemos un el catering ideal para verlo en Oficina o en Casa<br></b></h6>
+<b><b><b>QUÉ INCLUYE</b></b></b>
+<h6>220ml Chicha morada<br>1 Mini sándwich de pan con pollo a la brasa y ají de la casa<br>1 Mini butifarras con salsa criolla<br>1 Makicrepe rojo con pollo y queso crema<br>1 Football cake pop<br>1 Parfait bicolor con chía, granola y fruta </h6>
+<b>COBERTURA GETUP</b><br>
+<h6>Llegamos GRATIS a 23 distritos de Lima<br>Reparto disponible solo el jueves 21/06 y el martes 26/06 entre 6:00am y 9:00am<br>Entrega realizada por Flota Motorizada getUP! sin garantía de hora exacta<br> Revisa nuestras zonas de reparto Gratuitas aquí <a href="https://drive.google.com/open?id=1DTrav_PulPDL3N4LyFFEw2amqmU&amp;usp=sharing" title="Mapa de cobertura getUP!" target="_blank" rel="noopener noreferrer"><b>MAPA COBERTURA GRATUITA GETUP!</b></a><br> ———<br> Llegamos CON RECARGO a todos los distritos de Lima de 9am a 1pm con Uber<br> Revisa las tarifas de reparto con Cargo Extra <a href="https://getup.com.pe/pages/cobertura" title="“Tarifas" cabify="" target="_blank" rel="noopener noreferrer"><b>TARIFAS DELIVERY UBER </b></a>
+</h6>
+<b><b><b>ES BUENO SABERLO</b><br></b></b>
+<h6>Nuestros Boxes son elaborados con productos frescos elaborados o seleccionados por getUP!<br>Es importante que mantengas los alimentos refrigerados hasta su consumo</h6>
+<b><b><b>ECOFRIENDLY</b></b></b>
+<h6>Los envases que usamos son de materiales 100% reusables y reciclables<br>Puedes darle un 2do uso luego del consumo<br>Nuestro servicio no incluye cubiertos</h6>
+<hr align="CENTER" size="“1”" width='“600"' color="“Black”" noshade>
+<h6>El contenido de este Catering no puede ser variado ni modificado<br><b>Cuando recibamos tu registro te llamaremos para confirmar la compra</b><br><b>Delivery disponible 24hrs después de realizado tu pedido</b>
+</h6></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Bajo en Sodio</s:tag>
+    <s:tag>Cartón</s:tag>
+    <s:tag>category_form_3</s:tag>
+    <s:tag>Mantenimiento</s:tag>
+    <s:tag>Menos de 500kcal</s:tag>
+    <s:tag>Más de S/130</s:tag>
+    <s:tag>Vidrio</s:tag>
+    <s:variant>
+      <id>https://getup.com.pe/products/1317333925950</id>
+      <title>10 personas</title>
+      <s:price currency="PEN">220.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>2000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://getup.com.pe/products/1317333925950</id>
+      <title>20 personas</title>
+      <s:price currency="PEN">440.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>2000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://getup.com.pe/products/1317333925950</id>
+      <title>30 personas</title>
+      <s:price currency="PEN">660.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>2000</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://getup.com.pe/products/1317325537342</id>
+    <published>2018-06-15T20:03:17-05:00</published>
+    <updated>2018-06-15T20:03:17-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://getup.com.pe/products/box-del-hincha-peruano"/>
+    <title>Box del Hincha Peruano</title>
+    <s:type>Delivery en 24hrs</s:type>
+    <s:vendor>Hecho en getUP!</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1534/3917/products/Fotografia-1.png?v=1529108175" /></td>
+    <td valign="bottom">
+      <p>
+        <strong>Vendor: </strong>Hecho en getUP!<br />
+        <strong>Type: </strong>Delivery en 24hrs<br />
+        <strong>Price: </strong>
+            120.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><b><b><b6>BOX DEL HINCHA PERUANO</b6><br></b></b>
+<h6></h6>
+<meta charset="utf-8">
+<h6><b>Alienta con energía a nuestra selección Bicolor<br>Tenemos un desayuno peruano ideal para compartir<br></b></h6>
+<b><b><b>QUÉ INCLUYE</b></b></b>
+<h6>1 Caja corrugado color natural <br>500ml Chicha morada<br>8 Mini sándwich de pan con pollo a la brasa y ají de la casa<br>8 Mini butifarras con salsa criolla<br>4 Makicrepe rojo con pollo y queso crema<br>4 Football cake pop<br>4 Parfait bicolor con chía, granola y fruta<br>1 Tarjeta de aliento a la selección <br>Tenemos 3 diseños de Boxes: Guerrero, Farfán y Flores</h6>
+<b>COBERTURA GETUP</b><br>
+<h6>Llegamos GRATIS a 23 distritos de Lima<br>Reparto disponible solo el jueves 21/06 y el martes 26/06 entre 6:00am y 9:00am<br>Entrega realizada por Flota Motorizada getUP! sin garantía de hora exacta<br> Revisa nuestras zonas de reparto Gratuitas aquí <a href="https://drive.google.com/open?id=1DTrav_PulPDL3N4LyFFEw2amqmU&amp;usp=sharing" title="Mapa de cobertura getUP!" target="_blank" rel="noopener noreferrer"><b>MAPA COBERTURA GRATUITA GETUP!</b></a><br> ———<br> Llegamos CON RECARGO a todos los distritos de Lima de 9am a 1pm con Uber<br> Revisa las tarifas de reparto con Cargo Extra <a href="https://getup.com.pe/pages/cobertura" title="“Tarifas" cabify="" target="_blank" rel="noopener noreferrer"><b>TARIFAS DELIVERY UBER </b></a>
+</h6>
+<b><b><b>ES BUENO SABERLO</b><br></b></b>
+<h6>Nuestros Boxes son elaborados con productos frescos elaborados o seleccionados por getUP!<br>Es importante que mantengas los alimentos refrigerados hasta su consumo</h6>
+<b><b><b>ECOFRIENDLY</b></b></b>
+<h6>Los envases que usamos son de materiales 100% reusables y reciclables<br>Puedes darle un 2do uso luego del consumo<br>Nuestro servicio no incluye cubiertos</h6>
+<hr align="CENTER" size="“1”" width='“600"' color="“Black”" noshade>
+<h6>El contenido de este Box no puede ser variado ni modificado<br><b>Cuando recibamos tu registro te llamaremos para confirmar la compra</b><br><b>Delivery disponible 24hrs después de realizado tu pedido</b>
+</h6></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Bajo en Sodio</s:tag>
+    <s:tag>Cartón</s:tag>
+    <s:tag>category_form_3</s:tag>
+    <s:tag>Mantenimiento</s:tag>
+    <s:tag>Menos de 500kcal</s:tag>
+    <s:tag>Más de S/130</s:tag>
+    <s:tag>Vidrio</s:tag>
+    <s:variant>
+      <id>https://getup.com.pe/products/1317325537342</id>
+      <title>Guerrero</title>
+      <s:price currency="PEN">120.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>2000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://getup.com.pe/products/1317325537342</id>
+      <title>Farfán</title>
+      <s:price currency="PEN">120.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>2000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://getup.com.pe/products/1317325537342</id>
+      <title>Flores</title>
+      <s:price currency="PEN">120.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>2000</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://getup.com.pe/products/8479520016</id>
+    <published>2018-05-05T23:57:51-05:00</published>
+    <updated>2018-05-05T23:57:51-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://getup.com.pe/products/kingbreakfast"/>
+    <title>King Breakfast</title>
+    <s:type>Delivery en 48 horas</s:type>
+    <s:vendor>Hecho en getUP!</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1534/3917/products/KING-BREAKFAST-MAMA.png?v=1525620427" /></td>
+    <td valign="bottom">
+      <p>
+        <strong>Vendor: </strong>Hecho en getUP!<br />
+        <strong>Type: </strong>Delivery en 48 horas<br />
+        <strong>Price: </strong>
+            150.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><b6>KING BREAKFAST - MOM BOX</b6>
+<h6></h6>
+<meta charset="utf-8">
+<h6><b>Sorprende a la mami de tu vida con un delicioso desayuno de Reina <br> Un Box para iniciar muy bien el día (PRE VENTA SOLO HASTA MIERCOLES 9/5) <br></b></h6>
+<b>QUÉ INCLUYE</b>
+<h6>1 Caja corrugado color natural <br>500ml Detox Naranja, maracuyá, aguaymanto, piña, pimiento y limón<br> 80g Sándwich de pollo al curry con frutos secos<br> 30g Frutas deshidratadas<br> 30g Pita chips al orégano<br> 50g Mermelada de marcuyá<br> 40g Granola de la casa con coco, frutos secos y semillas de goyi<br> 80g Ensalada de frutas por capas<br> 60g Láminas de chocolate bitter con pasas, almendras, pistachos y goyi<br>1 Infusión Coconut Tropical Nature's Heart (foto referencial)<br>1 Infusión Chai Spice Tea Nature's Heart (foto referencial)<br>1 Tarjeta con mensaje personalizado y diseño de caja "Buenos días Princesa"</h6>
+<b>COBERTURA GETUP</b><br> <meta charset="utf-8">
+<h6>
+<span>Llegamos GRATIS a 23 distritos de Lima</span><br><span>Reparto Exclusivo el mismo domingo de 6:00am a 9:00am</span><br><span>Reparto realizado por Flota Motorizada getUP! sin garantía de hora exacta</span><br><span>Revisa nuestras zonas de reparto Gratuitas aquí </span><a href="https://drive.google.com/open?id=1DTrav_PulPDL3N4LyFFEw2amqmU&amp;usp=sharing" title="Mapa de cobertura getUP!" target="_blank" rel="noopener noreferrer"><b>MAPA COBERTURA GRATUITA GETUP!</b></a>
+</h6>
+<b>ES BUENO SABERLO</b><br>
+<h6>Nuestros Boxes son elaborados con productos frescos elaborados o seleccionados por getUP!<br>Es importante que mantengas los alimentos refrigerados hasta su consumo</h6>
+<b>ECOFRIENDLY</b>
+<h6>Los envases que usamos son de materiales 100% reusables y reciclables<br>Puedes darle un 2do uso luego del consumo<br>Nuestro servicio no incluye cubiertos</h6>
+<hr align="CENTER" size="“1”" width='“600"' color="“Black”" noshade>
+<h6>El contenido de este Box no puede ser variado ni modificado<br><b>Cuando recibamos tu registro te llamaremos para confirmar la compra</b><br><b>Delivery disponible 48hrs después de realizado tu pedido</b>
+</h6></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Adelgazamiento</s:tag>
+    <s:tag>Alto en Fibra</s:tag>
+    <s:tag>Bajo en Grasa</s:tag>
+    <s:tag>Bajo en Sodio</s:tag>
+    <s:tag>Cartón</s:tag>
+    <s:tag>category_form_3</s:tag>
+    <s:tag>Libre Lactosa</s:tag>
+    <s:tag>Libre Soya</s:tag>
+    <s:tag>Mantenimiento</s:tag>
+    <s:tag>Más de S/130</s:tag>
+    <s:tag>Papel</s:tag>
+    <s:tag>Vidrio</s:tag>
+    <s:variant>
+      <id>https://getup.com.pe/products/8479520016</id>
+      <title>Default Title</title>
+      <s:price currency="PEN">150.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>1800</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://getup.com.pe/products/8689186192</id>
+    <published>2018-01-23T13:10:34-05:00</published>
+    <updated>2018-01-23T13:10:34-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://getup.com.pe/products/tapenadeaceitunas"/>
+    <title>Tapenade de Aceitunas</title>
+    <s:type>Delivery en 24hrs</s:type>
+    <s:vendor>Hecho en getUP!</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1534/3917/products/jarck-17b.png?v=1491170778" /></td>
+    <td valign="bottom">
+      <p>
+        <strong>Vendor: </strong>Hecho en getUP!<br />
+        <strong>Type: </strong>Delivery en 24hrs<br />
+        <strong>Price: </strong>
+            8.00 - 28.00
+            <a href="https://getup.com.pe/products/tapenadeaceitunas">(3 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><b6>TAPENADE DE ACEITUNAS</b6>
+<h6></h6>
+<meta charset="utf-8">
+<h6><b>Disfruta de nuestras deliciosas salsas y dips<br></b></h6>
+<b>DESCRIPCIÓN</b>
+<h6>80g de Aceitunas de botija trozadas con aceite de oliva, pimientos y ciboulette<br> Acompaña este producto con uno de nuestros snacks getUP!</h6>
+<b>BENEFICIOS</b>
+<h6>Multiplica el sabor de tus snacks con nuestras deliciosas salsas y dips<br> Recíbelos en tu casa u oficina a la hora que mejor te acomode<br> Elige acompañarlos con snacks frescos o salados<br> Come delicioso, siéntete ligero y muy saludable con esta sana elección</h6>
+<b>COBERTURA GETUP</b><br>
+<h6>Llegamos GRATIS a 16 distritos de Lima de 6:00 a 8:30am con nuestra Flota Motorizada getUP!<br> Revisa nuestras zonas de reparto Gratuitas aquí <a href="https://drive.google.com/a/getup.com.pe/open?id=1id5qIl0QHR6dqe9id5ECURdzdkQ&amp;usp=sharing" title="Mapa de cobertura getUP!" target="_blank" rel="noopener noreferrer"><b>MAPA COBERTURA GRATUITA GETUP!</b></a><br> ———<br> Llegamos CON RECARGO a todos los distritos de Lima de 7am a 7pm con Cabify Express<br> Revisa las tarifas de reparto con Cargo Extra <a href="https://getup.com.pe/pages/cobertura" title="“Tarifas" cabify="" target="_blank" rel="noopener noreferrer"><b>TARIFAS DELIVERY CABIFY EXPRESS </b></a>
+</h6>
+<b>ES BUENO SABERLO</b><br>
+<h6>Las salsas y dips son elaboradas por getUP!<br>Este tapenade de aceitunas es ideal para acompañar nuestros snacks crujientes o frescos<br> Una vez abierto el envase te sugerimos consumir todo su contenido<br> Tiempo de vida: 3 días mientras esté sellado y refrigerado</h6>
+<b>ECOFRIENDLY</b>
+<h6>Los envases que usamos son frascos de vidrio 100% reusables <br> Puedes darle un 2do uso luego del consumo<br> Nuestro servicio no incluye cubiertos</h6>
+<hr align="CENTER" size="“1”" width='“600"' color="“Black”" noshade>
+<h6><b>El importe mínimo de compra para delivery es de S/.50.-<br> <b> Una vez registrado tu pedido te llamaremos para coordinar la entrega<br></b><b>Delivery disponible 24hrs después de realizado tu pedido</b></b></h6></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Adelgazamiento</s:tag>
+    <s:tag>Bajo en Azúcar</s:tag>
+    <s:tag>category_form_1</s:tag>
+    <s:tag>Libre Lactosa</s:tag>
+    <s:tag>Libre Soya</s:tag>
+    <s:tag>Mantenimiento</s:tag>
+    <s:tag>Menos de S/20</s:tag>
+    <s:tag>Vidrio</s:tag>
+    <s:variant>
+      <id>https://getup.com.pe/products/8689186192</id>
+      <title>80g</title>
+      <s:price currency="PEN">8.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>80</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://getup.com.pe/products/8689186192</id>
+      <title>200g</title>
+      <s:price currency="PEN">16.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>80</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://getup.com.pe/products/8689186192</id>
+      <title>400g</title>
+      <s:price currency="PEN">28.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>80</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://getup.com.pe/products/8689200784</id>
+    <published>2018-01-23T13:10:19-05:00</published>
+    <updated>2018-01-23T13:10:19-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://getup.com.pe/products/picodegallo"/>
+    <title>Salsa Pico de Gallo</title>
+    <s:type>Delivery en 24hrs</s:type>
+    <s:vendor>Hecho en getUP!</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1534/3917/products/jarck-18b.png?v=1491170887" /></td>
+    <td valign="bottom">
+      <p>
+        <strong>Vendor: </strong>Hecho en getUP!<br />
+        <strong>Type: </strong>Delivery en 24hrs<br />
+        <strong>Price: </strong>
+            10.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><b6>SALSA PICO DE GALLO</b6>
+<h6></h6>
+<meta charset="utf-8">
+<h6><b>Disfruta de nuestras deliciosas salsas y dips<br></b></h6>
+<b>DESCRIPCIÓN</b>
+<h6>Cebollas, tomates, perejil, limón, aceite de oliva y sal<br> Acompaña este producto con uno de nuestros snacks getUP!</h6>
+<b>BENEFICIOS</b>
+<h6>Multiplica el sabor de tus snacks con nuestras deliciosas salsas y dips<br> Recíbelos en tu casa u oficina a la hora que mejor te acomode<br> Elige acompañarlos con snacks frescos o salados<br> Come delicioso, siéntete ligero y muy saludable con esta sana elección</h6>
+<b>COBERTURA GETUP</b><br>
+<h6>Llegamos GRATIS a 16 distritos de Lima de 6:00 a 8:30am con nuestra Flota Motorizada getUP!<br> Revisa nuestras zonas de reparto Gratuitas aquí <a href="https://drive.google.com/a/getup.com.pe/open?id=1id5qIl0QHR6dqe9id5ECURdzdkQ&amp;usp=sharing" title="Mapa de cobertura getUP!" target="_blank" rel="noopener noreferrer"><b>MAPA COBERTURA GRATUITA GETUP!</b></a><br> ———<br> Llegamos CON RECARGO a todos los distritos de Lima de 7am a 7pm con Cabify Express<br> Revisa las tarifas de reparto con Cargo Extra <a href="https://getup.com.pe/pages/cobertura" title="“Tarifas" cabify="" target="_blank" rel="noopener noreferrer"><b>TARIFAS DELIVERY CABIFY EXPRESS </b></a>
+</h6>
+<b>ES BUENO SABERLO</b><br>
+<h6>Las salsas y dips son elaboradas por getUP!<br>Esta salsa pico de gallo es ideal para acompañar nuestros snacks crujientes o frescos<br> Una vez abierto el envase te sugerimos consumir todo su contenido<br> Tiempo de vida: 1 día mientras esté sellado y refrigerado</h6>
+<b>ECOFRIENDLY</b>
+<h6>Los envases que usamos son frascos de vidrio 100% reusables <br> Puedes darle un 2do uso luego del consumo<br> Nuestro servicio no incluye cubiertos</h6>
+<hr align="CENTER" size="“1”" width='“600"' color="“Black”" noshade>
+<h6><b>El importe mínimo de compra para delivery es de S/.50.-<br> <b> Una vez registrado tu pedido te llamaremos para coordinar la entrega<br></b><b>Delivery disponible 24hrs después de realizado tu pedido</b></b></h6></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Adelgazamiento</s:tag>
+    <s:tag>Bajo en Azúcar</s:tag>
+    <s:tag>Bajo en Grasa</s:tag>
+    <s:tag>Bajo en Sodio</s:tag>
+    <s:tag>category_form_1</s:tag>
+    <s:tag>Libre Gluten</s:tag>
+    <s:tag>Libre Lactosa</s:tag>
+    <s:tag>Libre Soya</s:tag>
+    <s:tag>Mantenimiento</s:tag>
+    <s:tag>Menos 200kcal</s:tag>
+    <s:tag>Menos de S/20</s:tag>
+    <s:tag>Vegano</s:tag>
+    <s:tag>Vidrio</s:tag>
+    <s:variant>
+      <id>https://getup.com.pe/products/8689200784</id>
+      <title>80g</title>
+      <s:price currency="PEN">10.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>80</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://getup.com.pe/products/8689200784</id>
+      <title>200g</title>
+      <s:price currency="PEN">10.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>80</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://getup.com.pe/products/8689200784</id>
+      <title>400g</title>
+      <s:price currency="PEN">10.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>80</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://getup.com.pe/products/8689123728</id>
+    <published>2018-01-23T13:10:06-05:00</published>
+    <updated>2018-01-23T13:10:06-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://getup.com.pe/products/hummusdegarbanzos"/>
+    <title>Salsa Hummus de Garbanzos</title>
+    <s:type>Delivery en 24hrs</s:type>
+    <s:vendor>Hecho en getUP!</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1534/3917/products/jarck-13b.png?v=1491170592" /></td>
+    <td valign="bottom">
+      <p>
+        <strong>Vendor: </strong>Hecho en getUP!<br />
+        <strong>Type: </strong>Delivery en 24hrs<br />
+        <strong>Price: </strong>
+            8.00 - 28.00
+            <a href="https://getup.com.pe/products/hummusdegarbanzos">(3 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><b6>SALSA HUMMUS DE GARBANZOS</b6>
+<h6></h6>
+<meta charset="utf-8">
+<h6><b>Disfruta de nuestras deliciosas salsas y dips<br></b></h6>
+<b>DESCRIPCIÓN</b>
+<h6>Salsa de hummus de garbanzos con páprika y aceite de oliva<br> Acompaña este producto con uno de nuestros snacks getUP!</h6>
+<b>BENEFICIOS</b>
+<h6>Multiplica el sabor de tus snacks con nuestras deliciosas salsas y dips<br> Recíbelos en tu casa u oficina a la hora que mejor te acomode<br> Elige acompañarlos con snacks frescos o salados<br> Come delicioso, siéntete ligero y muy saludable con esta sana elección</h6>
+<b>COBERTURA GETUP</b><br>
+<h6>Llegamos GRATIS a 16 distritos de Lima de 6:00 a 8:30am con nuestra Flota Motorizada getUP!<br> Revisa nuestras zonas de reparto Gratuitas aquí <a href="https://drive.google.com/a/getup.com.pe/open?id=1id5qIl0QHR6dqe9id5ECURdzdkQ&amp;usp=sharing" title="Mapa de cobertura getUP!" target="_blank" rel="noopener noreferrer"><b>MAPA COBERTURA GRATUITA GETUP!</b></a><br> ———<br> Llegamos CON RECARGO a todos los distritos de Lima de 7am a 7pm con Cabify Express<br> Revisa las tarifas de reparto con Cargo Extra <a href="https://getup.com.pe/pages/cobertura" title="“Tarifas" cabify="" target="_blank" rel="noopener noreferrer"><b>TARIFAS DELIVERY CABIFY EXPRESS </b></a>
+</h6>
+<b>ES BUENO SABERLO</b><br>
+<h6>Las salsas y dips son elaboradas por getUP!<br>Esta salsa de hummus de garbanzos es ideal para acompañar de nuestros snacks crujientes o frescos<br> Una vez abierto el envase te sugerimos consumir todo su contenido<br> Tiempo de vida: 3 días mientras esté sellado y refrigerado</h6>
+<b>ECOFRIENDLY</b>
+<h6>Los envases que usamos son frascos de vidrio 100% reusables <br> Puedes darle un 2do uso luego del consumo<br> Nuestro servicio no incluye cubiertos</h6>
+<hr align="CENTER" size="“1”" width='“600"' color="“Black”" noshade>
+<h6><b>El importe mínimo de compra para delivery es de S/.50.-<br> <b> Una vez registrado tu pedido te llamaremos para coordinar la entrega<br></b><b>Delivery disponible 24hrs después de realizado tu pedido</b></b></h6></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Adelgazamiento</s:tag>
+    <s:tag>Alto en Fibra</s:tag>
+    <s:tag>Alto en Proteína</s:tag>
+    <s:tag>Bajo en Azúcar</s:tag>
+    <s:tag>Bajo en Grasa</s:tag>
+    <s:tag>Bajo en Sodio</s:tag>
+    <s:tag>category_form_1</s:tag>
+    <s:tag>Diabéticos</s:tag>
+    <s:tag>Libre Gluten</s:tag>
+    <s:tag>Libre Lactosa</s:tag>
+    <s:tag>Libre Soya</s:tag>
+    <s:tag>Mantenimiento</s:tag>
+    <s:tag>Menos 200kcal</s:tag>
+    <s:tag>Menos de S/20</s:tag>
+    <s:tag>Vegano</s:tag>
+    <s:tag>Vidrio</s:tag>
+    <s:variant>
+      <id>https://getup.com.pe/products/8689123728</id>
+      <title>80g</title>
+      <s:price currency="PEN">8.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>80</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://getup.com.pe/products/8689123728</id>
+      <title>200g</title>
+      <s:price currency="PEN">16.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>80</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://getup.com.pe/products/8689123728</id>
+      <title>400g</title>
+      <s:price currency="PEN">28.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>80</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://getup.com.pe/products/8644088400</id>
+    <published>2018-01-23T13:09:55-05:00</published>
+    <updated>2018-01-23T13:09:55-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://getup.com.pe/products/hummusconpimentos"/>
+    <title>Salsa Hummus con Pimentos</title>
+    <s:type>Delivery en 24hrs</s:type>
+    <s:vendor>Hecho en getUP!</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1534/3917/products/jarck-11-b.png?v=1490721399" /></td>
+    <td valign="bottom">
+      <p>
+        <strong>Vendor: </strong>Hecho en getUP!<br />
+        <strong>Type: </strong>Delivery en 24hrs<br />
+        <strong>Price: </strong>
+            8.00 - 28.00
+            <a href="https://getup.com.pe/products/hummusconpimentos">(3 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><b6>SALSA HUMMUS CON PIMIENTOS</b6>
+<h6></h6>
+<meta charset="utf-8">
+<h6><b>Disfruta de nuestras deliciosas salsas y dips<br></b></h6>
+<b>DESCRIPCIÓN</b>
+<h6>80g de Salsa de hummus de garbanzos con pimientos soasados y aceite de oliva<br> Acompaña este producto con uno de nuestros snacks getUP!</h6>
+<b>BENEFICIOS</b>
+<h6>Multiplica el sabor de tus snacks con nuestras deliciosas salsas y dips<br> Recíbelos en tu casa u oficina a la hora que mejor te acomode<br> Elige acompañarlos con snacks frescos o salados<br> Come delicioso, siéntete ligero y muy saludable con esta sana elección</h6>
+<b>COBERTURA GETUP</b><br>
+<h6>Llegamos GRATIS a 16 distritos de Lima de 6:00 a 8:30am con nuestra Flota Motorizada getUP!<br> Revisa nuestras zonas de reparto Gratuitas aquí <a href="https://drive.google.com/a/getup.com.pe/open?id=1id5qIl0QHR6dqe9id5ECURdzdkQ&amp;usp=sharing" title="Mapa de cobertura getUP!" target="_blank" rel="noopener noreferrer"><b>MAPA COBERTURA GRATUITA GETUP!</b></a><br> ———<br> Llegamos CON RECARGO a todos los distritos de Lima de 7am a 7pm con Cabify Express<br> Revisa las tarifas de reparto con Cargo Extra <a href="https://getup.com.pe/pages/cobertura" title="“Tarifas" cabify="" target="_blank" rel="noopener noreferrer"><b>TARIFAS DELIVERY CABIFY EXPRESS </b></a>
+</h6>
+<b>ES BUENO SABERLO</b><br>
+<h6>Las salsas y dips son elaboradas por getUP!<br>Esta salsa de hummus con pimiento es ideal para acompañar nuestros snacks crujientes o frescos<br> Una vez abierto el envase te sugerimos consumir todo su contenido<br> Tiempo de vida: 3 días mientras esté sellado y refrigerado</h6>
+<b>ECOFRIENDLY</b>
+<h6>Los envases que usamos son frascos de vidrio 100% reusables <br> Puedes darle un 2do uso luego del consumo<br> Nuestro servicio no incluye cubiertos</h6>
+<hr align="CENTER" size="“1”" width='“600"' color="“Black”" noshade>
+<h6><b>El importe mínimo de compra para delivery es de S/.50.-<br> <b> Una vez registrado tu pedido te llamaremos para coordinar la entrega<br></b><b>Delivery disponible 24hrs después de realizado tu pedido</b></b></h6></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Adelgazamiento</s:tag>
+    <s:tag>Alto en Fibra</s:tag>
+    <s:tag>Alto en Proteína</s:tag>
+    <s:tag>Bajo en Azúcar</s:tag>
+    <s:tag>Bajo en Grasa</s:tag>
+    <s:tag>Bajo en Sodio</s:tag>
+    <s:tag>category_form_1</s:tag>
+    <s:tag>Diabéticos</s:tag>
+    <s:tag>Libre Gluten</s:tag>
+    <s:tag>Libre Lactosa</s:tag>
+    <s:tag>Libre Soya</s:tag>
+    <s:tag>Mantenimiento</s:tag>
+    <s:tag>Menos 200kcal</s:tag>
+    <s:tag>Menos de S/20</s:tag>
+    <s:tag>Vegano</s:tag>
+    <s:tag>Vidrio</s:tag>
+    <s:variant>
+      <id>https://getup.com.pe/products/8644088400</id>
+      <title>80g</title>
+      <s:price currency="PEN">8.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>80</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://getup.com.pe/products/8644088400</id>
+      <title>200g</title>
+      <s:price currency="PEN">16.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>80</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://getup.com.pe/products/8644088400</id>
+      <title>400g</title>
+      <s:price currency="PEN">28.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>80</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://getup.com.pe/products/8644011728</id>
+    <published>2018-01-23T13:09:44-05:00</published>
+    <updated>2018-01-23T13:09:44-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://getup.com.pe/products/salsaguacamole"/>
+    <title>Salsa Guacamole</title>
+    <s:type>Delivery en 24hrs</s:type>
+    <s:vendor>Hecho en getUP!</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1534/3917/products/jarck-12b.png?v=1490721060" /></td>
+    <td valign="bottom">
+      <p>
+        <strong>Vendor: </strong>Hecho en getUP!<br />
+        <strong>Type: </strong>Delivery en 24hrs<br />
+        <strong>Price: </strong>
+            8.00 - 28.00
+            <a href="https://getup.com.pe/products/salsaguacamole">(3 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><b6>SALSA DE GUACAMOLE</b6>
+<h6></h6>
+<meta charset="utf-8">
+<h6><b>Disfruta de nuestras deliciosas salsas y dips<br></b></h6>
+<b>DESCRIPCIÓN</b>
+<h6>Salsa de guacamole con cebolla, tomate, perejil y limón<br> Acompaña este producto con uno de nuestros snacks getUP!</h6>
+<b>BENEFICIOS</b>
+<h6>Multiplica el sabor de tus snacks con nuestras deliciosas salsas y dips<br> Recíbelos en tu casa u oficina a la hora que mejor te acomode<br> Elige acompañarlos con snacks frescos o salados<br> Come delicioso, siéntete ligero y muy saludable con esta sana elección</h6>
+<b>COBERTURA GETUP</b><br>
+<h6>Llegamos GRATIS a 16 distritos de Lima de 6:00 a 8:30am con nuestra Flota Motorizada getUP!<br> Revisa nuestras zonas de reparto Gratuitas aquí <a href="https://drive.google.com/a/getup.com.pe/open?id=1id5qIl0QHR6dqe9id5ECURdzdkQ&amp;usp=sharing" title="Mapa de cobertura getUP!" target="_blank" rel="noopener noreferrer"><b>MAPA COBERTURA GRATUITA GETUP!</b></a><br> ———<br> Llegamos CON RECARGO a todos los distritos de Lima de 7am a 7pm con Cabify Express<br> Revisa las tarifas de reparto con Cargo Extra <a href="https://getup.com.pe/pages/cobertura" title="“Tarifas" cabify="" target="_blank" rel="noopener noreferrer"><b>TARIFAS DELIVERY CABIFY EXPRESS </b></a>
+</h6>
+<b>ES BUENO SABERLO</b><br>
+<h6>Las salsas y dips son elaboradas por getUP!<br>Esta salsa guacamole es ideal para acompañar nuestros snacks crujientes o frescos<br> Una vez abierto el envase te sugerimos consumir todo su contenido<br> Tiempo de vida: 1 días mientras esté sellado y refrigerado</h6>
+<b>ECOFRIENDLY</b>
+<h6>Los envases que usamos son frascos de vidrio 100% reusables <br> Puedes darle un 2do uso luego del consumo<br> Nuestro servicio no incluye cubiertos</h6>
+<hr align="CENTER" size="“1”" width='“600"' color="“Black”" noshade>
+<h6><b>El importe mínimo de compra para delivery es de S/.50.-<br> <b> Una vez registrado tu pedido te llamaremos para coordinar la entrega<br></b><b>Delivery disponible 24hrs después de realizado tu pedido</b></b></h6></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Adelgazamiento</s:tag>
+    <s:tag>Alto en Fibra</s:tag>
+    <s:tag>Alto en Proteína</s:tag>
+    <s:tag>Bajo en Azúcar</s:tag>
+    <s:tag>Bajo en Grasa</s:tag>
+    <s:tag>Bajo en Sodio</s:tag>
+    <s:tag>category_form_1</s:tag>
+    <s:tag>Deportistas</s:tag>
+    <s:tag>Diabéticos</s:tag>
+    <s:tag>Libre Gluten</s:tag>
+    <s:tag>Libre Lactosa</s:tag>
+    <s:tag>Libre Soya</s:tag>
+    <s:tag>Mantenimiento</s:tag>
+    <s:tag>Menos 200kcal</s:tag>
+    <s:tag>Menos de S/20</s:tag>
+    <s:tag>Vegano</s:tag>
+    <s:tag>Vidrio</s:tag>
+    <s:variant>
+      <id>https://getup.com.pe/products/8644011728</id>
+      <title>80g</title>
+      <s:price currency="PEN">8.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>80</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://getup.com.pe/products/8644011728</id>
+      <title>200g</title>
+      <s:price currency="PEN">16.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>80</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://getup.com.pe/products/8644011728</id>
+      <title>400g</title>
+      <s:price currency="PEN">28.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>80</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://getup.com.pe/products/8644106640</id>
+    <published>2018-01-23T13:07:30-05:00</published>
+    <updated>2018-01-23T13:07:30-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://getup.com.pe/products/salsabluecheese"/>
+    <title>Salsa Blue Cheese</title>
+    <s:type>Delivery en 24hrs</s:type>
+    <s:vendor>Hecho en getUP!</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1534/3917/products/jarck-14b.png?v=1490721503" /></td>
+    <td valign="bottom">
+      <p>
+        <strong>Vendor: </strong>Hecho en getUP!<br />
+        <strong>Type: </strong>Delivery en 24hrs<br />
+        <strong>Price: </strong>
+            10.00 - 35.00
+            <a href="https://getup.com.pe/products/salsabluecheese">(3 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><b6>SALSA DE BLUE CHEESE</b6>
+<h6></h6>
+<meta charset="utf-8">
+<h6><b>Disfruta de nuestras deliciosas salsas y dips<br></b></h6>
+<b>DESCRIPCIÓN</b>
+<h6>Salsa de queso con denominación de origen Roquefort o Gorgonzola combinado con queso crema ligero<br> Acompaña este producto con uno de nuestros snacks getUP!</h6>
+<b>BENEFICIOS</b>
+<h6>Multiplica el sabor de tus snacks con nuestras deliciosas salsas y dips<br> Recíbelos en tu casa u oficina a la hora que mejor te acomode<br> Elige acompañarlos con snacks frescos o salados<br> Come delicioso, siéntete ligero y muy saludable con esta sana elección</h6>
+<b>COBERTURA GETUP</b><br>
+<h6>Llegamos GRATIS a 16 distritos de Lima de 6:00 a 8:30am con nuestra Flota Motorizada getUP!<br> Revisa nuestras zonas de reparto Gratuitas aquí <a href="https://drive.google.com/a/getup.com.pe/open?id=1id5qIl0QHR6dqe9id5ECURdzdkQ&amp;usp=sharing" title="Mapa de cobertura getUP!" target="_blank" rel="noopener noreferrer"><b>MAPA COBERTURA GRATUITA GETUP!</b></a><br> ———<br> Llegamos CON RECARGO a todos los distritos de Lima de 7am a 7pm con Cabify Express<br> Revisa las tarifas de reparto con Cargo Extra <a href="https://getup.com.pe/pages/cobertura" title="“Tarifas" cabify="" target="_blank" rel="noopener noreferrer"><b>TARIFAS DELIVERY CABIFY EXPRESS </b></a>
+</h6>
+<b>ES BUENO SABERLO</b><br>
+<h6>Las salsas y dips son elaboradas por getUP!<br>Esta salsa blue cheese es ideal para acompañar nuestros snacks crujientes o frescos<br> Una vez abierto el envase te sugerimos consumir todo su contenido<br> Tiempo de vida: 1 días mientras esté sellado y refrigerado</h6>
+<b>ECOFRIENDLY</b>
+<h6>Los envases que usamos son frascos de vidrio 100% reusables <br> Puedes darle un 2do uso luego del consumo<br> Nuestro servicio no incluye cubiertos</h6>
+<hr align="CENTER" size="“1”" width='“600"' color="“Black”" noshade>
+<h6><b>El importe mínimo de compra para delivery es de S/.50.-<br> <b> Una vez registrado tu pedido te llamaremos para coordinar la entrega<br></b><b>Delivery disponible 24hrs después de realizado tu pedido</b></b></h6></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Alto en Proteína</s:tag>
+    <s:tag>Bajo en Azúcar</s:tag>
+    <s:tag>category_form_1</s:tag>
+    <s:tag>Deportistas</s:tag>
+    <s:tag>Libre Gluten</s:tag>
+    <s:tag>Mantenimiento</s:tag>
+    <s:tag>Menos de 500kcal</s:tag>
+    <s:tag>Menos de S/20</s:tag>
+    <s:tag>S/21 - S/50</s:tag>
+    <s:tag>Vidrio</s:tag>
+    <s:variant>
+      <id>https://getup.com.pe/products/8644106640</id>
+      <title>80g</title>
+      <s:price currency="PEN">10.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>60</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://getup.com.pe/products/8644106640</id>
+      <title>200g</title>
+      <s:price currency="PEN">20.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>60</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://getup.com.pe/products/8644106640</id>
+      <title>400g</title>
+      <s:price currency="PEN">35.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>60</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://getup.com.pe/products/8878928016</id>
+    <published>2017-12-05T12:30:49-05:00</published>
+    <updated>2017-12-05T12:30:49-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://getup.com.pe/products/ensalada-waldorf-getup"/>
+    <title>Ensalada Waldorf getUP!</title>
+    <s:type>Delivery en 72hrs</s:type>
+    <s:vendor>Hecho en getUP!</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1534/3917/products/600-x600-ensalada-waldorf_1024x1024_cf81c41c-308d-469f-88b4-ebb63da55c2b.png?v=1492600593" /></td>
+    <td valign="bottom">
+      <p>
+        <strong>Vendor: </strong>Hecho en getUP!<br />
+        <strong>Type: </strong>Delivery en 72hrs<br />
+        <strong>Price: </strong>
+            60.00 - 240.00
+            <a href="https://getup.com.pe/products/ensalada-waldorf-getup">(3 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><b6>ENSALADA WALDORF GETUP!</b6>
+<h6></h6>
+<meta charset="utf-8">
+<h6><b>Celebra con los que más quieres con estas deliciosas comidas preparadas y enviadas a donde estés<br></b></h6>
+<b>DESCRIPCIÓN</b>
+<h6>Reinventamos este clásico a nuestro estilo<br>Papas andinas, láminas de manzana, aguaymanto, chía, aros de cebolla blanca<br>Aliño de mayonesa al curry. 120g por porción</h6>
+<b>BENEFICIOS</b>
+<h6>Celebra tu momento especial con esta deliciosa comida <br> Recíbelo en tu casa u oficina a la hora que mejor te acomode<br> Elige acompañarlo con bebidas, guarniciones o carnes<br> Come delicioso, siéntete ligero y muy saludable con esta sana elección</h6>
+<b>COBERTURA GETUP</b><br>
+<h6>Llegamos GRATIS a 16 distritos de Lima de 6:00 a 8:30am con nuestra Flota Motorizada getUP!<br> Revisa nuestras zonas de reparto Gratuitas aquí <a href="https://drive.google.com/a/getup.com.pe/open?id=1id5qIl0QHR6dqe9id5ECURdzdkQ&amp;usp=sharing" title="Mapa de cobertura getUP!" target="_blank" rel="noopener noreferrer"><b>MAPA COBERTURA GRATUITA GETUP!</b></a><br> ———<br> Llegamos CON RECARGO a todos los distritos de Lima de 7am a 7pm con Cabify Express<br> Revisa las tarifas de reparto con Cargo Extra <a href="https://getup.com.pe/pages/cobertura" title="“Tarifas" cabify="" target="_blank" rel="noopener noreferrer"><b>TARIFAS DELIVERY CABIFY EXPRESS </b></a>
+</h6>
+<b>ES BUENO SABERLO</b><br>
+<h6>Agrega extra diversión a tu reunión con nuestro PlayList de <a href="https://open.spotify.com/user/vivegetup" title="Play List getUP!" target="_blank" rel="noopener noreferrer"><b>SPOTIFY DELICIOUS PARTY!</b></a><br> Esta ensalada es preparada por getUP! solo bajo pedido<br>Nuestras comidas están cargadas de color y sabor proveniente de los vegetales y semillas que usamos<br>Comidas llegan en envases de aluminio o plástico. Refrigerar hasta su consumo<br> Tiempo de vida: 24 horas desde su recepción</h6>
+<b>ECOFRIENDLY</b>
+<h6>Los envases que usamos son botellas de aluminio o plástico <br> Nuestro servicio no incluye cubiertos</h6>
+<hr align="CENTER" size="“1”" width='“600"' color="“Black”" noshade>
+<h6><b>El importe mínimo de compra para delivery es de S/.50.-<br><b> Una vez registrado tu pedido te llamaremos para coordinar la entrega<br></b> <b>Delivery disponible 72hrs después de realizado tu pedido</b></b></h6></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Adelgazamiento</s:tag>
+    <s:tag>Alto en Fibra</s:tag>
+    <s:tag>Bajo en Azúcar</s:tag>
+    <s:tag>Bajo en Sodio</s:tag>
+    <s:tag>category_form_1</s:tag>
+    <s:tag>Deportistas</s:tag>
+    <s:tag>Libre Gluten</s:tag>
+    <s:tag>Libre Soya</s:tag>
+    <s:tag>Mantenimiento</s:tag>
+    <s:tag>Menos 200kcal</s:tag>
+    <s:tag>Plástico</s:tag>
+    <s:tag>S/51 - S/80</s:tag>
+    <s:variant>
+      <id>https://getup.com.pe/products/8878928016</id>
+      <title>6 porciones</title>
+      <s:price currency="PEN">60.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>30</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://getup.com.pe/products/8878928016</id>
+      <title>12 porciones</title>
+      <s:price currency="PEN">108.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>30</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://getup.com.pe/products/8878928016</id>
+      <title>30 porciones</title>
+      <s:price currency="PEN">240.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>30</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://getup.com.pe/products/8879282128</id>
+    <published>2017-12-05T12:29:53-05:00</published>
+    <updated>2017-12-05T12:29:53-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://getup.com.pe/products/humitas-de-queso"/>
+    <title>Humitas de queso</title>
+    <s:type>Delivery en 72hrs</s:type>
+    <s:vendor>Hecho en getUP!</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1534/3917/products/600-x600-humitas-de-queso_1024x1024_a8f71ea8-6ffa-4f88-bdaa-ef9560e4e3aa.png?v=1492602493" /></td>
+    <td valign="bottom">
+      <p>
+        <strong>Vendor: </strong>Hecho en getUP!<br />
+        <strong>Type: </strong>Delivery en 72hrs<br />
+        <strong>Price: </strong>
+            60.00 - 270.00
+            <a href="https://getup.com.pe/products/humitas-de-queso">(3 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><b6>HUMITAS DE QUESO</b6>
+<h6></h6>
+<meta charset="utf-8">
+<h6><b>Celebra con los que más quieres con estas deliciosas comidas preparadas y enviadas a donde estés<br></b></h6>
+<b>DESCRIPCIÓN</b>
+<h6>Delicadas humitas de maiz molido rellenas de queso<br> Ideal para compartir como abre bocas antes de tu cena o en el desayuno<br>Sugerimos 2 unidades por persona</h6>
+<b>BENEFICIOS</b>
+<h6>Celebra tu momento especial con esta deliciosa comida <br> Recíbelo en tu casa u oficina a la hora que mejor te acomode<br> Elige acompañarlo con bebidas, carnes o ensaladas<br> Come delicioso, siéntete ligero y muy saludable con esta sana elección</h6>
+<b>COBERTURA GETUP</b><br>
+<h6>Llegamos GRATIS a 16 distritos de Lima de 6:00 a 8:30am con nuestra Flota Motorizada getUP!<br> Revisa nuestras zonas de reparto Gratuitas aquí <a href="https://drive.google.com/a/getup.com.pe/open?id=1id5qIl0QHR6dqe9id5ECURdzdkQ&amp;usp=sharing" title="Mapa de cobertura getUP!" target="_blank" rel="noopener noreferrer"><b>MAPA COBERTURA GRATUITA GETUP!</b></a><br> ———<br> Llegamos CON RECARGO a todos los distritos de Lima de 7am a 7pm con Cabify Express<br> Revisa las tarifas de reparto con Cargo Extra <a href="https://getup.com.pe/pages/cobertura" title="“Tarifas" cabify="" target="_blank" rel="noopener noreferrer"><b>TARIFAS DELIVERY CABIFY EXPRESS </b></a>
+</h6>
+<b>ES BUENO SABERLO</b><br>
+<h6>Agrega extra diversión a tu reunión con nuestro PlayList de <a href="https://open.spotify.com/user/vivegetup" title="Play List getUP!" target="_blank" rel="noopener noreferrer"><b>SPOTIFY DELICIOUS PARTY!</b></a><br> Esta carne es preparada por getUP! solo bajo pedido<br>Nuestras comidas están cargadas de color y sabor proveniente de los vegetales y semillas que usamos<br>Comidas llegan en envases de aluminio o plástico. Refrigerar hasta su consumo<br> Tiempo de vida: 24 horas desde su recepción</h6>
+<b>ECOFRIENDLY</b>
+<h6>Los envases que usamos son botellas de aluminio o plástico <br> Nuestro servicio no incluye cubiertos</h6>
+<hr align="CENTER" size="“1”" width='“600"' color="“Black”" noshade>
+<h6><b>El importe mínimo de compra para delivery es de S/.50.-<br><b> Una vez registrado tu pedido te llamaremos para coordinar la entrega<br></b> <b>Delivery disponible 72hrs después de realizado tu pedido</b></b></h6></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Adelgazamiento</s:tag>
+    <s:tag>Alto en Fibra</s:tag>
+    <s:tag>Bajo en Azúcar</s:tag>
+    <s:tag>Bajo en Grasa</s:tag>
+    <s:tag>Bajo en Sodio</s:tag>
+    <s:tag>category_form_1</s:tag>
+    <s:tag>Deportistas</s:tag>
+    <s:tag>Diabéticos</s:tag>
+    <s:tag>Libre Lactosa</s:tag>
+    <s:tag>Mantenimiento</s:tag>
+    <s:tag>Menos 200kcal</s:tag>
+    <s:tag>Plástico</s:tag>
+    <s:tag>S/51 - S/80</s:tag>
+    <s:variant>
+      <id>https://getup.com.pe/products/8879282128</id>
+      <title>12 unidades</title>
+      <s:price currency="PEN">60.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>30</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://getup.com.pe/products/8879282128</id>
+      <title>24 unidades</title>
+      <s:price currency="PEN">110.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>30</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://getup.com.pe/products/8879282128</id>
+      <title>60 unidades</title>
+      <s:price currency="PEN">270.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>30</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://getup.com.pe/products/8831949328</id>
+    <published>2017-12-05T12:28:32-05:00</published>
+    <updated>2017-12-05T12:28:32-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://getup.com.pe/products/galleta-de-harina-de-almendras"/>
+    <title>Galleta de harina de almendras</title>
+    <s:type>Delivery en 72hrs</s:type>
+    <s:vendor>Hecho en getUP!</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1534/3917/products/galleta-2_9b51b86c-beac-45cd-b76e-e2e7a1df7972.png?v=1492381041" /></td>
+    <td valign="bottom">
+      <p>
+        <strong>Vendor: </strong>Hecho en getUP!<br />
+        <strong>Type: </strong>Delivery en 72hrs<br />
+        <strong>Price: </strong>
+            50.00 - 180.00
+            <a href="https://getup.com.pe/products/galleta-de-harina-de-almendras">(3 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><b6>GALLETA DE HARINA DE ALMENDRAS</b6>
+<h6></h6>
+<meta charset="utf-8">
+<h6><b>Acompaña tu fiesta de nuestros deliciosos bocaditos salados, dulces y frescos<br></b></h6>
+<b>DESCRIPCIÓN</b>
+<h6>Galleta de harina de almendras con nibs de cacao orgánico<br> Agrega a tu compra uno de nuestros piqueos frescos y salados</h6>
+<b>BENEFICIOS</b>
+<h6>Celebra tu momento especial con este delicioso piqueo dulce <br> Recíbelo en tu casa u oficina a la hora que mejor te acomode<br> Elige acompañarlo con bebidas o snacks frescos o salados<br> Come delicioso, siéntete ligero y muy saludable con esta sana elección</h6>
+<b>COBERTURA GETUP</b><br>
+<h6>Llegamos GRATIS a 16 distritos de Lima de 6:00 a 8:30am con nuestra Flota Motorizada getUP!<br> Revisa nuestras zonas de reparto Gratuitas aquí <a href="https://drive.google.com/a/getup.com.pe/open?id=1id5qIl0QHR6dqe9id5ECURdzdkQ&amp;usp=sharing" title="Mapa de cobertura getUP!" target="_blank" rel="noopener noreferrer"><b>MAPA COBERTURA GRATUITA GETUP!</b></a><br> ———<br> Llegamos CON RECARGO a todos los distritos de Lima de 7am a 7pm con Cabify Express<br> Revisa las tarifas de reparto con Cargo Extra <a href="https://getup.com.pe/pages/cobertura" title="“Tarifas" cabify="" target="_blank" rel="noopener noreferrer"><b>TARIFAS DELIVERY CABIFY EXPRESS </b></a>
+</h6>
+<b>ES BUENO SABERLO</b><br>
+<h6>Agrega extra diversión a tu reunión con nuestro PlayList de <a href="https://open.spotify.com/user/vivegetup" title="Play List getUP!" target="_blank" rel="noopener noreferrer"><b>SPOTIFY DELICIOUS PARTY!</b></a><br> Este piqueo es elaborado por getUP! solo bajo pedido<br> Esta galleta contiene 70% harina blanca y 30% de harina de almendras<br> Bocaditos llegan en una caja de cartón. Refrigerar hasta su consumo<br> Tiempo de vida: 12 horas desde su recepción</h6>
+<b>ECOFRIENDLY</b>
+<h6>Los envases que usamos son de papel 100% reciclable <br> Nuestro servicio no incluye cubiertos</h6>
+<hr align="CENTER" size="“1”" width='“600"' color="“Black”" noshade>
+<h6><b>El importe mínimo de compra para delivery es de S/.50.-<br><b> Una vez registrado tu pedido te llamaremos para coordinar la entrega<br></b> <b>Delivery disponible 72hrs después de realizado tu pedido</b></b></h6></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Alto en Fibra</s:tag>
+    <s:tag>Bajo en Grasa</s:tag>
+    <s:tag>Bajo en Sodio</s:tag>
+    <s:tag>Cartón</s:tag>
+    <s:tag>category_form_1</s:tag>
+    <s:tag>Libre Lactosa</s:tag>
+    <s:tag>Mantenimiento</s:tag>
+    <s:tag>Menos 200kcal</s:tag>
+    <s:tag>Menos de S/20</s:tag>
+    <s:tag>Papel</s:tag>
+    <s:tag>S/51 - S/80</s:tag>
+    <s:variant>
+      <id>https://getup.com.pe/products/8831949328</id>
+      <title>25 unid</title>
+      <s:price currency="PEN">50.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>50</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://getup.com.pe/products/8831949328</id>
+      <title>50 unid</title>
+      <s:price currency="PEN">95.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>50</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://getup.com.pe/products/8831949328</id>
+      <title>100 unid</title>
+      <s:price currency="PEN">180.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>50</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://getup.com.pe/products/8879220624</id>
+    <published>2017-12-05T12:26:33-05:00</published>
+    <updated>2017-12-05T12:26:33-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://getup.com.pe/products/pure-de-pera-y-ciruelas"/>
+    <title>Puré de peras y ciruelas</title>
+    <s:type>Delivery en 72hrs</s:type>
+    <s:vendor>Hecho en getUP!</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1534/3917/products/600-x600-pure-manzana_1024x1024_5c2f6e30-be15-466c-8cf5-43900c83a396.png?v=1492602187" /></td>
+    <td valign="bottom">
+      <p>
+        <strong>Vendor: </strong>Hecho en getUP!<br />
+        <strong>Type: </strong>Delivery en 72hrs<br />
+        <strong>Price: </strong>
+            60.00 - 270.00
+            <a href="https://getup.com.pe/products/pure-de-pera-y-ciruelas">(3 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><b6>PURÉ DE PERAS Y CIRUELAS</b6>
+<h6></h6>
+<meta charset="utf-8">
+<h6><b>Celebra con los que más quieres con estas deliciosas comidas preparadas y enviadas a donde estés<br></b></h6>
+<b>DESCRIPCIÓN</b>
+<h6>Exquisita compota fría de frutas<br> Puré texturado de pera, manzana, membrillo y ciruelas con canela<br>200g por porción</h6>
+<b>BENEFICIOS</b>
+<h6>Celebra tu momento especial con esta deliciosa comida <br> Recíbelo en tu casa u oficina a la hora que mejor te acomode<br> Elige acompañarlo con bebidas, carnes o ensaladas<br> Come delicioso, siéntete ligero y muy saludable con esta sana elección</h6>
+<b>COBERTURA GETUP</b><br>
+<h6>Llegamos GRATIS a 16 distritos de Lima de 6:00 a 8:30am con nuestra Flota Motorizada getUP!<br> Revisa nuestras zonas de reparto Gratuitas aquí <a href="https://drive.google.com/a/getup.com.pe/open?id=1id5qIl0QHR6dqe9id5ECURdzdkQ&amp;usp=sharing" title="Mapa de cobertura getUP!" target="_blank" rel="noopener noreferrer"><b>MAPA COBERTURA GRATUITA GETUP!</b></a><br> ———<br> Llegamos CON RECARGO a todos los distritos de Lima de 7am a 7pm con Cabify Express<br> Revisa las tarifas de reparto con Cargo Extra <a href="https://getup.com.pe/pages/cobertura" title="“Tarifas" cabify="" target="_blank" rel="noopener noreferrer"><b>TARIFAS DELIVERY CABIFY EXPRESS </b></a>
+</h6>
+<b>ES BUENO SABERLO</b><br>
+<h6>Agrega extra diversión a tu reunión con nuestro PlayList de <a href="https://open.spotify.com/user/vivegetup" title="Play List getUP!" target="_blank" rel="noopener noreferrer"><b>SPOTIFY DELICIOUS PARTY!</b></a><br> Esta carne es preparada por getUP! solo bajo pedido<br>Nuestras comidas están cargadas de color y sabor proveniente de los vegetales y semillas que usamos<br>Comidas llegan en envases de aluminio o plástico. Refrigerar hasta su consumo<br> Tiempo de vida: 24 horas desde su recepción</h6>
+<b>ECOFRIENDLY</b>
+<h6>Los envases que usamos son botellas de aluminio o plástico <br> Nuestro servicio no incluye cubiertos</h6>
+<hr align="CENTER" size="“1”" width='“600"' color="“Black”" noshade>
+<h6><b>El importe mínimo de compra para delivery es de S/.50.-<br><b> Una vez registrado tu pedido te llamaremos para coordinar la entrega<br></b> <b>Delivery disponible 72hrs después de realizado tu pedido</b></b></h6></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Adelgazamiento</s:tag>
+    <s:tag>Alto en Fibra</s:tag>
+    <s:tag>Bajo en Azúcar</s:tag>
+    <s:tag>Bajo en Grasa</s:tag>
+    <s:tag>Bajo en Sodio</s:tag>
+    <s:tag>category_form_1</s:tag>
+    <s:tag>Deportistas</s:tag>
+    <s:tag>Diabéticos</s:tag>
+    <s:tag>Libre Lactosa</s:tag>
+    <s:tag>Mantenimiento</s:tag>
+    <s:tag>Menos 200kcal</s:tag>
+    <s:tag>Plástico</s:tag>
+    <s:tag>S/51 - S/80</s:tag>
+    <s:variant>
+      <id>https://getup.com.pe/products/8879220624</id>
+      <title>6 porciones</title>
+      <s:price currency="PEN">60.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>30</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://getup.com.pe/products/8879220624</id>
+      <title>12 porciones</title>
+      <s:price currency="PEN">110.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>30</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://getup.com.pe/products/8879220624</id>
+      <title>30 porciones</title>
+      <s:price currency="PEN">270.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>30</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://getup.com.pe/products/8706450576</id>
+    <published>2017-12-05T12:26:10-05:00</published>
+    <updated>2017-12-05T12:26:10-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://getup.com.pe/products/quequecacaobitter"/>
+    <title>Queque de cacao bitter con castañas</title>
+    <s:type>Delivery en 72hrs</s:type>
+    <s:vendor>Hecho en getUP!</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1534/3917/products/piqueo-dulce-5b.png?v=1491353893" /></td>
+    <td valign="bottom">
+      <p>
+        <strong>Vendor: </strong>Hecho en getUP!<br />
+        <strong>Type: </strong>Delivery en 72hrs<br />
+        <strong>Price: </strong>
+            55.00 - 200.00
+            <a href="https://getup.com.pe/products/quequecacaobitter">(3 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><b6>QUEQUE DE CACAO BITTER CON CASTAÑAS</b6>
+<h6></h6>
+<meta charset="utf-8">
+<h6><b>Acompaña tu fiesta de nuestros deliciosos bocaditos salados, dulces y frescos<br></b></h6>
+<b>DESCRIPCIÓN</b>
+<h6>Mini queque húmedo de cacao bitter con trocitos de castañas<br> Agrega a tu compra uno de nuestros piqueos frescos y salados</h6>
+<b>BENEFICIOS</b>
+<h6>Celebra tu momento especial con este delicioso piqueo dulce <br> Recíbelo en tu casa u oficina a la hora que mejor te acomode<br> Elige acompañarlo con bebidas o snacks frescos o salados<br> Come delicioso, siéntete ligero y muy saludable con esta sana elección</h6>
+<b>COBERTURA GETUP</b><br>
+<h6>Llegamos GRATIS a 16 distritos de Lima de 6:00 a 8:30am con nuestra Flota Motorizada getUP!<br> Revisa nuestras zonas de reparto Gratuitas aquí <a href="https://drive.google.com/a/getup.com.pe/open?id=1id5qIl0QHR6dqe9id5ECURdzdkQ&amp;usp=sharing" title="Mapa de cobertura getUP!" target="_blank" rel="noopener noreferrer"><b>MAPA COBERTURA GRATUITA GETUP!</b></a><br> ———<br> Llegamos CON RECARGO a todos los distritos de Lima de 7am a 7pm con Cabify Express<br> Revisa las tarifas de reparto con Cargo Extra <a href="https://getup.com.pe/pages/cobertura" title="“Tarifas" cabify="" target="_blank" rel="noopener noreferrer"><b>TARIFAS DELIVERY CABIFY EXPRESS </b></a>
+</h6>
+<b>ES BUENO SABERLO</b><br>
+<h6>Agrega extra diversión a tu reunión con nuestro PlayList de <a href="https://open.spotify.com/user/vivegetup" title="Play List getUP!" target="_blank" rel="noopener noreferrer"><b>SPOTIFY DELICIOUS PARTY!</b></a><br> Este piqueo es elaborado por getUP! solo bajo pedido<br> Este queque contiene 70% harina blanca y 30% de harinas integrales<br> Bocaditos llegan en una caja de cartón. Refrigerar hasta su consumo<br> Tiempo de vida: 12 horas desde su recepción</h6>
+<b>ECOFRIENDLY</b>
+<h6>Los envases que usamos son de papel 100% reciclable <br> Nuestro servicio no incluye cubiertos</h6>
+<hr align="CENTER" size="“1”" width='“600"' color="“Black”" noshade>
+<h6><b>El importe mínimo de compra para delivery es de S/.50.-<br><b> Una vez registrado tu pedido te llamaremos para coordinar la entrega<br></b> <b>Delivery disponible 72hrs después de realizado tu pedido</b></b></h6></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Bajo en Azúcar</s:tag>
+    <s:tag>Bajo en Grasa</s:tag>
+    <s:tag>Bajo en Sodio</s:tag>
+    <s:tag>Cartón</s:tag>
+    <s:tag>category_form_1</s:tag>
+    <s:tag>Mantenimiento</s:tag>
+    <s:tag>Menos de 500kcal</s:tag>
+    <s:tag>Papel</s:tag>
+    <s:tag>S/51 - S/80</s:tag>
+    <s:variant>
+      <id>https://getup.com.pe/products/8706450576</id>
+      <title>25 unid</title>
+      <s:price currency="PEN">55.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>20</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://getup.com.pe/products/8706450576</id>
+      <title>50 unid</title>
+      <s:price currency="PEN">105.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>20</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://getup.com.pe/products/8706450576</id>
+      <title>100 unid</title>
+      <s:price currency="PEN">200.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>20</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://getup.com.pe/products/8706455120</id>
+    <published>2017-12-05T12:25:56-05:00</published>
+    <updated>2017-12-05T12:25:56-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://getup.com.pe/products/quequedeplatano"/>
+    <title>Queque de plátano y cardamomo</title>
+    <s:type>Delivery en 72hrs</s:type>
+    <s:vendor>Hecho en getUP!</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1534/3917/products/piqueo-dulce-6a.png?v=1491353930" /></td>
+    <td valign="bottom">
+      <p>
+        <strong>Vendor: </strong>Hecho en getUP!<br />
+        <strong>Type: </strong>Delivery en 72hrs<br />
+        <strong>Price: </strong>
+            55.00 - 200.00
+            <a href="https://getup.com.pe/products/quequedeplatano">(3 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><b6>QUEQUE DE PLÁTANO Y CARDAMOMO</b6>
+<h6></h6>
+<meta charset="utf-8">
+<h6><b>Acompaña tu fiesta de nuestros deliciosos bocaditos salados, dulces y frescos<br></b></h6>
+<b>DESCRIPCIÓN</b>
+<h6>Mini queque húmedo con pula plátano de seda y toques de cardamomo<br> Agrega a tu compra uno de nuestros piqueos frescos y salados</h6>
+<b>BENEFICIOS</b>
+<h6>Celebra tu momento especial con este delicioso piqueo dulce <br> Recíbelo en tu casa u oficina a la hora que mejor te acomode<br> Elige acompañarlo con bebidas o snacks frescos o salados<br> Come delicioso, siéntete ligero y muy saludable con esta sana elección</h6>
+<b>COBERTURA GETUP</b><br>
+<h6>Llegamos GRATIS a 16 distritos de Lima de 6:00 a 8:30am con nuestra Flota Motorizada getUP!<br> Revisa nuestras zonas de reparto Gratuitas aquí <a href="https://drive.google.com/a/getup.com.pe/open?id=1id5qIl0QHR6dqe9id5ECURdzdkQ&amp;usp=sharing" title="Mapa de cobertura getUP!" target="_blank" rel="noopener noreferrer"><b>MAPA COBERTURA GRATUITA GETUP!</b></a><br> ———<br> Llegamos CON RECARGO a todos los distritos de Lima de 7am a 7pm con Cabify Express<br> Revisa las tarifas de reparto con Cargo Extra <a href="https://getup.com.pe/pages/cobertura" title="“Tarifas" cabify="" target="_blank" rel="noopener noreferrer"><b>TARIFAS DELIVERY CABIFY EXPRESS </b></a>
+</h6>
+<b>ES BUENO SABERLO</b><br>
+<h6>Agrega extra diversión a tu reunión con nuestro PlayList de <a href="https://open.spotify.com/user/vivegetup" title="Play List getUP!" target="_blank" rel="noopener noreferrer"><b>SPOTIFY DELICIOUS PARTY!</b></a><br> Este piqueo es elaborado por getUP! solo bajo pedido<br> Este queque contiene 70% harina blanca y 30% de harinas integrales<br> Bocaditos llegan en una caja de cartón. Refrigerar hasta su consumo<br> Tiempo de vida: 12 horas desde su recepción</h6>
+<b>ECOFRIENDLY</b>
+<h6>Los envases que usamos son de papel 100% reciclable <br> Nuestro servicio no incluye cubiertos</h6>
+<hr align="CENTER" size="“1”" width='“600"' color="“Black”" noshade>
+<h6><b>El importe mínimo de compra para delivery es de S/.50.-<br><b> Una vez registrado tu pedido te llamaremos para coordinar la entrega<br></b> <b>Delivery disponible 72hrs después de realizado tu pedido</b></b></h6></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Bajo en Grasa</s:tag>
+    <s:tag>Bajo en Sodio</s:tag>
+    <s:tag>Cartón</s:tag>
+    <s:tag>category_form_1</s:tag>
+    <s:tag>Mantenimiento</s:tag>
+    <s:tag>Menos de 500kcal</s:tag>
+    <s:tag>Papel</s:tag>
+    <s:tag>S/81 - S/130</s:tag>
+    <s:variant>
+      <id>https://getup.com.pe/products/8706455120</id>
+      <title>25 unid</title>
+      <s:price currency="PEN">55.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>20</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://getup.com.pe/products/8706455120</id>
+      <title>50 unid</title>
+      <s:price currency="PEN">105.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>20</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://getup.com.pe/products/8706455120</id>
+      <title>100 unid</title>
+      <s:price currency="PEN">200.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>20</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://getup.com.pe/products/8699198288</id>
+    <published>2017-12-05T12:25:17-05:00</published>
+    <updated>2017-12-05T12:25:17-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://getup.com.pe/products/triplepolloalcurry"/>
+    <title>Triple de pollo al curry</title>
+    <s:type>Delivery en 72hrs</s:type>
+    <s:vendor>Hecho en getUP!</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1534/3917/products/sanguche-5b.png?v=1491270050" /></td>
+    <td valign="bottom">
+      <p>
+        <strong>Vendor: </strong>Hecho en getUP!<br />
+        <strong>Type: </strong>Delivery en 72hrs<br />
+        <strong>Price: </strong>
+            55.00 - 210.00
+            <a href="https://getup.com.pe/products/triplepolloalcurry">(3 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><b6>TRIPLE DE POLLO, CHAMPIÑONES, PIMIENTOS Y ZUCCHINIS</b6>
+<h6></h6>
+<meta charset="utf-8">
+<h6><b>Acompaña tu fiesta de nuestros deliciosos bocaditos salados, dulces y frescos<br></b></h6>
+<b>DESCRIPCIÓN</b>
+<h6>Mini sándwich de tres capas de pan de molde con doble relleno de pollo procesado al curry, pasas y castañas<br> Acompaña este producto con uno de nuestros snacks salados o bebidas getUP!</h6>
+<b>BENEFICIOS</b>
+<h6>Celebra tu momento especial con este delicioso piqueo salado <br> Recíbelo en tu casa u oficina a la hora que mejor te acomode<br> Elige acompañarlo con bebidas o snacks frescos o dulces<br> Come delicioso, siéntete ligero y muy saludable con esta sana elección</h6>
+<b>COBERTURA GETUP</b><br>
+<h6>Llegamos GRATIS a 16 distritos de Lima de 6:00 a 8:30am con nuestra Flota Motorizada getUP!<br> Revisa nuestras zonas de reparto Gratuitas aquí <a href="https://drive.google.com/a/getup.com.pe/open?id=1id5qIl0QHR6dqe9id5ECURdzdkQ&amp;usp=sharing" title="Mapa de cobertura getUP!" target="_blank" rel="noopener noreferrer"><b>MAPA COBERTURA GRATUITA GETUP!</b></a><br> ———<br> Llegamos CON RECARGO a todos los distritos de Lima de 7am a 7pm con Cabify Express<br> Revisa las tarifas de reparto con Cargo Extra <a href="https://getup.com.pe/pages/cobertura" title="“Tarifas" cabify="" target="_blank" rel="noopener noreferrer"><b>TARIFAS DELIVERY CABIFY EXPRESS </b></a>
+</h6>
+<b>ES BUENO SABERLO</b><br>
+<h6>Agrega extra diversión a tu reunión con nuestro PlayList de <a href="https://open.spotify.com/user/vivegetup" title="Play List getUP!" target="_blank" rel="noopener noreferrer"><b>SPOTIFY DELICIOUS PARTY!</b></a><br> Este piqueo es elaborado por getUP! solo bajo pedido<br> Este mini triple se sirve en plan marmoleado. Si deseas pan integral o blanco, indicarlo al hacer la compra<br> Bocaditos llegan en una caja de cartón. Refrigerar hasta su consumo<br> Tiempo de vida: 12 horas desde su recepción</h6>
+<b>ECOFRIENDLY</b>
+<h6>Los envases que usamos son de papel 100% reciclable <br> Nuestro servicio no incluye cubiertos</h6>
+<hr align="CENTER" size="“1”" width='“600"' color="“Black”" noshade>
+<h6><b>El importe mínimo de compra para delivery es de S/.50.-<br><b> Una vez registrado tu pedido te llamaremos para coordinar la entrega<br></b> <b>Delivery disponible 72hrs después de realizado tu pedido</b></b></h6></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Alto en Proteína</s:tag>
+    <s:tag>Bajo en Azúcar</s:tag>
+    <s:tag>Cartón</s:tag>
+    <s:tag>category_form_1</s:tag>
+    <s:tag>Mantenimiento</s:tag>
+    <s:tag>Menos de 500kcal</s:tag>
+    <s:tag>Papel</s:tag>
+    <s:tag>S/51 - S/80</s:tag>
+    <s:variant>
+      <id>https://getup.com.pe/products/8699198288</id>
+      <title>25 unid</title>
+      <s:price currency="PEN">55.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>50</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://getup.com.pe/products/8699198288</id>
+      <title>50 unid</title>
+      <s:price currency="PEN">110.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>50</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://getup.com.pe/products/8699198288</id>
+      <title>100 unid</title>
+      <s:price currency="PEN">210.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>50</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://getup.com.pe/products/8699195344</id>
+    <published>2017-12-05T12:24:54-05:00</published>
+    <updated>2017-12-05T12:24:54-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://getup.com.pe/products/triplepolloyvegetales"/>
+    <title>Triple de pollo y champiñones</title>
+    <s:type>Delivery en 72hrs</s:type>
+    <s:vendor>Hecho en getUP!</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1534/3917/products/sanguche-2b.png?v=1491270009" /></td>
+    <td valign="bottom">
+      <p>
+        <strong>Vendor: </strong>Hecho en getUP!<br />
+        <strong>Type: </strong>Delivery en 72hrs<br />
+        <strong>Price: </strong>
+            55.00 - 210.00
+            <a href="https://getup.com.pe/products/triplepolloyvegetales">(3 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><b6>TRIPLE DE POLLO, CHAMPIÑONES, PIMIENTOS Y ZUCCHINIS</b6>
+<h6></h6>
+<meta charset="utf-8">
+<h6><b>Acompaña tu fiesta de nuestros deliciosos bocaditos salados, dulces y frescos<br></b></h6>
+<b>DESCRIPCIÓN</b>
+<h6>Mini sándwich de tres capas de pan de molde con doble relleno de pollo procesado, champiñones, pimientos y zucchinis salteados, bañados con una ligera mayonesa de yogurt de la casa <br> Acompaña este producto con uno de nuestros snacks salados o bebidas getUP!</h6>
+<b>BENEFICIOS</b>
+<h6>Celebra tu momento especial con este delicioso piqueo salado <br> Recíbelo en tu casa u oficina a la hora que mejor te acomode<br> Elige acompañarlo con bebidas o snacks frescos o dulces<br> Come delicioso, siéntete ligero y muy saludable con esta sana elección</h6>
+<b>COBERTURA GETUP</b><br>
+<h6>Llegamos GRATIS a 16 distritos de Lima de 6:00 a 8:30am con nuestra Flota Motorizada getUP!<br> Revisa nuestras zonas de reparto Gratuitas aquí <a href="https://drive.google.com/a/getup.com.pe/open?id=1id5qIl0QHR6dqe9id5ECURdzdkQ&amp;usp=sharing" title="Mapa de cobertura getUP!" target="_blank" rel="noopener noreferrer"><b>MAPA COBERTURA GRATUITA GETUP!</b></a><br> ———<br> Llegamos CON RECARGO a todos los distritos de Lima de 7am a 7pm con Cabify Express<br> Revisa las tarifas de reparto con Cargo Extra <a href="https://getup.com.pe/pages/cobertura" title="“Tarifas" cabify="" target="_blank" rel="noopener noreferrer"><b>TARIFAS DELIVERY CABIFY EXPRESS </b></a>
+</h6>
+<b>ES BUENO SABERLO</b><br>
+<h6>Agrega extra diversión a tu reunión con nuestro PlayList de <a href="https://open.spotify.com/user/vivegetup" title="Play List getUP!" target="_blank" rel="noopener noreferrer"><b>SPOTIFY DELICIOUS PARTY!</b></a><br> Este piqueo es elaborado por getUP! solo bajo pedido<br> Este mini triple se sirve en plan blanco. Si deseas pan integral o marmoleado, indicarlo al hacer la compra<br> Bocaditos llegan en una caja de cartón. Refrigerar hasta su consumo<br> Tiempo de vida: 12 horas desde su recepción</h6>
+<b>ECOFRIENDLY</b>
+<h6>Los envases que usamos son de papel 100% reciclable <br> Nuestro servicio no incluye cubiertos</h6>
+<hr align="CENTER" size="“1”" width='“600"' color="“Black”" noshade>
+<h6><b>El importe mínimo de compra para delivery es de S/.50.-<br><b> Una vez registrado tu pedido te llamaremos para coordinar la entrega<br></b> <b>Delivery disponible 72hrs después de realizado tu pedido</b></b></h6></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Alto en Proteína</s:tag>
+    <s:tag>Bajo en Azúcar</s:tag>
+    <s:tag>Cartón</s:tag>
+    <s:tag>category_form_1</s:tag>
+    <s:tag>Mantenimiento</s:tag>
+    <s:tag>Menos de 500kcal</s:tag>
+    <s:tag>Papel</s:tag>
+    <s:tag>S/51 - S/80</s:tag>
+    <s:variant>
+      <id>https://getup.com.pe/products/8699195344</id>
+      <title>25 unid</title>
+      <s:price currency="PEN">55.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>50</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://getup.com.pe/products/8699195344</id>
+      <title>50 unid</title>
+      <s:price currency="PEN">110.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>50</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://getup.com.pe/products/8699195344</id>
+      <title>100 unid</title>
+      <s:price currency="PEN">210.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>50</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://getup.com.pe/products/8879251152</id>
+    <published>2017-11-08T14:49:00-05:00</published>
+    <updated>2017-11-08T14:49:00-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://getup.com.pe/products/pure-de-camote-getup"/>
+    <title>Puré de camote getUP!</title>
+    <s:type>Delivery en 72hrs</s:type>
+    <s:vendor>Hecho en getUP!</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1534/3917/products/600-x600-pure-camote_1024x1024_2e6623d4-4615-4a55-983f-6a9b0039ba2c.png?v=1492602329" /></td>
+    <td valign="bottom">
+      <p>
+        <strong>Vendor: </strong>Hecho en getUP!<br />
+        <strong>Type: </strong>Delivery en 72hrs<br />
+        <strong>Price: </strong>
+            60.00 - 270.00
+            <a href="https://getup.com.pe/products/pure-de-camote-getup">(3 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><b6>PURÉ DE CAMOTE GETUP!</b6>
+<h6></h6>
+<meta charset="utf-8">
+<h6><b>Celebra con los que más quieres con estas deliciosas comidas preparadas y enviadas a donde estés<br></b></h6>
+<b>DESCRIPCIÓN</b>
+<h6>Sensacional guarnición de camote dulce y cacao orgánico<br>Suave mousse de camote a la mandarina con quinoa crocante, mix de marshmellows y nibs de cacao<br>200g por porción</h6>
+<b>BENEFICIOS</b>
+<h6>Celebra tu momento especial con esta deliciosa comida <br> Recíbelo en tu casa u oficina a la hora que mejor te acomode<br> Elige acompañarlo con bebidas, carnes o ensaladas<br> Come delicioso, siéntete ligero y muy saludable con esta sana elección</h6>
+<b>COBERTURA GETUP</b><br>
+<h6>Llegamos GRATIS a 16 distritos de Lima de 6:00 a 8:30am con nuestra Flota Motorizada getUP!<br> Revisa nuestras zonas de reparto Gratuitas aquí <a href="https://drive.google.com/a/getup.com.pe/open?id=1id5qIl0QHR6dqe9id5ECURdzdkQ&amp;usp=sharing" title="Mapa de cobertura getUP!" target="_blank" rel="noopener noreferrer"><b>MAPA COBERTURA GRATUITA GETUP!</b></a><br> ———<br> Llegamos CON RECARGO a todos los distritos de Lima de 7am a 7pm con Cabify Express<br> Revisa las tarifas de reparto con Cargo Extra <a href="https://getup.com.pe/pages/cobertura" title="“Tarifas" cabify="" target="_blank" rel="noopener noreferrer"><b>TARIFAS DELIVERY CABIFY EXPRESS </b></a>
+</h6>
+<b>ES BUENO SABERLO</b><br>
+<h6>Agrega extra diversión a tu reunión con nuestro PlayList de <a href="https://open.spotify.com/user/vivegetup" title="Play List getUP!" target="_blank" rel="noopener noreferrer"><b>SPOTIFY DELICIOUS PARTY!</b></a><br> Esta carne es preparada por getUP! solo bajo pedido<br>Nuestras comidas están cargadas de color y sabor proveniente de los vegetales y semillas que usamos<br>Comidas llegan en envases de aluminio o plástico. Refrigerar hasta su consumo<br> Tiempo de vida: 24 horas desde su recepción</h6>
+<b>ECOFRIENDLY</b>
+<h6>Los envases que usamos son botellas de aluminio o plástico <br> Nuestro servicio no incluye cubiertos</h6>
+<hr align="CENTER" size="“1”" width='“600"' color="“Black”" noshade>
+<h6><b>El importe mínimo de compra para delivery es de S/.50.-<br><b> Una vez registrado tu pedido te llamaremos para coordinar la entrega<br></b> <b>Delivery disponible 72hrs después de realizado tu pedido</b></b></h6></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Adelgazamiento</s:tag>
+    <s:tag>Alto en Fibra</s:tag>
+    <s:tag>Bajo en Azúcar</s:tag>
+    <s:tag>Bajo en Grasa</s:tag>
+    <s:tag>Bajo en Sodio</s:tag>
+    <s:tag>category_form_1</s:tag>
+    <s:tag>Deportistas</s:tag>
+    <s:tag>Diabéticos</s:tag>
+    <s:tag>Libre Lactosa</s:tag>
+    <s:tag>Mantenimiento</s:tag>
+    <s:tag>Menos 200kcal</s:tag>
+    <s:tag>Plástico</s:tag>
+    <s:tag>S/51 - S/80</s:tag>
+    <s:variant>
+      <id>https://getup.com.pe/products/8879251152</id>
+      <title>6 porciones</title>
+      <s:price currency="PEN">60.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>30</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://getup.com.pe/products/8879251152</id>
+      <title>12 porciones</title>
+      <s:price currency="PEN">110.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>30</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://getup.com.pe/products/8879251152</id>
+      <title>30 porciones</title>
+      <s:price currency="PEN">270.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>30</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://getup.com.pe/products/8878986512</id>
+    <published>2017-11-08T14:35:01-05:00</published>
+    <updated>2017-11-08T14:35:01-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://getup.com.pe/products/pavo-a-la-cerveza"/>
+    <title>Pavo a la cerveza</title>
+    <s:type>Delivery en 72hrs</s:type>
+    <s:vendor>Hecho en getUP!</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1534/3917/products/600-x600-Jugoso-pavo-a-la-cerveza_1024x1024_e4e13687-2777-4235-864b-2574f600d8ea.png?v=1492600897" /></td>
+    <td valign="bottom">
+      <p>
+        <strong>Vendor: </strong>Hecho en getUP!<br />
+        <strong>Type: </strong>Delivery en 72hrs<br />
+        <strong>Price: </strong>
+            106.00 - 490.00
+            <a href="https://getup.com.pe/products/pavo-a-la-cerveza">(3 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><b6>JUGOSO PAVO A LA CERVEZA</b6>
+<h6></h6>
+<meta charset="utf-8">
+<h6><b>Celebra con los que más quieres con estas deliciosas comidas preparadas y enviadas a donde estés<br></b></h6>
+<b>DESCRIPCIÓN</b>
+<h6>El tradicional pavo en una versión que jamás olvidarás<br> Tierna pechuga cocida por 8 horas en cilindro peruano, bañado en cerveza negra artesanal<br> 150g por porción. Gravy de Cerezas y Oporto</h6>
+<b>BENEFICIOS</b>
+<h6>Celebra tu momento especial con esta deliciosa comida <br> Recíbelo en tu casa u oficina a la hora que mejor te acomode<br> Elige acompañarlo con bebidas, guarniciones o ensaladas<br> Come delicioso, siéntete ligero y muy saludable con esta sana elección</h6>
+<b>COBERTURA GETUP</b><br>
+<h6>Llegamos GRATIS a 16 distritos de Lima de 6:00 a 8:30am con nuestra Flota Motorizada getUP!<br> Revisa nuestras zonas de reparto Gratuitas aquí <a href="https://drive.google.com/a/getup.com.pe/open?id=1id5qIl0QHR6dqe9id5ECURdzdkQ&amp;usp=sharing" title="Mapa de cobertura getUP!" target="_blank" rel="noopener noreferrer"><b>MAPA COBERTURA GRATUITA GETUP!</b></a><br> ———<br> Llegamos CON RECARGO a todos los distritos de Lima de 7am a 7pm con Cabify Express<br> Revisa las tarifas de reparto con Cargo Extra <a href="https://getup.com.pe/pages/cobertura" title="“Tarifas" cabify="" target="_blank" rel="noopener noreferrer"><b>TARIFAS DELIVERY CABIFY EXPRESS </b></a>
+</h6>
+<b>ES BUENO SABERLO</b><br>
+<h6>Agrega extra diversión a tu reunión con nuestro PlayList de <a href="https://open.spotify.com/user/vivegetup" title="Play List getUP!" target="_blank" rel="noopener noreferrer"><b>SPOTIFY DELICIOUS PARTY!</b></a><br> Esta carne es preparada por getUP! solo bajo pedido<br>Nuestras comidas están cargadas de color y sabor proveniente de los vegetales y semillas que usamos<br>Comidas llegan en envases de aluminio o plástico. Refrigerar hasta su consumo<br> Tiempo de vida: 24 horas desde su recepción</h6>
+<b>ECOFRIENDLY</b>
+<h6>Los envases que usamos son botellas de aluminio o plástico <br> Nuestro servicio no incluye cubiertos</h6>
+<hr align="CENTER" size="“1”" width='“600"' color="“Black”" noshade>
+<h6><b>El importe mínimo de compra para delivery es de S/.50.-<br><b> Una vez registrado tu pedido te llamaremos para coordinar la entrega<br></b> <b>Delivery disponible 72hrs después de realizado tu pedido</b></b></h6></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Adelgazamiento</s:tag>
+    <s:tag>Alto en Fibra</s:tag>
+    <s:tag>Bajo en Azúcar</s:tag>
+    <s:tag>Bajo en Grasa</s:tag>
+    <s:tag>Bajo en Sodio</s:tag>
+    <s:tag>category_form_1</s:tag>
+    <s:tag>Deportistas</s:tag>
+    <s:tag>Diabéticos</s:tag>
+    <s:tag>Libre Lactosa</s:tag>
+    <s:tag>Mantenimiento</s:tag>
+    <s:tag>Menos 200kcal</s:tag>
+    <s:tag>Más de S/130</s:tag>
+    <s:tag>Plástico</s:tag>
+    <s:variant>
+      <id>https://getup.com.pe/products/8878986512</id>
+      <title>6 porciones</title>
+      <s:price currency="PEN">106.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>30</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://getup.com.pe/products/8878986512</id>
+      <title>12 porciones</title>
+      <s:price currency="PEN">200.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>30</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://getup.com.pe/products/8878986512</id>
+      <title>30 porciones</title>
+      <s:price currency="PEN">490.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>30</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://getup.com.pe/products/8832281040</id>
+    <published>2017-11-08T13:05:58-05:00</published>
+    <updated>2017-11-08T13:05:58-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://getup.com.pe/products/panacotta-de-limon"/>
+    <title>Panna cotta de limón</title>
+    <s:type>Delivery en 72hrs</s:type>
+    <s:vendor>Hecho en getUP!</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1534/3917/products/compota-6a.png?v=1492384213" /></td>
+    <td valign="bottom">
+      <p>
+        <strong>Vendor: </strong>Hecho en getUP!<br />
+        <strong>Type: </strong>Delivery en 72hrs<br />
+        <strong>Price: </strong>
+            75.00 - 260.00
+            <a href="https://getup.com.pe/products/panacotta-de-limon">(3 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><b6>PANNA COTTA DE LIMÓN</b6>
+<h6></h6>
+<meta charset="utf-8">
+<h6><b>Acompaña tu fiesta de nuestros deliciosos bocaditos salados, dulces y frescos<br></b></h6>
+<b>DESCRIPCIÓN</b>
+<h6>Panna cotta de limón con coulís de zarzamoras y coco<br> Acompaña este producto con uno de nuestros snacks salados o bebidas getUP!</h6>
+<b>BENEFICIOS</b>
+<h6>Celebra tu momento especial con este delicioso piqueo dulce <br> Recíbelo en tu casa u oficina a la hora que mejor te acomode<br> Elige acompañarlo con bebidas o snacks frescos o salados<br> Come delicioso, siéntete ligero y muy saludable con esta sana elección</h6>
+<b>COBERTURA GETUP</b><br>
+<h6>Llegamos GRATIS a 16 distritos de Lima de 6:00 a 8:30am con nuestra Flota Motorizada getUP!<br> Revisa nuestras zonas de reparto Gratuitas aquí <a href="https://drive.google.com/a/getup.com.pe/open?id=1id5qIl0QHR6dqe9id5ECURdzdkQ&amp;usp=sharing" title="Mapa de cobertura getUP!" target="_blank" rel="noopener noreferrer"><b>MAPA COBERTURA GRATUITA GETUP!</b></a><br> ———<br> Llegamos CON RECARGO a todos los distritos de Lima de 7am a 7pm con Cabify Express<br> Revisa las tarifas de reparto con Cargo Extra <a href="https://getup.com.pe/pages/cobertura" title="“Tarifas" cabify="" target="_blank" rel="noopener noreferrer"><b>TARIFAS DELIVERY CABIFY EXPRESS </b></a>
+</h6>
+<b>ES BUENO SABERLO</b><br>
+<h6>Agrega extra diversión a tu reunión con nuestro PlayList de <a href="https://open.spotify.com/user/vivegetup" title="Play List getUP!" target="_blank" rel="noopener noreferrer"><b>SPOTIFY DELICIOUS PARTY!</b></a><br> Este piqueo es elaborado por getUP! solo bajo pedido<br> Esta panna cotta está elaborado con leche sin lactosa y se sirve en mini frascos de vidrio<br> Bocaditos llegan en una caja de cartón. Refrigerar hasta su consumo<br> Tiempo de vida: 48 horas desde su recepción</h6>
+<b>ECOFRIENDLY</b>
+<h6>Los envases que usamos son frascos de vidrio 100% reciclable <br> Nuestro servicio no incluye cubiertos</h6>
+<hr align="CENTER" size="“1”" width='“600"' color="“Black”" noshade>
+<h6><b>El importe mínimo de compra para delivery es de S/.50.-<br><b> Una vez registrado tu pedido te llamaremos para coordinar la entrega<br></b> <b>Delivery disponible 72hrs después de realizado tu pedido</b></b></h6></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Adelgazamiento</s:tag>
+    <s:tag>Alto en Proteína</s:tag>
+    <s:tag>category_form_1</s:tag>
+    <s:tag>Deportistas</s:tag>
+    <s:tag>Mantenimiento</s:tag>
+    <s:tag>Más de S/130</s:tag>
+    <s:tag>S/51 - S/80</s:tag>
+    <s:tag>S/81 - S/130</s:tag>
+    <s:variant>
+      <id>https://getup.com.pe/products/8832281040</id>
+      <title>25 unid</title>
+      <s:price currency="PEN">75.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>20</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://getup.com.pe/products/8832281040</id>
+      <title>50 unid</title>
+      <s:price currency="PEN">140.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>20</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://getup.com.pe/products/8832281040</id>
+      <title>100 unid</title>
+      <s:price currency="PEN">260.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>20</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://getup.com.pe/products/8832331344</id>
+    <published>2017-11-08T12:57:19-05:00</published>
+    <updated>2017-11-08T12:57:19-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://getup.com.pe/products/panna-cotta-de-chocolate"/>
+    <title>Panna cotta de chocolate</title>
+    <s:type>Delivery en 72hrs</s:type>
+    <s:vendor>Hecho en getUP!</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1534/3917/products/compota-8.png?v=1492384701" /></td>
+    <td valign="bottom">
+      <p>
+        <strong>Vendor: </strong>Hecho en getUP!<br />
+        <strong>Type: </strong>Delivery en 72hrs<br />
+        <strong>Price: </strong>
+            75.00 - 260.00
+            <a href="https://getup.com.pe/products/panna-cotta-de-chocolate">(3 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><b6>PANNA COTTA DE CHOCOLATE</b6>
+<h6></h6>
+<meta charset="utf-8">
+<h6><b>Acompaña tu fiesta de nuestros deliciosos bocaditos salados, dulces y frescos<br></b></h6>
+<b>DESCRIPCIÓN</b>
+<h6>Panna cotta de chocolate con crema de lúcuma, trocitos de almendra y frambuesa<br> Acompaña este producto con uno de nuestros snacks salados o bebidas getUP!</h6>
+<b>BENEFICIOS</b>
+<h6>Celebra tu momento especial con este delicioso piqueo dulce <br> Recíbelo en tu casa u oficina a la hora que mejor te acomode<br> Elige acompañarlo con bebidas o snacks frescos o salados<br> Come delicioso, siéntete ligero y muy saludable con esta sana elección</h6>
+<b>COBERTURA GETUP</b><br>
+<h6>Llegamos GRATIS a 16 distritos de Lima de 6:00 a 8:30am con nuestra Flota Motorizada getUP!<br> Revisa nuestras zonas de reparto Gratuitas aquí <a href="https://drive.google.com/a/getup.com.pe/open?id=1id5qIl0QHR6dqe9id5ECURdzdkQ&amp;usp=sharing" title="Mapa de cobertura getUP!" target="_blank" rel="noopener noreferrer"><b>MAPA COBERTURA GRATUITA GETUP!</b></a><br> ———<br> Llegamos CON RECARGO a todos los distritos de Lima de 7am a 7pm con Cabify Express<br> Revisa las tarifas de reparto con Cargo Extra <a href="https://getup.com.pe/pages/cobertura" title="“Tarifas" cabify="" target="_blank" rel="noopener noreferrer"><b>TARIFAS DELIVERY CABIFY EXPRESS </b></a>
+</h6>
+<b>ES BUENO SABERLO</b><br>
+<h6>Agrega extra diversión a tu reunión con nuestro PlayList de <a href="https://open.spotify.com/user/vivegetup" title="Play List getUP!" target="_blank" rel="noopener noreferrer"><b>SPOTIFY DELICIOUS PARTY!</b></a><br> Este piqueo es elaborado por getUP! solo bajo pedido<br> Esta panna cotta está elaborado con leche sin lactosa y se sirve en mini frascos de vidrio<br> Bocaditos llegan en una caja de cartón. Refrigerar hasta su consumo<br> Tiempo de vida: 48 horas desde su recepción</h6>
+<b>ECOFRIENDLY</b>
+<h6>Los envases que usamos son frascos de vidrio 100% reciclable <br> Nuestro servicio no incluye cubiertos</h6>
+<hr align="CENTER" size="“1”" width='“600"' color="“Black”" noshade>
+<h6><b>El importe mínimo de compra para delivery es de S/.50.-<br><b> Una vez registrado tu pedido te llamaremos para coordinar la entrega<br></b> <b>Delivery disponible 72hrs después de realizado tu pedido</b></b></h6></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Adelgazamiento</s:tag>
+    <s:tag>Alto en Proteína</s:tag>
+    <s:tag>category_form_1</s:tag>
+    <s:tag>Deportistas</s:tag>
+    <s:tag>Mantenimiento</s:tag>
+    <s:tag>Más de S/130</s:tag>
+    <s:tag>S/51 - S/80</s:tag>
+    <s:tag>S/81 - S/130</s:tag>
+    <s:variant>
+      <id>https://getup.com.pe/products/8832331344</id>
+      <title>25 unid</title>
+      <s:price currency="PEN">75.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>20</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://getup.com.pe/products/8832331344</id>
+      <title>50 unid</title>
+      <s:price currency="PEN">140.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>20</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://getup.com.pe/products/8832331344</id>
+      <title>100 unid</title>
+      <s:price currency="PEN">260.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>20</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://getup.com.pe/products/8832313232</id>
+    <published>2017-11-08T12:56:50-05:00</published>
+    <updated>2017-11-08T12:56:50-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://getup.com.pe/products/panna-cotta-de-cafe"/>
+    <title>Panna cotta de café</title>
+    <s:type>Delivery en 72hrs</s:type>
+    <s:vendor>Hecho en getUP!</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1534/3917/products/compota-7.png?v=1492384497" /></td>
+    <td valign="bottom">
+      <p>
+        <strong>Vendor: </strong>Hecho en getUP!<br />
+        <strong>Type: </strong>Delivery en 72hrs<br />
+        <strong>Price: </strong>
+            75.00 - 260.00
+            <a href="https://getup.com.pe/products/panna-cotta-de-cafe">(3 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><b6>PANNA COTTA DE CAFÉ</b6>
+<h6></h6>
+<meta charset="utf-8">
+<h6><b>Acompaña tu fiesta de nuestros deliciosos bocaditos salados, dulces y frescos<br></b></h6>
+<b>DESCRIPCIÓN</b>
+<h6>Panna cotta de café con coulís de fresa, semillas de girasol, polen y arándanos<br> Acompaña este producto con uno de nuestros snacks salados o bebidas getUP!</h6>
+<b>BENEFICIOS</b>
+<h6>Celebra tu momento especial con este delicioso piqueo dulce <br> Recíbelo en tu casa u oficina a la hora que mejor te acomode<br> Elige acompañarlo con bebidas o snacks frescos o salados<br> Come delicioso, siéntete ligero y muy saludable con esta sana elección</h6>
+<b>COBERTURA GETUP</b><br>
+<h6>Llegamos GRATIS a 16 distritos de Lima de 6:00 a 8:30am con nuestra Flota Motorizada getUP!<br> Revisa nuestras zonas de reparto Gratuitas aquí <a href="https://drive.google.com/a/getup.com.pe/open?id=1id5qIl0QHR6dqe9id5ECURdzdkQ&amp;usp=sharing" title="Mapa de cobertura getUP!" target="_blank" rel="noopener noreferrer"><b>MAPA COBERTURA GRATUITA GETUP!</b></a><br> ———<br> Llegamos CON RECARGO a todos los distritos de Lima de 7am a 7pm con Cabify Express<br> Revisa las tarifas de reparto con Cargo Extra <a href="https://getup.com.pe/pages/cobertura" title="“Tarifas" cabify="" target="_blank" rel="noopener noreferrer"><b>TARIFAS DELIVERY CABIFY EXPRESS </b></a>
+</h6>
+<b>ES BUENO SABERLO</b><br>
+<h6>Agrega extra diversión a tu reunión con nuestro PlayList de <a href="https://open.spotify.com/user/vivegetup" title="Play List getUP!" target="_blank" rel="noopener noreferrer"><b>SPOTIFY DELICIOUS PARTY!</b></a><br> Este piqueo es elaborado por getUP! solo bajo pedido<br> Esta panna cotta está elaborado con leche sin lactosa y se sirve en mini frascos de vidrio<br> Bocaditos llegan en una caja de cartón. Refrigerar hasta su consumo<br> Tiempo de vida: 48 horas desde su recepción</h6>
+<b>ECOFRIENDLY</b>
+<h6>Los envases que usamos son frascos de vidrio 100% reciclable <br> Nuestro servicio no incluye cubiertos</h6>
+<hr align="CENTER" size="“1”" width='“600"' color="“Black”" noshade>
+<h6><b>El importe mínimo de compra para delivery es de S/.50.-<br><b> Una vez registrado tu pedido te llamaremos para coordinar la entrega<br></b> <b>Delivery disponible 72hrs después de realizado tu pedido</b></b></h6></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Adelgazamiento</s:tag>
+    <s:tag>category_form_1</s:tag>
+    <s:tag>Deportistas</s:tag>
+    <s:tag>Mantenimiento</s:tag>
+    <s:tag>Más de S/130</s:tag>
+    <s:tag>S/51 - S/80</s:tag>
+    <s:tag>S/81 - S/130</s:tag>
+    <s:tag>Vidrio</s:tag>
+    <s:variant>
+      <id>https://getup.com.pe/products/8832313232</id>
+      <title>25 unid</title>
+      <s:price currency="PEN">75.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>20</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://getup.com.pe/products/8832313232</id>
+      <title>50 unid</title>
+      <s:price currency="PEN">140.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>20</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://getup.com.pe/products/8832313232</id>
+      <title>100 unid</title>
+      <s:price currency="PEN">260.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>20</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://getup.com.pe/products/8879068816</id>
+    <published>2017-11-08T12:56:18-05:00</published>
+    <updated>2017-11-08T12:56:18-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://getup.com.pe/products/panceta-de-cerdo-a-la-lena"/>
+    <title>Panceta de cerdo a la leña</title>
+    <s:type>Delivery en 72hrs</s:type>
+    <s:vendor>Hecho en getUP!</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1534/3917/products/600-x600-Panceta-de-cerdo-a-la-lena_1024x1024_4922cb01-a006-4950-970a-e1be61850fe7.png?v=1492601358" /></td>
+    <td valign="bottom">
+      <p>
+        <strong>Vendor: </strong>Hecho en getUP!<br />
+        <strong>Type: </strong>Delivery en 72hrs<br />
+        <strong>Price: </strong>
+            106.00 - 490.00
+            <a href="https://getup.com.pe/products/panceta-de-cerdo-a-la-lena">(3 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><b6>PANCETA DE CERDO A LA LEÑA</b6>
+<h6></h6>
+<meta charset="utf-8">
+<h6><b>Celebra con los que más quieres con estas deliciosas comidas preparadas y enviadas a donde estés<br></b></h6>
+<b>DESCRIPCIÓN</b>
+<h6>Tiernísimo cochinillo de piel crujiente<br> Suave panceta de cerdo crocante cocido a la leña con hojas de algarrobo<br>150g por porción. Gravy de Hongos Silvestres</h6>
+<b>BENEFICIOS</b>
+<h6>Celebra tu momento especial con esta deliciosa comida <br> Recíbelo en tu casa u oficina a la hora que mejor te acomode<br> Elige acompañarlo con bebidas, guarniciones o ensaladas<br> Come delicioso, siéntete ligero y muy saludable con esta sana elección</h6>
+<b>COBERTURA GETUP</b><br>
+<h6>Llegamos GRATIS a 16 distritos de Lima de 6:00 a 8:30am con nuestra Flota Motorizada getUP!<br> Revisa nuestras zonas de reparto Gratuitas aquí <a href="https://drive.google.com/a/getup.com.pe/open?id=1id5qIl0QHR6dqe9id5ECURdzdkQ&amp;usp=sharing" title="Mapa de cobertura getUP!" target="_blank" rel="noopener noreferrer"><b>MAPA COBERTURA GRATUITA GETUP!</b></a><br> ———<br> Llegamos CON RECARGO a todos los distritos de Lima de 7am a 7pm con Cabify Express<br> Revisa las tarifas de reparto con Cargo Extra <a href="https://getup.com.pe/pages/cobertura" title="“Tarifas" cabify="" target="_blank" rel="noopener noreferrer"><b>TARIFAS DELIVERY CABIFY EXPRESS </b></a>
+</h6>
+<b>ES BUENO SABERLO</b><br>
+<h6>Agrega extra diversión a tu reunión con nuestro PlayList de <a href="https://open.spotify.com/user/vivegetup" title="Play List getUP!" target="_blank" rel="noopener noreferrer"><b>SPOTIFY DELICIOUS PARTY!</b></a><br> Esta carne es preparada por getUP! solo bajo pedido<br>Nuestras comidas están cargadas de color y sabor proveniente de los vegetales y semillas que usamos<br>Comidas llegan en envases de aluminio o plástico. Refrigerar hasta su consumo<br> Tiempo de vida: 24 horas desde su recepción</h6>
+<b>ECOFRIENDLY</b>
+<h6>Los envases que usamos son botellas de aluminio o plástico <br> Nuestro servicio no incluye cubiertos</h6>
+<hr align="CENTER" size="“1”" width='“600"' color="“Black”" noshade>
+<h6><b>El importe mínimo de compra para delivery es de S/.50.-<br><b> Una vez registrado tu pedido te llamaremos para coordinar la entrega<br></b> <b>Delivery disponible 72hrs después de realizado tu pedido</b></b></h6></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Adelgazamiento</s:tag>
+    <s:tag>Alto en Fibra</s:tag>
+    <s:tag>Bajo en Azúcar</s:tag>
+    <s:tag>Bajo en Grasa</s:tag>
+    <s:tag>Bajo en Sodio</s:tag>
+    <s:tag>category_form_1</s:tag>
+    <s:tag>Deportistas</s:tag>
+    <s:tag>Diabéticos</s:tag>
+    <s:tag>Libre Lactosa</s:tag>
+    <s:tag>Mantenimiento</s:tag>
+    <s:tag>Menos 200kcal</s:tag>
+    <s:tag>Más de S/130</s:tag>
+    <s:tag>Plástico</s:tag>
+    <s:variant>
+      <id>https://getup.com.pe/products/8879068816</id>
+      <title>6 porciones</title>
+      <s:price currency="PEN">106.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>30</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://getup.com.pe/products/8879068816</id>
+      <title>12 porciones</title>
+      <s:price currency="PEN">200.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>30</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://getup.com.pe/products/8879068816</id>
+      <title>30 porciones</title>
+      <s:price currency="PEN">490.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>30</s:grams>
+    </s:variant>
+  </entry>
+</feed>
